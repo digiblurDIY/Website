@@ -22,6 +22,8 @@ categories:
 
 And just like that iTead Sonoff drops the mic and busts out with some new Zigbee gear to hit the FCC to top of the fun of 2021.  I'm really hoping they got them right this time around.  The previous version motion sensor performed rather poorly and was full of issues in my motion sensor round up video.  The door sensor had battery contact issues for some users as well so here's and early drink to them pulling the nose up!  
 
+<!--truncate-->
+
 So the really cool thing when I looked at the internal photos was the CC2652 chipset!  NICE!  It might be a little overkill'ish but I do get it from an economy of scale type thing.  Why not do it all CC2652?  The chipset works so well and they've hit a sweet spot with the USB CC2652 series coordinator, so it seems they are going all in with this chipset.  
 
 On the release list is the button, temp/humidity sensor, motion sensor, door/window sensor and the Zigbee bridge.  I know what you are already thinking....is it ESP based?  YUP!  ESP32 and they even broke out the pins for us in via holes at standard pitch for what appears to be solderless flash for the DIY folks. Unfortunately or maybe fortunately for some, I do not see an Ethernet or POE based model but at least [ZigStar](https://zig-star.com/projects/zigbee-gw-lan/) and [Tube](https://www.tubeszb.com/) are breathing a sigh of relief with their ethernet based CC2652 based coordinators. Ethernet is preferred in the case of Zigbee since it also uses the 2.4ghz band and could interfere with itself if the channels for both interfaces are not chosen correctly.

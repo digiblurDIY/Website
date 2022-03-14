@@ -10,7 +10,8 @@ date: "2021-06-17"
   
 Why did I wait this long to control my air conditioner without the cloud!?!?  Something so simple and yet so awesome.  The Venstar local API changes things in my smart home.  
 
-  
+<!--truncate-->
+
 Venstar T7900 Color - [https://amzn.to/3u1fjdV](https://amzn.to/3u1fjdV)  
 Venstar T2000 - [https://amzn.to/3ym6EG6](https://amzn.to/3ym6EG6)  
 Venstar T7900 (Ebay) - [https://ebay.us/ipA9FG](https://ebay.us/ipA9FG)  

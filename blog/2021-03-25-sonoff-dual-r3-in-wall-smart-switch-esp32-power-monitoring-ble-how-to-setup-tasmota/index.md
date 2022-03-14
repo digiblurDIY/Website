@@ -9,14 +9,10 @@ categories:
 
 <iframe allowfullscreen height="372" src="https://www.youtube.com/embed/VT6bY-iSveI" width="447" youtube-src-=""></iframe>
 
-  
-
-  
-
-  
-
 Sonoff iTead Dual R3 with Tasmota - Dual channel power monitoring and BLE scanning. Full guide of setup and even some soldering & flashing how-to tips as a bonus! Power monitoring chip CSE7761  
   
+<!--truncate-->
+
 ⚡**Where to Purchase**  
 [iTead Sonoff Dual R3](https://shrsl.com/2uvei)[  
 ](https://www.blogger.com/#)(Other stores will be listed when they become available)  

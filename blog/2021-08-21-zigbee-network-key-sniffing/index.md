@@ -7,7 +7,7 @@ categories:
 
 M.J. Wydra [https://github.com/Tediore](https://github.com/Tediore)_Discord: Tediore#8266_
 
-[![](images/image-300x159.png)](http://135.148.73.218:8080/wp-content/uploads/2021/08/image.png)
+[![](images/image-300x159.png)](/wp-content/uploads/2021/08/image.png)
 
   
   
@@ -16,7 +16,7 @@ Synopsis
 
 This guide will explain how to sniff the network key from a Zigbee hub. The network key encrypts all messages sent between devices on a Zigbee network. When pairing a device, the coordinator sends the network key to the device which is encrypted with another key called the link key. There is a default link key called the well-known link key that all Zigbee devices use to encrypt the network key if no other link key is specified at the time of pairing (such as one generated with an installation code that is unique to the device being paired and is shared with the Zigbee software at the time of pairing). This guide assumes that the default link key is used.
 
-  
+<!--truncate-->
   
 
 Objective

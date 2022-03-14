@@ -13,6 +13,7 @@ categories:
 
 How to Easily remove the WB3S, WR3, and other MCUs and replace them with an #ESP8266 module.  Ground up from the tools and techniques to get the job done so you can run #Tasmota, ESPHome, ESPEasy, etc on your device that you paid for!  Keep it local and #GYSOOTC! 
 
+<!--truncate-->
   
 [ESP8266 Code Burner (Amzn)](https://geni.us/lc6BBaD)  
 [ESP12F (choice)](https://geni.us/JANv)  
@@ -35,7 +36,7 @@ CloudFree - [https://bit.ly/3icyzB6](https://bit.ly/3icyzB6)
 How to Flash Tasmota - [https://tasmota.github.io/docs/Getting-Started/#flashing](https://tasmota.github.io/docs/Getting-Started/#flashing)  
 How to Flash ESPHome - [https://esphome.io/guides/getting\_started\_hassio.html#dashboard-interface](https://esphome.io/guides/getting_started_hassio.html#dashboard-interface)  
 Treatlife Indoor Lamp Dimmer (Amzn) - [https://geni.us/AxgI](https://geni.us/AxgI)   
-Treatlife Dimmer Setup - [http://135.148.73.218:8080/?p=41](http://135.148.73.218:8080/?p=41)  
+Treatlife Dimmer Setup - [/?p=41](/?p=41)  
 Reddit WiFi Issue - You'll need to Google that one as I've misplaced it with all these WiFi devices on my desk.
 
   

@@ -10,6 +10,8 @@ categories:
 
 Someone has finally done it, a bulb with an oh sh!$ recovery method!  The [Kauf BLF10 Bulb](https://geni.us/kaufbulb) is on Amazon and **preflashed** with [ESPHome](https://esphome.io/).  Yes, you can also install other open source ESP8266 projects such [Tasmota](https://tasmota.github.io/docs/), [WLED](https://kno.wled.ge/), etc by simply using your web browser.  No exploits, no hacks, no soldering, no wires, take it out of the box and go.  
 
+<!--truncate-->
+
 [Purchase and skip the reading (Amazon)](https://geni.us/kaufbulb)
 
 [![](images/kauf_box2.jpg)](https://1.bp.blogspot.com/-FPFVLlbi8GY/YUFAMbSGb0I/AAAAAAAEvxA/prs2i5BoZacZMr_X_xVKm0ok9J2nmeqTACLcBGAsYHQ/s3824/kauf_box2.jpg)
@@ -20,7 +22,7 @@ The bulb is a 10W LED (not to be confused with wattages stated as equivalent), I
 
 Your eyes aren't deceiving you, those are indeed solder pads for 3V3, RX, TX, GND and GPIO Zero.  What does that mean?  Hardware Recovery if needed!  Unlike other bulbs that might have been converted to open source with Tuya Convert or maybe even [Athom preflashed bulbs](https://youtu.be/jz3T-U16RuY), they do not have the ability to be recovered from a bad upgrade, software failure, etc, but these definitely do.  For myself that means no worry at all switching over to WLED for the holiday season, switching to Tasmota, etc.  I know I can always break out the [USB TTL](https://geni.us/C35RP9) adapter and install my software without any issues. Great job Kauf!  
 
-[Kaufman Home Automation](https://kaufha.com/products/) has done a great job on documenting everything you need for this bulb from custom YAML code with ESPHome, installation, converting to Tasmota, the [Tasmota Template](http://135.148.73.218:8080/p/smart-switch-templates.html), etc. all directly from the source.  Thanks to @tonyfav on the [digiblurDIY Discord](https://discord.digiblur.com/) for digging through the [ESPHome code](https://github.com/KaufHA/BLF10) to see the blue channel needed a bit of tweaking since it was too strong in default use cases in Tasmota as well.  I've included this in the template below.  If you do find the blue channel is too bright use the following command in the Tasmota console to knock it down a bit.   
+[Kaufman Home Automation](https://kaufha.com/products/) has done a great job on documenting everything you need for this bulb from custom YAML code with ESPHome, installation, converting to Tasmota, the [Tasmota Template](/p/smart-switch-templates.html), etc. all directly from the source.  Thanks to @tonyfav on the [digiblurDIY Discord](https://discord.digiblur.com/) for digging through the [ESPHome code](https://github.com/KaufHA/BLF10) to see the blue channel needed a bit of tweaking since it was too strong in default use cases in Tasmota as well.  I've included this in the template below.  If you do find the blue channel is too bright use the following command in the Tasmota console to knock it down a bit.   
 
 Tasmota Template (Paste it all on one line in the Tasmota Console):
 

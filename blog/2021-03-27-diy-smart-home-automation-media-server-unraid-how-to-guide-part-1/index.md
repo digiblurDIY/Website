@@ -12,6 +12,7 @@ An easy complete guide to using some old gear or new gear to setup a Smart Home 
   
 Samsung Bar USB - [https://amzn.to/3rmW5Ox](https://amzn.to/3rmW5Ox)  
   
+<!--truncate-->
 
 ⚡**Optional Hardware**  
 Hard drives (removed from case/shuck) - [https://amzn.to/2NUiLbh](https://amzn.to/2NUiLbh)  

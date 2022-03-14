@@ -9,6 +9,7 @@ date: "2021-10-12"
 
 The 2021 Update for the Whole Home Power Monitoring with the CircuitSetup device with ESPHome and the Home Assistant Energy Dashboard.
 
+<!--truncate-->
   
 ⚡Parts Used⚡  
 Split Core Current Transformers 100A/50ma - [https://geni.us/gaRgK](https://geni.us/gaRgK)  

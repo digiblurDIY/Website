@@ -9,9 +9,10 @@ categories:
 
 <iframe allowfullscreen height="368" src="https://www.youtube.com/embed/pMe5i2qOYlY" width="443" youtube-src-=""></iframe>
 
-  
 
 I recently swapped my #UniFi WiFi 5 AC LR access point for the WiFi 6 version.  I was going to wait for WiFi 6e but decided against it and was glad I did!  #WiFi6 #UniFi6
+
+<!--truncate-->
 
 [U6 LR Specs](http://bit.ly/3aIvsi1)  
 [AX210 WiFi Client Upgrade](https://amzn.to/3aKK9kC)  

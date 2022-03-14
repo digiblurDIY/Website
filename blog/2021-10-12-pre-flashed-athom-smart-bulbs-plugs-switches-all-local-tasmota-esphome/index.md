@@ -11,7 +11,7 @@ date: "2021-10-12"
 
 With TuyaConvert winding down, our options for bulbs and other devices is very limited.  Luckily Athom is here to offer ESP8266 devices pre-flashed with Tasmota.  ESPHome and other firmware options can also be flashed via the Web GUI. 
 
-  
+<!--truncate-->
 
 Athom Devices (coupon code DIGIBLUR2 ) [https://www.athom.tech/products](https://www.athom.tech/products)  
 Cloudfree Shop - [https://cloudfree.shop/?ref=digiblur](https://cloudfree.shop/?ref=digiblur)  

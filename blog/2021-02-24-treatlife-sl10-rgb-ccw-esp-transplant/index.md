@@ -9,6 +9,8 @@ date: "2021-02-24"
 
 The SL10 comes with a WB8P chip inside which cannot be flashed with Tasmota or ESPHome. In this guide, I will go over the steps on how to replace the MCU with an ESP8266 esp12 board. My bulb uses an SM2135E chip to control the colors on the bulb. Thankfully Tasmota can control the SM2135E.
 
+<!--truncate-->
+
 **Tools Needed:**
 
 - · Soldering iron & solder

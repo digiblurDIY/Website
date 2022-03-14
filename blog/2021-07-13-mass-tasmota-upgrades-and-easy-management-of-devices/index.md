@@ -13,7 +13,7 @@ In depth easy to understand MQTT practices with all your Tasmota devices and mor
 
 <iframe allowfullscreen height="432" src="https://www.youtube.com/embed/mX4XLAELv6I" width="519" youtube-src-=""></iframe>
 
-  
+<!--truncate-->
 
   
 

@@ -17,6 +17,7 @@ categories:
 
 Control your Zigbee Smart Lights with Tasmota Switches and #Zigbee2MQTT without any home automation in the middle  
   
+<!--truncate-->
 
 ⚡All the Links  
 Zigbee Bulbs - [https://amzn.to/30V9FRr](https://amzn.to/30V9FRr)  

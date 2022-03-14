@@ -9,6 +9,8 @@ date: "2021-10-12"
 
 Testing a handful of Smart Home Zigbee Motion PIR Sensors for automating your home.  All the sensors are tested in realtime together so you can find the best and worst one of the bunch.  More below....
 
+<!--truncate-->
+
 ⚡PIR Sensors  
 Phillips Hue (Amazon) [https://geni.us/KjX4e](https://geni.us/KjX4e)  
 Sonoff SNZB-03 [https://geni.us/8c1jEwo](https://geni.us/8c1jEwo)  

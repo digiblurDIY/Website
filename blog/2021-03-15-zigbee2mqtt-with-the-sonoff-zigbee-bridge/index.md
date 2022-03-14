@@ -7,6 +7,8 @@ date: "2021-03-15"
 
 If you've been using your Zigbee bridge with the ZHA integration and don't like some of the oddities of buttons using ZHA Events, etc or simply just want to detach from HA, or even enable support more devices; it's time to jump on over to Zigbee2MQTT.  Previously there wasn't the ability to use Zigbee2MQTT if you were using the Sonoff Zigbee Bridge.  It is currently in the development branch of Zigbee2MQTT if you want to give it spin.  Trust me, it's well worth it!!  
 
+<!--truncate-->
+
 Still using your Sonoff Zigbee Bridge with the cloud?  Take it out of the cloud with this guide! [https://www.digiblur.com/2020/07/how-to-use-sonoff-zigbee-bridge-with.html](https://www.digiblur.com/2020/07/how-to-use-sonoff-zigbee-bridge-with.html)
 
 [![](images/PXL_20210226_193928568%2B%25281%2529.jpg)](https://1.bp.blogspot.com/-nJQi4eZooww/YFHvGgL29QI/AAAAAAAEotA/oGqReyBBSLQc3QaaHgR6h93kgFdL_GGjwCLcBGAsYHQ/s3850/PXL_20210226_193928568%2B%25281%2529.jpg)

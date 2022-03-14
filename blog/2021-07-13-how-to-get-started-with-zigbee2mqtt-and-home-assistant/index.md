@@ -9,6 +9,8 @@ categories:
 
 I had so much information and knowledge to a dump on with Zigbee and how I've found the best way to integrate it all with the most reliability, it got split up into two videos.  All of the videos are split into chapters so you can easily find the information you need and skip the crap you don't need.  There's the install with non-supervisor and supervisor installs as well.  
 
+<!--truncate-->
+
 Part 1
 
 <iframe allowfullscreen height="355" src="https://www.youtube.com/embed/TV5Qyssa7Ec" width="505" youtube-src-=""></iframe>

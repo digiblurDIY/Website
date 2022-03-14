@@ -10,14 +10,9 @@ categories:
 
 <iframe allowfullscreen height="266" src="https://www.youtube.com/embed/K6U8Tf1WOzU" width="320" youtube-src-=""></iframe>
 
-  
-
-  
-
-  
-
 Is it worth the upgrade from the AD110 Model? #Amcrest added local #PersonDetection right inside the camera itself.  How to capture all the doorbell events right into MQTT with Home Assistant.  Another crazy in depth review!  Enjoy The BEST Part!  
-  
+
+<!--truncate-->
 
 [Amcrest Video Doorbell AD410 (Amazon)](https://geni.us/BDnQcW)  
 [Amcrest Video Doorbell AD110 (Amazon)](https://geni.us/B6ce)  

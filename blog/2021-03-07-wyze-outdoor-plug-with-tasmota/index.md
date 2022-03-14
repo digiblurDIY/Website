@@ -11,6 +11,8 @@ categories:
 
 Just leaving this here...  pretty slick for an outdoor plug at this price point.  It looks like they are currently out of stock though.  I'll be doing more with this soon!  
 
+<!--truncate-->
+
 [Order on Amazon.com](https://amzn.to/30oyEsW)
 
 [Notify when in Stock from Wyze.com](https://wyze.com/wyze-plug-outdoor.html)  (no affiliation)

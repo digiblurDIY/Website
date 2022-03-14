@@ -14,6 +14,7 @@ categories:
 
 Part 2 of our unRaid Series An easy complete guide to using some old gear or new gear to setup a Smart Home Server with unRaid.  No command line experience needed.  Plex, Home Assistant, Openhab, NodeRed, Nextcloud, MQTT, Zigbee2mqtt and many more options...
 
+<!--truncate-->
   
 Samsung Bar USB - [https://amzn.to/3rmW5Ox](https://amzn.to/3rmW5Ox)
 

@@ -11,6 +11,8 @@ date: "2021-03-19"
 
 Especially in 2021 there really aren't many devices that you can flash over the air with [Tuya Convert](https://youtu.be/dt5-iZc4_qU).  The Gosund Smart Outlet is one of them. Features:
 
+<!--truncate-->
+
 - Dual Outlets
 - Dual Buttons
 - Dual Relays

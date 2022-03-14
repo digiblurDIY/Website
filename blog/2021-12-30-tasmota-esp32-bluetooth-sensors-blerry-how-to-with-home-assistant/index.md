@@ -10,6 +10,7 @@ date: "2021-12-30"
 
 Using the Tasmota #ESP32 Berry Scripting to gather Bluetooth data from various sensors with the #Blerry project - UPDATE below!  
   
+<!--truncate-->
 
 ⚡**UPDATE of Blerry Supports even more sensors!**  
 Xiaomi (Ali) - [https://s.click.aliexpress.com/e/\_9z1z8K](https://s.click.aliexpress.com/e/_9z1z8K)  
@@ -34,8 +35,8 @@ Wyze Outdoor Check a Local Home Depot!
 
 ⚡**Resources**  
 Tasmota Blerry Project - [https://github.com/tony-fav/tasmota-blerry](https://github.com/tony-fav/tasmota-blerry)  
-Wyze Outdoor Plug - [http://135.148.73.218:8080/?p=28](http://135.148.73.218:8080/?p=28)  
-Linkind Switch How To - [http://135.148.73.218:8080/p/linkind-esp32-smart-switch-how-to-flash.html](http://135.148.73.218:8080/p/linkind-esp32-smart-switch-how-to-flash.html)  
+Wyze Outdoor Plug - [/?p=28](/?p=28)  
+Linkind Switch How To - [/p/linkind-esp32-smart-switch-how-to-flash.html](/p/linkind-esp32-smart-switch-how-to-flash.html)  
 Shelly Plus 1 How To - [https://youtu.be/eLoOT3mXcMs](https://youtu.be/eLoOT3mXcMs)  
 Sonoff Dual R3 - [https://youtu.be/VT6bY-iSveI](https://youtu.be/VT6bY-iSveI)  
 Xiaomi Bluetooth ATC Sensor Project [https://github.com/pvvx/ATC\_MiThermometer](https://github.com/pvvx/ATC_MiThermometer)  

@@ -15,7 +15,7 @@ categories:
 
 Fully local smart garage opener without relying on the cloud or paying fees to open YOUR garage door.  Full setup and wiring...more below
 
-  
+<!--truncate-->
 
 ⚡**Parts**
 

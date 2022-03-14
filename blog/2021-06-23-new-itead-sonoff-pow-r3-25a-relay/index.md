@@ -3,15 +3,17 @@ title: "New iTead Sonoff POW R3 - 25A Relay"
 date: "2021-06-23"
 ---
 
-[![](images/sonoff_powr3-300x223.png)](http://135.148.73.218:8080/wp-content/uploads/2021/06/sonoff_powr3.png)
+[![](images/sonoff_powr3-300x223.png)](/wp-content/uploads/2021/06/sonoff_powr3.png)
 
   
 
 So every once in a while we seem to find some strange home automation product designs.  When I saw the name of [POW R3](https://shrsl.com/31kyj) come across the FCC docs as [2APN5-POWR3](https://fccid.io/2APN5POWR3) I was excited to see the new design.  If you aren't familiar with the previous model, [POW R2](https://geni.us/e3waX3) it was basically a large box at over 4 inches (114mm) long with power monitoring and a relay.  It definitely was a tank but its hard to park that tank in the garage!  
 
+<!--truncate-->
+
 UPDATE: The page is live on [iTead](https://shrsl.com/31kyj) for the [POW R3](https://shrsl.com/31kyj) already!
 
-[![](images/POWR2_01-166x300.jpg)](http://135.148.73.218:8080/wp-content/uploads/2021/06/POWR2_01.jpg)
+[![](images/POWR2_01-166x300.jpg)](/wp-content/uploads/2021/06/POWR2_01.jpg)
 
 (POW R2 - source itead.cc)
 
@@ -19,27 +21,27 @@ When iTead redesigned the new [Sonoff Dual in the R3](https://geni.us/2SFcYyE) 
 
 Pics from the [FCC Filing](https://fccid.io/2APN5POWR3)
 
-[![](images/powr3_ext1-300x248.png)](http://135.148.73.218:8080/wp-content/uploads/2021/06/powr3_ext1.png)
+[![](images/powr3_ext1-300x248.png)](/wp-content/uploads/2021/06/powr3_ext1.png)
 
   
 
-[![](images/powr3_ext3-300x280.png)](http://135.148.73.218:8080/wp-content/uploads/2021/06/powr3_ext3.png)
+[![](images/powr3_ext3-300x280.png)](/wp-content/uploads/2021/06/powr3_ext3.png)
 
   
 
-[![](images/powr3_int1-300x199.png)](http://135.148.73.218:8080/wp-content/uploads/2021/06/powr3_int1.png)
+[![](images/powr3_int1-300x199.png)](/wp-content/uploads/2021/06/powr3_int1.png)
 
   
 
-[![](images/powr3_int2-300x192.png)](http://135.148.73.218:8080/wp-content/uploads/2021/06/powr3_int2.png)
+[![](images/powr3_int2-300x192.png)](/wp-content/uploads/2021/06/powr3_int2.png)
 
   
 
-[![](images/powr3_int3-300x227.png)](http://135.148.73.218:8080/wp-content/uploads/2021/06/powr3_int3.png)
+[![](images/powr3_int3-300x227.png)](/wp-content/uploads/2021/06/powr3_int3.png)
 
   
 
-[![](images/powr3_int2-2B-25282-2529-300x228.png)](http://135.148.73.218:8080/wp-content/uploads/2021/06/powr3_int2-2B-25282-2529.png)
+[![](images/powr3_int2-2B-25282-2529-300x228.png)](/wp-content/uploads/2021/06/powr3_int2-2B-25282-2529.png)
 
   
 

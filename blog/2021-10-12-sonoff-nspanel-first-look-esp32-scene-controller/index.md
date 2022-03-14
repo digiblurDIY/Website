@@ -9,6 +9,7 @@ date: "2021-10-12"
 
 iTead Sonoff NSPanel Touch Screen Smart Controller - ESP32 based - first look at their new solution of the smart home puzzle.
 
+<!--truncate-->
   
 [**Buy/more info on NSPanel**](https://bit.ly/317Ud4K)
 

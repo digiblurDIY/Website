@@ -16,6 +16,8 @@ categories:
 
 iTead has a new [433mhz Sonoff RF Bridge](http://shrsl.com/2xi9d) on the way.  The R2 just hit the FCC and internal photos are included! It looks like they are using the same molded case as the the [Zigbee Bridge](https://youtu.be/dC1AEyFhmnc) and first revision(s) of the RF Bridge used.  They've dropped that big LED as well.  One thing I'm not seeing is the RF chipset they used this time around.  But I do see the ESP8285 and header pins!  We probably won't see the pins soldered on in the production runs but it is a nice touch that they labeled everything for us and put standard header via holes.  It's almost like they want to continue making money off both sides of the community that use these.  Imagine that, what a concept, make something that sells.  
 
+<!--truncate-->
+
 [FCC Docs](https://fcc.report/FCC-ID/2APN5BRIDGER2)
 
 [![](images/rfbridge_2.PNG)](https://1.bp.blogspot.com/-jG14GO3MS5A/YIOkb_sodVI/AAAAAAAEqyU/HijkhN0Q2mwaJub5poSvdYDAELfNc4zcwCLcBGAsYHQ/s585/rfbridge_2.PNG)

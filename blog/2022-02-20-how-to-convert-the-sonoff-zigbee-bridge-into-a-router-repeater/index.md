@@ -10,7 +10,9 @@ categories:
 
   
 
-Do you have a [Sonoff Zigbee Bridge](https://amzn.to/3s16nqX) sitting in the drawer after switching over to the [CC2652 series coordinator](https://amzn.to/3h0h9HL)?  Don't toss it out!  Let's use it as a router/repeater to extend your Zigbee network!  If you haven't already converted it to open source with Tasmota check out [this article](http://135.148.73.218:8080/?p=48) first.  Already have Tasmota on it?  Let's go!
+Do you have a [Sonoff Zigbee Bridge](https://amzn.to/3s16nqX) sitting in the drawer after switching over to the [CC2652 series coordinator](https://amzn.to/3h0h9HL)?  Don't toss it out!  Let's use it as a router/repeater to extend your Zigbee network!  If you haven't already converted it to open source with Tasmota check out [this article](/?p=48) first.  Already have Tasmota on it?  Let's go!
+
+<!--truncate-->
 
 Open a web browser to the Zigbee Bridge IP address once it is connected to your WiFi network. First, it's not a bad idea to upgrade the firmware on it to the latest stable build of Tasmota.  Verify your OTA URL is using the _tasmota-zbridge.bin_ file as it is **required** to upload the Zigbee Router firmware.  Use the Firmware Upgrade button on the GUI of the device. 
 

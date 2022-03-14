@@ -24,6 +24,7 @@ categories:
 
 [Purchase the Wyze Outdoor Plug (Amazon)](https://amzn.to/3ffJTg4)
 
+<!--truncate-->
   
 
 First...plot change!  ESPHome is what we are going to use here.  Tasmota could be used but the two buttons would not work since Tasmota does not support the use of enabling pull-down resistors on the ESP32 module. UPDATE: 9.5 Tasmota supports this (template near the end of this article)  Yes, you heard this right, it's an ESP32 just like how the Sonoff Dual R3 came.  Luckily the efuses are not burned and we can use the device how we want, cloudless!  Thanks Wyze!  Dear Wyze, this is a good thing, you'll sell more of these plugs as well as additional word of mouth exposure for the company.  Win win situation, don't screw it up!

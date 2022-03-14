@@ -5,13 +5,15 @@ date: "2021-09-29"
 
 [![](images/PXL_20210929_014411343.jpg)](https://1.bp.blogspot.com/-ZNLNKvJHv_Y/YVRkcKwQChI/AAAAAAAEwxk/IBNSUC7QMd4C0yTJGp2zOyFJSWbuI1kCQCLcBGAsYHQ/s4032/PXL_20210929_014411343.jpg)
 
-**Looking for How to Flash them?**  [Complete Flashing Guide](http://135.148.73.218:8080/p/linkind-esp32-smart-switch-how-to-flash.html) 
+**Looking for How to Flash them?**  [Complete Flashing Guide - Wiki Link](/docs) 
 
 [**Buy the 1 pack on Amazon**](https://amzn.to/3ijr6RC)
 
 [**Buy the 4 pack on Amazon**](https://amzn.to/3kOLrjx)
 
 Can we flash Tasmota on it?  **YES!**  The [Linkind Smart Switch](https://amzn.to/3kOLrjx) is rather unique.  It uses an ESP32 chipset, two independent buttons, two independent LEDs (behind the small hole) of green/red and one relay.  It comes with a non branded white screwless decora faceplate.  The switch can also be used in multi-gang boxes as they have the additional mounting holes. 
+
+<!--truncate-->
 
 ⚡Products We Use/Recommend
 

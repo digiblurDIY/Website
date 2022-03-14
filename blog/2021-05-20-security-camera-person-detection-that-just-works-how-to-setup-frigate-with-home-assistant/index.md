@@ -14,6 +14,8 @@ categories:
 
 A Complete Walkthrough of setting up Frigate AI Detection for use with Home Assistant or many other home automation systems that support MQTT.  Frigate is free, open source and easy to install/maintain.  
 
+<!--truncate-->
+
 Frigate Project - [https://github.com/blakeblackshear/frigate](https://github.com/blakeblackshear/frigate)
 
 Sample Frigate Config.yml - [https://github.com/digiblur/unraid-docker-templates/blob/master/sample-files/frigate\_sample\_config.yml](https://github.com/digiblur/unraid-docker-templates/blob/master/sample-files/frigate_sample_config.yml)

@@ -7,21 +7,7 @@ date: "2021-02-18"
 
 [![](images/PXL_20210211_230445354.jpg)](https://1.bp.blogspot.com/-5eV4SWfBJos/YC6-dIwXqXI/AAAAAAAEniE/6cAx-x5P4k4eyxBUtiO7EaVlg-nBgO-YACLcBGAsYHQ/s4032/PXL_20210211_230445354.jpg)
 
-  
-
-  
-
-  
-
 <iframe allowfullscreen height="466" src="https://www.youtube.com/embed/B_0bg2m6UGc" width="560" youtube-src-=""></iframe>
-
-  
-
-  
-
-  
-
-  
 
 **[Purchase the Sonoff L1 Lite](https://shrsl.com/2swnb)**
 
@@ -32,6 +18,8 @@ Usually most of the LED strips I've run into that do some sort of music sync hav
 - Length 5M (not waterproof)
 - 30 LEDs/m
 - And best of all ESP8285 Wi-Fi chipset
+
+<!--truncate-->
 
 To flash Tasmota on the controller it is pretty straight forward except for one small issue.  Typically you need 3V3, Ground, RX, TX and GPIO Zero to flash an ESP chipset.  They did break out every thing on some nice pads for us on the back except for one small piece, the GPIO zero pad.  
 
