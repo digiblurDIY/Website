@@ -46,7 +46,7 @@ const config = {
         title: 'digiblurDIY',
         logo: {
           alt: 'digiblurDIY',
-          src: 'img/logo.svg',
+          src: 'img/digiblur.png',
         },
         items: [
           {
@@ -119,17 +119,11 @@ const config = {
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {
         indexDocs: true,
-
         indexDocSidebarParentCategories: 0,
-
         indexBlog: true,
-
         indexPages: false,
-
         language: "en",
-
         style: undefined,
-
         lunr: {
           tokenizerSeparator: /[\s\-]+/,
           b: 0.75,
