@@ -55,7 +55,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/digiblurDIY/Website',
             label: 'GitHub',
@@ -113,6 +113,34 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        indexDocs: true,
+
+        indexDocSidebarParentCategories: 0,
+
+        indexBlog: true,
+
+        indexPages: false,
+
+        language: "en",
+
+        style: undefined,
+
+        lunr: {
+          tokenizerSeparator: /[\s\-]+/,
+          b: 0.75,
+          k1: 1.2,
+          titleBoost: 5,
+          contentBoost: 1,
+          parentCategoriesBoost: 2,
+        }
+      },
+    ],
+  ],
 };
 
 module.exports = config;
