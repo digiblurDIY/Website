@@ -2,40 +2,16 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
-
-```
-$ yarn
-```
-
 ### Local Development
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
+Install Visual Studio Code and NPM 16 lts, checkout this repo in visual studio code and run the following in the visual studio terminal:
 
 ```
-$ yarn build
+$ npm start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server. A few changes may require you to ctrl-c the npm server and re-run the start command.
 
 ### Deployment
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Deployments are automatically handled by Cloudflare Pages build agent when an org member opens a pr, or when a pr is merged into the main branch.
