@@ -4,7 +4,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 ### Local Development
 
-Install Visual Studio Code and NPM 16 lts, checkout this repo in visual studio code and run the following in the visual studio terminal:
+Install Visual Studio Code and NodeJS 16 lts, checkout this repo in visual studio code and run the following in the visual studio terminal:
 
 ```
 $ npm start
