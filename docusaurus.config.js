@@ -10,7 +10,7 @@ const config = {
   tagline: '',
   url: 'https://digiblur.pages.dev',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'digiblurDIY', // Usually your GitHub org/user name.
@@ -103,7 +103,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/',
               },
               {
                 label: 'GitHub',
