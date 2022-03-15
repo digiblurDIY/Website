@@ -45,6 +45,18 @@ const config = {
     ],
   ],
 
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["en"],
+        docsRouteBasePath: 'docs',
+        blogRouteBasePath: '/',
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -143,27 +155,7 @@ const config = {
       },
     }),
 
-  plugins: [
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      {
-        indexDocs: true,
-        indexDocSidebarParentCategories: 0,
-        indexBlog: true,
-        indexPages: false,
-        language: "en",
-        style: undefined,
-        lunr: {
-          tokenizerSeparator: /[\s\-]+/,
-          b: 0.75,
-          k1: 1.2,
-          titleBoost: 5,
-          contentBoost: 1,
-          parentCategoriesBoost: 2,
-        }
-      },
-    ],
-  ],
+  plugins: [],
 };
 
 module.exports = config;
