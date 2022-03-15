@@ -53,6 +53,8 @@ const config = {
         language: ["en"],
         docsRouteBasePath: 'docs',
         blogRouteBasePath: '/',
+        removeDefaultStopWordFilter: 'true',
+        highlightSearchTermsOnTargetPage: 'false',
       },
     ],
   ],
