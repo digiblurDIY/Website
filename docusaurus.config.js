@@ -59,13 +59,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
-          },
-          { to: '/', label: 'Blog', position: 'left' },
-          {
-            href: 'https://github.com/digiblurDIY/Website',
-            label: 'GitHub',
-            position: 'right',
+            label: 'Tutorials',
           },
         ],
       },
@@ -73,10 +67,22 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Tutorials',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Tutorials',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Tutorials2',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Tutorials3',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Tutorials4',
                 to: '/docs/intro',
               },
             ],
@@ -85,16 +91,20 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'YouTube',
+                href: 'https://youtube.com/digiblurDIY',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.digiblur.com/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/digiblur',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/digiblurdiy/',
               },
             ],
           },
@@ -102,17 +112,25 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'Patreon',
+                href: 'https://www.patreon.com/digiblurDIY',
+              },
+              {
+                label: 'Amazon Store',
+                href: 'https://www.amazon.com/shop/digiblurdiy',
+              },
+              {
                 label: 'Blog',
                 to: '/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/digiblurDIY',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `digiblurDIY - Links to products provided through the Amazon Affiliate program. As an Amazon Associate I earn from qualifying purchases.`,
       },
       prism: {
         theme: lightCodeTheme,
