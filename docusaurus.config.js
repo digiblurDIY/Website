@@ -23,15 +23,15 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-
+          routeBasePath: 'wiki',
           editUrl: 'https://github.com/digiblurDIY/Website/tree/main/',
         },
         blog: {
           showReadingTime: false,
           routeBasePath: '/',
           postsPerPage: 5,
-          blogSidebarTitle: 'Recent Posts',
-          blogSidebarCount: 10,
+          //blogSidebarTitle: 'Recent Posts',
+          blogSidebarCount: 0,
           feedOptions: {
             type: 'all',
             title: 'digiblurDIY',
@@ -51,7 +51,7 @@ const config = {
       {
         hashed: true,
         language: ["en"],
-        docsRouteBasePath: 'docs',
+        docsRouteBasePath: 'wiki',
         blogRouteBasePath: '/',
         removeDefaultStopWordFilter: true,
         highlightSearchTermsOnTargetPage: false,
@@ -70,10 +70,39 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            to: '/',
+            label: 'News',
             position: 'left',
-            label: 'Tutorials',
+          },
+          {
+            type: 'doc',
+            docId: 'tasmota/index',
+            position: 'left',
+            label: 'Tasmota',
+          },
+          {
+            type: 'doc',
+            docId: 'esphome/index',
+            position: 'left',
+            label: 'ESPHome',
+          },
+          {
+            type: 'doc',
+            docId: 'ha/index',
+            position: 'left',
+            label: 'Home Assistant',
+          },
+          {
+            type: 'doc',
+            docId: 'mqtt/index',
+            position: 'left',
+            label: 'MQTT',
+          },
+          {
+            type: 'doc',
+            docId: 'led/index',
+            position: 'left',
+            label: 'LED Lighting',
           },
         ],
       },
@@ -81,23 +110,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Tutorials',
+            title: 'Wiki',
             items: [
               {
-                label: 'Tutorials',
-                to: '/docs/intro',
+                label: 'Tasmota',
+                to: '/wiki/tasmota',
               },
               {
-                label: 'Tutorials2',
-                to: '/docs/intro',
+                label: 'ESPHome',
+                to: '/wiki/esphome',
               },
               {
-                label: 'Tutorials3',
-                to: '/docs/intro',
+                label: 'Home Assistant',
+                to: '/wiki/ha',
               },
               {
-                label: 'Tutorials4',
-                to: '/docs/intro',
+                label: 'MQTT',
+                to: '/wiki/mqtt',
               },
             ],
           },
@@ -134,7 +163,7 @@ const config = {
                 href: 'https://www.amazon.com/shop/digiblurdiy',
               },
               {
-                label: 'Blog',
+                label: 'News',
                 to: '/',
               },
               {
