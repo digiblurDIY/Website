@@ -94,6 +94,12 @@ const config = {
           },
           {
             type: 'doc',
+            docId: 'zigbee/index',
+            position: 'left',
+            label: 'Zigbee',
+          },
+          {
+            type: 'doc',
             docId: 'mqtt/index',
             position: 'left',
             label: 'MQTT',
