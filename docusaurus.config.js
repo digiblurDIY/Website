@@ -76,15 +76,15 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'tasmota/index',
+            docId: 'devices/index',
             position: 'left',
-            label: 'Tasmota',
+            label: 'Devices',
           },
           {
             type: 'doc',
-            docId: 'esphome/index',
+            docId: 'firmware/index',
             position: 'left',
-            label: 'ESPHome',
+            label: 'Firmware',
           },
           {
             type: 'doc',
@@ -100,15 +100,15 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'mqtt/index',
+            docId: 'tools/index',
             position: 'left',
-            label: 'MQTT',
+            label: 'Tools',
           },
           {
             type: 'doc',
             docId: 'led/index',
             position: 'left',
-            label: 'LED Lighting',
+            label: 'LEDs',
           },
         ],
       },
