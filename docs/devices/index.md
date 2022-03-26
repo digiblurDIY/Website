@@ -2,5 +2,5 @@
 sidebar_position: 1
 ---
 
-# Devices
+# Smart Home Devices - Tasmota Templates, ESPHome, and other info
 
