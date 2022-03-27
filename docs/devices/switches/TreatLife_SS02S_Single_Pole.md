@@ -1,7 +1,9 @@
 # TreatLife SS02S (Single Pole)
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `1/9/2022 - This device no longer ships with an ESP8266 and one must be installed in order to continue.`
 
-Tasmota Template
+Single Pole Decora US switch.  No special setup is required with Tasmota.  The template is all that is needed to setup this device.
+
+#### Tasmota Template
 ```json
 {"NAME":"Treatlife Single Pole","GPIO":[0,0,0,0,288,576,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18, "CMND": "SO30 1 | SO13 1"}
 ```
@@ -77,15 +79,6 @@ status_led:
     inverted: yes
 ```
 </p></details>
-
-<details><summary>Notes</summary>     
-<p>
-
-```
-Single Pole Decora US switch.  No special setup is required with Tasmota.  The template is all that is needed to setup this device.
-```
-</p></details>
-
 
 <details><summary>GPIO Layout</summary>     
 <p>
