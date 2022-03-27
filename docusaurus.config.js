@@ -106,6 +106,12 @@ const config = {
           },
           {
             type: 'doc',
+            docId: 'cameras/index',
+            position: 'left',
+            label: 'Cameras',
+          },
+          {
+            type: 'doc',
             docId: 'led/index',
             position: 'left',
             label: 'LEDs',
