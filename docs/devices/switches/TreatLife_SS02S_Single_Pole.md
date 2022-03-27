@@ -120,4 +120,4 @@ None are necessary
 </p></details>
 
 
-![alt text](treatlife_ss02s_main.jpg "TreatLife SS02S")
+![alt text](img/treatlife_ss02s_main.jpg "TreatLife SS02S")
