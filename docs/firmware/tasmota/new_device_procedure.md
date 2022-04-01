@@ -11,7 +11,7 @@ First begin this procedure by disabling power state saves. This is to prevent th
 ```
 Backlog SetOption0 0; SetOption36 1
 ```
-![](img/newd_backlog1_off.png)
+![](/img/procedures/newd_backlog1_off.png)
 
 ## Finding the Outputs
 
@@ -38,11 +38,11 @@ The device will reboot after this command is entered.  Wait for the console to r
 
 The virtual buttons 1-8(or more if using the ESP32) will now be displayed.  Toggle each one on and off, listen for relays, and look for any LEDs changing on the device.  If you see something change, take a note of it.  For instance if the GUI button 2 toggles the relay.  Make a note of GUI Button#4 = Relay.  If GUI Button 7 toggles the blue LED, make a note of of GUI Button 7 = Blue Led.  
 
-![](img/newd_8buttons.png)
+![](/img/procedures/newd_8buttons.png)
 
 Once all 8 buttons are toggled they will need to be converted to the actual GPIO number.  Go to Configuration->Configure Template.  This screen will show which of the GUI Buttons (Relays) are attached to each GPIO number, basically a conversion chart.  GUI Button#4 is actually called Relay 4 in Tasmota.  Relay 4 is assigned to GPIO 12 in this example, change the note to GPIO 12 = Relay1.  The Blue LED would convert to GPIO 15 = Blue LED.    
 
-![](img/newd_step1_template.png)
+![](/img/procedures/newd_step1_template.png)
 
 If all of the relays and/or LEDs are not found yet, continue on with the second template below. Go back to the console and paste in this template command:
 ### ESP8266
@@ -64,16 +64,16 @@ If the device does not have any inputs such as buttons, switches, etc. this proc
 
 ### ESP32 Users can find All Switch Templates at: https://templates.digiblur.com
 
-![](img/newd_switch_assign.png)
+![](/img/procedures/newd_switch_assign.png)
 
 In most cases, all the remaining GPIO pins can be filled with a switchX to complete the next process in one step.  Click Save and return to the Tasmota console log once the device reboots.  On the console enter the command "so114 1" and press enter.  This will decouple the switches from the relays and then pass the button number and action out to the console.  
 
 Toggle or hold down the button on the device. The console should show exactly which switch X was triggered by your button press.  Super easy!
 
-![](img/newdevice_so114.png)
+![](/img/procedures/newd_so114.png)
 
 In this example, "Switch2" shows a TOGGLE, this is due to the press then depress of the button.  If there are no additional buttons to find on the device, return to the configure template screen.  Unassign all the switches, except for SwitchX you found and change it to Button 1. At this point, it is suggested to take a screenshot of your template configuration for backup purposes.
 
-![](img/newd_button_assigned.png)
+![](/img/procedures/newd_button_assigned.png)
 
 Last but not least, change the Template Name to a proper name, and issue a `SetOption0 1` and `SetOption114 0` command on the console to turn power state saves back on attach the switch/buttons to the relays.  It is also recommended to use the Backup Configuration option in Tasmota.
