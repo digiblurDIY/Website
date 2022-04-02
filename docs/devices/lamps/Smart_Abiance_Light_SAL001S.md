@@ -14,10 +14,8 @@ Sold under many different product brands:
 
 ## Pinouts
 <hr/>
-<details>
-    <summary>GPIO Layout</summary>
 
-![alt text](img/mappedpinlayout.png "Pic of the board with wire layout marked")
+### GPIO Layout
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
@@ -35,7 +33,9 @@ Sold under many different product brands:
 |GPIO15	| None
 |GPIO16	| None
 
-</details>
+![alt text](img/mappedpinlayout.png "Pic of the board with wire layout marked")
+
+
 <br/>
 
 ## Additional Hardware
@@ -55,9 +55,11 @@ If you want to use the rotary encoder on the back you'll need a voltage logic le
 
 ## Pre-Flash ESP12F
 <hr/>
-<details>
-    <summary>Chip Flashing</summary>
-<img src="img/esp12f-burner.png" alt="ESP12F chip in burner board" width="200"/>
+
+### Chip Flashing
+
+![alt text](img/esp12f-burner.png "ESP12F chip in burner board")
+
 
 If you don't want to use the encoder knob on the back of the lamp then you can just flash a normal release of WLED by visiting the web installer of WLED.
 
@@ -65,13 +67,13 @@ https://install.wled.me
 
 
 If you want to use the encoder on the back you'll have to compile WLED with the encoder usermod and flash that binary.  Details can be found [here](https://gitlab.invisibleworld.de/backup/github/wled/-/blob/1a2543ddde57683bc897a602573c504dcab0fc04/usermods/usermod_v2_rotary_encoder_ui/readme.md)
-</details>
+
 <br/>
 
 ## Open it
 <hr/>
-<details>
-    <summary>Drop it like it's hot</summary>     
+
+### Drop it like it's hot
 
 Drop it on the floor.  Don't throw it but  drop it and the two halves will pop open.
 
@@ -80,67 +82,61 @@ Drop it on the floor.  Don't throw it but  drop it and the two halves will pop o
 Remove the two screws in the middle of the PCB and pull the board out.
 
 Detach the power wires and the board should come free and you'll see the chips on the back and the LEDs on the front
-</details>
+
 <br/>
 
 ## Desolder un-needed components
 <hr/>
 
-<details>
-    <summary>Add Leaded Solder</summary> 
+### Add Leaded Solder
 
 Get some leaded solder and melt some on the existing pins of the WBR3 chip
 
 ![alt text](img/solder2remove.png "Pic of where to add more solder")
 
-</details>
-<details>
-    <summary>Heat em up! Pull em off! RAWHIDE!</summary>
+
+### Heat em up! Pull em off! RAWHIDE!
 
 Now use your hot air tool, soldering iron, or heat gun to remove the chips
 
 ![alt text](img/wbr3-removed.png "Pic of WBR3 chip removed from the board")
 
 ![alt text](img/secondarymcu-removed.png "Pic of secondary MCU chip removed from the board")
-</details>
+
 <br/>
 
 ## Solder new stuff
 <hr/>
 Now we want to solder the needed jumpers and chip back on
 
-<details>
-    <summary>ESP12F</summary>
+### ESP12F
+
 Use some solder wick and clean up the pads where you pulled the WBR3 chip from, this will allow the ESP12F chip to sit flat on the PCB
 
 Place the ESP12F on the board and solder it into place
 ![alt text](img/esp12f-soldered.png "Pic of ESP12F chip soldered onto the board")
-</details>
 
-<details>
-    <summary>Data Pin Jumper</summary>
+### Data Pin Jumper
+
 The secondary MCU used to drive the data pin of the LEDS.
 We removed that chip and need to jump a wire from the where it connected to our ESP12F chip
 
 ![alt text](img/dataline-jumper.png "Pic of jumper pin from the PCB and the ESP chip")
 ![alt text](img/r2-datapin.png "Up close pic of where to solder the data pin")
-</details>
 
-<details>
-    <summary>Ground Pin Jumper</summary>
+### Ground Pin Jumper
 With the secondary MCU removed we need to re-attach to the ground properly.
 Take a small piece of wire and solder like shown here
 
 ![alt text](img/ground-jumper.png "Ground jump wire soldered")
-</details>
 
 <br/>
 
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `If you're not using the encoder you can stop here and re-assemble the unit and move on to the WLED settings section.`
 
 <br/>
-<details>
-    <summary>Logic Level Shifter Board</summary>
+
+### Logic Level Shifter Board
 
 Feel free to use any color wires you'd like.
 
@@ -157,10 +153,9 @@ Feel free to use any color wires you'd like.
 
 Adhere the board with some double sided adhesive
 
-</details>
 
-<details>
-    <summary>ESP12F to LLC Board</summary>
+### ESP12F to LLC Board
+
 Wire up the 3.3V power and ground
 
 ![alt text](img/3v-power.png "3.3v wired between ESP12F chip and LV side on LLC")
@@ -169,9 +164,8 @@ Here is a pic of the jumper wirings going to the ESP12F chip
 
 ![alt text](img/esp12f-jumpers.png "jumper wires between ESP12F chip and LV side on LLC")
 
-</details>
-<details>
-    <summary>Components to LLC Board</summary>
+### Components to LLC Board
+
 Wire up the 5V power and ground
 
 ![alt text](img/5v-power.png "5v wired between PCB and HV side on LLC")
@@ -180,14 +174,12 @@ Here is a pic of the jumper wirings going to the ESP12F chip
 
 ![alt text](img/endcoder-jumpers.png "jumper wires between encoder and HV side on LLC")
 
-</details>
 <br/>
 
 ## WLED Settings
 <hr/>
 
-<details>
-    <summary>General</summary>
+### General
 
 | Location | Setting | Value | Description |
 |---------|----------|-------|-------------|
@@ -201,10 +193,7 @@ Here is a pic of the jumper wirings going to the ESP12F chip
 | /settings/leds? | LED2 Inverted | checked | ESP12F single LED turned off by default |
 | /settings/leds? | Relay GPIO | -1 | Need to change this from the defaulf of 12 |
 
-</details>
-
-<details>
-    <summary>Encoder Usermod</summary>
+### Encoder Usermod
 
 This section is only needed if you've wired up the encoder as shown above
 
@@ -213,5 +202,3 @@ This section is only needed if you've wired up the encoder as shown above
 | /settings/um? | pin1 | 12 |
 | /settings/um? | pin1 | 13 |
 | /settings/um? | pin1 | 14 |
-
-</details>
