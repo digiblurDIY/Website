@@ -1,5 +1,9 @@
 # Smart Ambiance Light SAL001S
-![alt text](img/smart_ambiance_light_sal001s.jpg "Smart Abiance Light SAL001S")
+![alt text](/img/devices/sal001s_smart_ambiance_light_sal001s.jpg "Smart Abiance Light SAL001S")
+
+Purchase via [Amazon](https://amzn.to/3DBL1Vu)
+
+Thanks to Caleb for this awesome tutorial! 
 
 Sold under many different product brands:
 - Halussoer
@@ -10,7 +14,7 @@ Sold under many different product brands:
 - JVAXS
 - winees
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `3/31/2022 - This device has a secondary MCU and a Bekken chip. We will swap in ESP12F Chip and clip off the secondary MCU because it won't be needed.`
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `3/31/2022 - This device has a secondary MCU and a Beken chip. We will swap in ESP12F Chip and clip off the secondary MCU because it won't be needed.`
 
 ## Pinouts
 <hr/>
@@ -33,24 +37,22 @@ Sold under many different product brands:
 |GPIO15	| None
 |GPIO16	| None
 
-![alt text](img/mappedpinlayout.png "Pic of the board with wire layout marked")
+![alt text](/img/devices/sal001s_mappedpinlayout.png "Pic of the board with wire layout marked")
 
 
 <br/>
 
 ## Additional Hardware
 <hr/>
-You'll need to buy yourself an ESP12F chip from someplace like amazon or aliexpress
+You'll need to buy yourself an 
 
-[AliExpress](https://www.aliexpress.com/wholesale?SearchText=ESP12f)
-
-[Amazon](https://www.amazon.com/ESP8266-ESP-12F-Wireless-Transceiver-Development)
+[ESP12F Chip](https://geni.us/JANv)
 
 If you want to use the rotary encoder on the back you'll need a voltage logic level shifter due to the board having 5V supplied and the ESP chip only tolerating 3.3v on it's pins
 
-[AliExpress](https://www.aliexpress.com/wholesale?SearchText=IIC+I2C+Logic+Level+Converter)
+[AliExpress](https://s.click.aliexpress.com/e/_98q8k9)
 
-[Amazon](https://amazon.com/gp/product/B07F7W91LC)
+[Amazon](https://amazon.com/gp/product/B07F7W91LC?tag=digiblur-20)
 
 
 ## Pre-Flash ESP12F
@@ -58,7 +60,7 @@ If you want to use the rotary encoder on the back you'll need a voltage logic le
 
 ### Chip Flashing
 
-![alt text](img/esp12f-burner.png "ESP12F chip in burner board")
+![alt text](/img/devices/sal001s_esp12f-burner.png "ESP12F chip in burner board")
 
 
 If you don't want to use the encoder knob on the back of the lamp then you can just flash a normal release of WLED by visiting the web installer of WLED.
@@ -77,7 +79,7 @@ If you want to use the encoder on the back you'll have to compile WLED with the 
 
 Drop it on the floor.  Don't throw it but  drop it and the two halves will pop open.
 
-![alt text](img/drop2open.jpg "Pic of the device opened from drop")
+![alt text](/img/devices/sal001s_drop2open.jpg "Pic of the device opened from drop")
 
 Remove the two screws in the middle of the PCB and pull the board out.
 
@@ -92,16 +94,16 @@ Detach the power wires and the board should come free and you'll see the chips o
 
 Get some leaded solder and melt some on the existing pins of the WBR3 chip
 
-![alt text](img/solder2remove.png "Pic of where to add more solder")
+![alt text](/img/devices/sal001s_solder2remove.png "Pic of where to add more solder")
 
 
 ### Heat em up! Pull em off! RAWHIDE!
 
 Now use your hot air tool, soldering iron, or heat gun to remove the chips
 
-![alt text](img/wbr3-removed.png "Pic of WBR3 chip removed from the board")
+![alt text](/img/devices/sal001s_wbr3-removed.png "Pic of WBR3 chip removed from the board")
 
-![alt text](img/secondarymcu-removed.png "Pic of secondary MCU chip removed from the board")
+![alt text](/img/devices/sal001s_secondarymcu-removed.png "Pic of secondary MCU chip removed from the board")
 
 <br/>
 
@@ -114,21 +116,21 @@ Now we want to solder the needed jumpers and chip back on
 Use some solder wick and clean up the pads where you pulled the WBR3 chip from, this will allow the ESP12F chip to sit flat on the PCB
 
 Place the ESP12F on the board and solder it into place
-![alt text](img/esp12f-soldered.png "Pic of ESP12F chip soldered onto the board")
+![alt text](/img/devices/sal001s_esp12f-soldered.png "Pic of ESP12F chip soldered onto the board")
 
 ### Data Pin Jumper
 
 The secondary MCU used to drive the data pin of the LEDS.
 We removed that chip and need to jump a wire from the where it connected to our ESP12F chip
 
-![alt text](img/dataline-jumper.png "Pic of jumper pin from the PCB and the ESP chip")
-![alt text](img/r2-datapin.png "Up close pic of where to solder the data pin")
+![alt text](/img/devices/sal001s_dataline-jumper.png "Pic of jumper pin from the PCB and the ESP chip")
+![alt text](/img/devices/sal001s_r2-datapin.png "Up close pic of where to solder the data pin")
 
 ### Ground Pin Jumper
 With the secondary MCU removed we need to re-attach to the ground properly.
 Take a small piece of wire and solder like shown here
 
-![alt text](img/ground-jumper.png "Ground jump wire soldered")
+![alt text](/img/devices/sal001s_ground-jumper.png "Ground jump wire soldered")
 
 <br/>
 
@@ -149,7 +151,7 @@ Feel free to use any color wires you'd like.
 |GPIO14	| LV3 | HV3 | Encoder SW
 
 
-![alt text](img/llc-wiring.png "Logic Level Converter Board wiring")
+![alt text](/img/devices/sal001s_llc-wiring.png "Logic Level Converter Board wiring")
 
 Adhere the board with some double sided adhesive
 
@@ -158,21 +160,21 @@ Adhere the board with some double sided adhesive
 
 Wire up the 3.3V power and ground
 
-![alt text](img/3v-power.png "3.3v wired between ESP12F chip and LV side on LLC")
+![alt text](/img/devices/sal001s_3v-power.png "3.3v wired between ESP12F chip and LV side on LLC")
 
 Here is a pic of the jumper wirings going to the ESP12F chip
 
-![alt text](img/esp12f-jumpers.png "jumper wires between ESP12F chip and LV side on LLC")
+![alt text](/img/devices/sal001s_esp12f-jumpers.png "jumper wires between ESP12F chip and LV side on LLC")
 
 ### Components to LLC Board
 
 Wire up the 5V power and ground
 
-![alt text](img/5v-power.png "5v wired between PCB and HV side on LLC")
+![alt text](/img/devices/sal001s_5v-power.png "5v wired between PCB and HV side on LLC")
 
 Here is a pic of the jumper wirings going to the ESP12F chip
 
-![alt text](img/endcoder-jumpers.png "jumper wires between encoder and HV side on LLC")
+![alt text](/img/devices/sal001s_endcoder-jumpers.png "jumper wires between encoder and HV side on LLC")
 
 <br/>
 
