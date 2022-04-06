@@ -1,5 +1,7 @@
 # TreatLife SS02S (Single Pole)
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `1/9/2022 - This device no longer ships with an ESP8266 and one must be installed in order to continue.`
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `1/9/2022 - No longer ships with an ESP8266 and one must be installed in order to use Tasmota or ESPHome.`
+
+[Purchase on Amazon](https://amzn.to/37VkumA)
 
 Single Pole Decora US switch.  No special setup is required with Tasmota.  The template is all that is needed to setup this device.
 
