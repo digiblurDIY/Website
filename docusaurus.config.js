@@ -82,9 +82,9 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'firmware/index',
+            docId: 'tasmota/index',
             position: 'left',
-            label: 'Firmware',
+            label: 'Tasmota',
           },
           {
             type: 'doc',
