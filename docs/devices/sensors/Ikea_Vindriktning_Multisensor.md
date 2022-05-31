@@ -90,7 +90,10 @@ I recommend you use [tasmocompiler](https://github.com/benzino77/tasmocompiler) 
 Add the following compile options
 
 ```
-l.,/
+#define USE_VINDRIKTNING 
+#define VINDRIKTNING_SHOW_PM1
+#define VINDRIKTNING_SHOW_PM10
+#define USE_BH1750
 ```
 
 ![alt text](/img/devices/VINDRIKTNING-tasmocompiler4.png "TasmoCompiler Screenshot Step 1")
