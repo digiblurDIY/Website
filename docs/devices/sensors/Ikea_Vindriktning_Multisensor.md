@@ -397,6 +397,22 @@ The rules will be changing the colors all the time and we don't want it to turn 
 SetOption20 1
 ```
 
+### Temperature
+
+You can set the temperatures to °F
+
+```
+SetOption8 1
+```
+
+Then you can tune the sensor to match a known good source of temperature.
+
+For example drop 2 degrees
+
+```
+tempoffset -2
+```
+
 ### Rules or Berry Scripting
 Now we want to control the LEDs to mimic the default behavior of the Ikea VINDRIKTNING.
 
