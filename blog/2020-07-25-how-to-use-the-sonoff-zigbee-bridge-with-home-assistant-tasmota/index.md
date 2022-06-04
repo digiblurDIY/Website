@@ -10,9 +10,7 @@ categories:
   - "zigbee"
 ---
 
-[![](images/zigbee_title1.jpg)](https://1.bp.blogspot.com/-2wSJjBZgxtg/Xxx8pApVDOI/AAAAAAAEcAY/lVaE6Kn4Qs8l10h4TGmaDTe3t-1nueoUwCLcBGAsYHQ/s1280/zigbee_title1.jpg)
-
-  
+[![](images/zigbee_title1.jpg)](images/zigbee_title1.jpg)
 
 Check out these two videos we did on Zigbee fundamentals - [Video #1](https://youtu.be/cWSIFgFQMw0) - [Video #2](https://youtu.be/HVq4tT6g41U) 
 
@@ -44,7 +42,7 @@ UPDATE March 2021:  iTead also is now selling their [USB 3.0 dongle](https://s
 
   
 
-[![](images/zigbee_int.png)](https://1.bp.blogspot.com/-aNbE3b0A_j0/XxyEwuVfVsI/AAAAAAAEcAo/dgcnpV9_NdI43hfAUXtuRYB87p1Nt_NWgCLcBGAsYHQ/s379/zigbee_int.png)
+[![](images/zigbee_int.png)](images/zigbee_int.png)
 
   
 
@@ -56,7 +54,7 @@ During this process we will need a few pieces of software and files to flash thi
 
   
 
-**#1** [Tasmotizer](https://github.com/tasmota/tasmotizer/releases) - Downloads the firmware and flashes the Bridge.  Some users have reported Tasmotizer does not work on their setup, as an alternative you can use [NodeMCU Py-Flasher](https://github.com/marcelstoer/nodemcu-pyflasher/releases) and manually download the [tasmota-zbbridge.bin](http://thehackbox.org/tasmota/release/tasmota-zbbridge.bin), please make sure you use the DOUT flashing method with this app. 
+**#1** [Tasmotizer](https://github.com/tasmota/tasmotizer/releases) - Downloads the firmware and flashes the Bridge.  Some users have reported Tasmotizer does not work on their setup, as an alternative you can use [NodeMCU Py-Flasher](https://github.com/marcelstoer/nodemcu-pyflasher/releases) and manually download the [tasmota-zbbridge.bin](http://ota.tasmota.com/tasmota/release/tasmota-zbbridge.bin), please make sure you use the DOUT flashing method with this app. 
 
   
 
@@ -74,7 +72,7 @@ Use the latest ncp-uart-sw-x.x.x\_115200.ota file (as of 2020/01/25 ncp-uart-s
 
   
 
-[![](images/board_bottom.jpg)](https://1.bp.blogspot.com/-ZXy0quy7jCU/XxyHl_6BoaI/AAAAAAAEcCw/TCPEVBWFuXES0WCWWao0Ik72OHBUdQBGwCLcBGAsYHQ/s398/board_bottom.jpg)
+[![](images/board_bottom.jpg)](images/board_bottom.jpg)
 
   
 
@@ -82,7 +80,7 @@ For ease of flashing I use typical breadboard jumpers inserted into female to fe
 
   
 
-[![](images/jumpers.jpg)](https://1.bp.blogspot.com/-4-KDapLaDlI/XxyHvkoXghI/AAAAAAAEcC0/fPgvLGruAiwYtNC7Q4tCcP86xUhIUjYCwCLcBGAsYHQ/s400/jumpers.jpg)
+[![](images/jumpers.jpg)](images/jumpers.jpg)
 
   
 
@@ -102,7 +100,7 @@ IO0(GPIO Zero) to GND
 
   
 
-[![](images/USBTTL.jpg)](https://1.bp.blogspot.com/-4Y5QlMmDzhI/XxyH5XJCXcI/AAAAAAAEcC8/qZOADlAm7b0WgWG7luhgIQGYSqWJAj1XgCLcBGAsYHQ/s398/USBTTL.jpg)
+[![](images/USBTTL.jpg)](images/USBTTL.jpg)
 
   
 
@@ -110,7 +108,7 @@ Example USB TTL
 
   
 
-[![](images/IMG_20200724_212937.jpg)](https://1.bp.blogspot.com/-eNo0SrD3VSk/XxyICstzaUI/AAAAAAAEcDE/55BKBMh61voB5DkqfdV-d420Q7Mq2v5-ACLcBGAsYHQ/s400/IMG_20200724_212937.jpg)
+[![](images/IMG_20200724_212937.jpg)](images/IMG_20200724_212937.jpg)
 
   
 
@@ -118,7 +116,7 @@ Example USB TTL
 
   
 
-[![](images/tasmotizer_zbbridge.JPG)](https://1.bp.blogspot.com/-I90GVHUe-zM/XyLWl7cA_qI/AAAAAAAEcMM/8AhdgiwqyiIlTHUqPUJF7rX0n9ivuKr0ACLcBGAsYHQ/s485/tasmotizer_zbbridge.JPG)
+[![](images/tasmotizer_zbbridge.JPG)](images/tasmotizer_zbbridge.JPG)
 
   
 
@@ -126,7 +124,7 @@ Press Tasmotize! and it should start the flashing process.  If not check your c
 
   
 
-[![](images/tasmotizer_zbbridge2.JPG)](https://1.bp.blogspot.com/-ylj68Di8u9U/XyLXQbdiEDI/AAAAAAAEcMU/wY2tt9zIjpQgKlsBJAWPZDEbpJYDCeY7QCLcBGAsYHQ/s349/tasmotizer_zbbridge2.JPG)
+[![](images/tasmotizer_zbbridge2.JPG)](images/tasmotizer_zbbridge2.JPG)
 
   
 
@@ -138,7 +136,7 @@ Once the flashing is complete, unplug the USB TTL flasher, remove the wires from
 
   
 
-[![](images/AP_list.png)](https://1.bp.blogspot.com/-JuOz5qKcVYk/XxyFE9LkNwI/AAAAAAAEcA0/nJEVt4rDS1EFJWEFpDgvot4eKNu_GU1QgCLcBGAsYHQ/s438/AP_list.png)
+[![](images/AP_list.png)](images/AP_list.png)
 
   
 
@@ -146,7 +144,7 @@ Connect to the AP and browse to 192.168.4.1 
 
   
 
-[![](images/ap_menu.png)](https://1.bp.blogspot.com/-ooh6a3Wzw1E/XxyFKcEk8kI/AAAAAAAEcA4/xspoPavECJQs8b70xKChNLmZX56_LC4iQCLcBGAsYHQ/s812/ap_menu.png)
+[![](images/ap_menu.png)](images/ap_menu.png)
 
   
 
@@ -158,7 +156,7 @@ Click "Scan for wifi networks".  Select your network, enter the AP1 Password, s
 
   
 
-[![](images/zb_gui.png)](https://1.bp.blogspot.com/-1VtZhXNHgcU/XxyFSUh7dfI/AAAAAAAEcA8/jNnzKEWpGFws5L_GekcHNDDBJHlhapgsgCLcBGAsYHQ/s454/zb_gui.png)
+[![](images/zb_gui.png)](images/zb_gui.png)
 
   
 
@@ -170,7 +168,7 @@ _Backlog Weblog 3; so65 1; Module 75_
 
   
 
-[![](images/sonoff_zig_console.JPG)](https://1.bp.blogspot.com/-MAzorzPyl4E/XyLSs9prosI/AAAAAAAEcMA/yu_aLau-Kzgq5rEAnrbVQjUVB8vM46AKQCLcBGAsYHQ/s388/sonoff_zig_console.JPG)
+[![](images/sonoff_zig_console.JPG)](images/sonoff_zig_console.JPG)
 
   
 
@@ -180,7 +178,7 @@ Tasmota will restart after a few seconds, once the reboot is complete, click Mai
 
   
 
-[![](images/Tasmota_9.2.0_zigbee.png)](https://1.bp.blogspot.com/-dul1xHcwm8Y/YEJkt_KMY2I/AAAAAAAEn70/0NCN_RsC3Z4Cdmu46l33td25LaJIPVr_gCLcBGAsYHQ/s502/Tasmota_9.2.0_zigbee.png)
+[![](images/Tasmota_9.2.0_zigbee.png)](images/Tasmota_9.2.0_zigbee.png)
 
   
 
@@ -188,7 +186,7 @@ To verify the process flashes, it is recommended to open a second window with th
 
   
 
-[![](images/sonoff_zig3.JPG)](https://1.bp.blogspot.com/-K7syEFSuWXI/Xx8nctza-FI/AAAAAAAEcKU/kNWs7SYPOlA65SnHVSboef0k7Y5hMIw-wCLcBGAsYHQ/s417/sonoff_zig3.JPG)
+[![](images/sonoff_zig3.JPG)](images/sonoff_zig3.JPG)
 
   
 
@@ -196,7 +194,7 @@ Press Start upgrade.  This will instruct Tasmota to flash the Zigbee chipset on
 
   
 
-[![](images/sonoff_zig4.JPG)](https://1.bp.blogspot.com/-tCA6kPgY91g/Xx8nxGkYZ_I/AAAAAAAEcKg/iBJ_pOiG_l42S5xLQzO0jghsjjgHZzwxQCLcBGAsYHQ/s398/sonoff_zig4.JPG)
+[![](images/sonoff_zig4.JPG)](images/sonoff_zig4.JPG)
 
   
 
@@ -208,7 +206,7 @@ If you do not see this XMD: Successful message, **do not continue** on past this
 
   
 
-[![](images/zigbee_xmodem_success.PNG)](https://1.bp.blogspot.com/-mebZ8M8s8KM/YABIxDG0BOI/AAAAAAAEmSI/NuImXlH-rhQuEhyiHximxWZPlbILik8OgCLcBGAsYHQ/s532/zigbee_xmodem_success.PNG)
+[![](images/zigbee_xmodem_success.PNG)](images/zigbee_xmodem_success.PNG)
 
   
 
@@ -216,7 +214,7 @@ Once the process is complete Tasmota will reboot and attempt to start Tasmota Zi
 
   
 
-[![](images/zigbee_started.PNG)](https://1.bp.blogspot.com/-IQN-Ixm4-Rg/YABJFdiveHI/AAAAAAAEmSQ/qaI9rPyUFPIjG0I4nnfoLd5d6KAecrUNACLcBGAsYHQ/s781/zigbee_started.PNG)
+[![](images/zigbee_started.PNG)](images/zigbee_started.PNG)
 
   
 
@@ -250,7 +248,7 @@ _otaurl http://ota.tasmota.com/tasmota/tasmota-zbbridge.bin.gz_
 
   
 
-[![](images/zha1.png)](https://1.bp.blogspot.com/-9pnrfqaKgOw/XxyGYbWsPuI/AAAAAAAEcBs/suXZ5u2Oagk6cKztMYic_Wa4sL10zPlSwCLcBGAsYHQ/s594/zha1.png)
+[![](images/zha1.png)](images/zha1.png)
 
   
 
@@ -258,7 +256,7 @@ Choose "Enter Manually" and hit Submit.
 
   
 
-[![](images/zha2.png)](https://1.bp.blogspot.com/-qVCKJZJ5ezw/XxyGcXDe7hI/AAAAAAAEcBw/YWVRlgOQoJAcY-4GhwINPo52aN2b8HJFQCLcBGAsYHQ/s439/zha2.png)
+[![](images/zha2.png)](images/zha2.png)
 
   
 
@@ -266,7 +264,7 @@ Radio Type is EZSP
 
   
 
-[![](images/zha3.png)](https://1.bp.blogspot.com/-15EvVgbhoNg/XxyGhcKO2GI/AAAAAAAEcB4/eALjQMZQr5wNuD1MLgSY0SwVmYc52j5_wCLcBGAsYHQ/s440/zha3.png)
+[![](images/zha3.png)](images/zha3.png)
 
   
 
@@ -274,7 +272,7 @@ Enter _socket://`<your bridge IP>`:8888_ and use 115200 for the port speed.  H
 
   
 
-[![](images/zha4.png)](https://1.bp.blogspot.com/-qKcc_ZeC3O8/XxyGkRVfUXI/AAAAAAAEcCA/Jc7x0TQy2IwIcvQ0eR5bjrxWyE-KTXccQCLcBGAsYHQ/s440/zha4.png)
+[![](images/zha4.png)](images/zha4.png)
 
   
 
@@ -282,7 +280,7 @@ Give it a few seconds to query the device and you should see the following scree
 
   
 
-[![](images/zha5.png)](https://1.bp.blogspot.com/--N0lM0FkyOk/XxyGnnpB6LI/AAAAAAAEcCE/WfYdwzrhDekxfRvfWIAfEVIMEBThS2MJwCLcBGAsYHQ/s438/zha5.png)
+[![](images/zha5.png)](images/zha5.png)
 
   
 
@@ -290,7 +288,7 @@ Congratulations!  You did it!  Hit Finish.  You should now have a Zigbee inte
 
   
 
-[![](images/zha6.png)](https://1.bp.blogspot.com/-goZaAqx2V2Y/XxyGrX_4fgI/AAAAAAAEcCI/nXY_ojXtTMEzio71fW8dHJUXjuIqSNuVACLcBGAsYHQ/s379/zha6.png)
+[![](images/zha6.png)](images/zha6.png)
 
   
 
@@ -298,13 +296,13 @@ Hit the Plus and start pairing your various Zigbee devices.  
 
   
 
-[![](images/zha7.png)](https://1.bp.blogspot.com/-_DvscIvzK-I/XxyGvRs_tBI/AAAAAAAEcCQ/38EpbABNvYESHVpHbdLFfW5T17smcOO2gCLcBGAsYHQ/s772/zha7.png)
+[![](images/zha7.png)](images/zha7.png))
 
   
 
   
 
-[![](images/zha8.png)](https://1.bp.blogspot.com/-6UEldwFK1uI/XxyGz75rHDI/AAAAAAAEcCc/i0rfnWWt9g8PGKtTUwMgqJifueal2GqCQCLcBGAsYHQ/s540/zha8.png)
+[![](images/zha8.png)](images/zha8.png)
 
   
 
