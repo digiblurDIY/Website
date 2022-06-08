@@ -1,4 +1,11 @@
 # Tasmota DevGroups Wiring Diagrams
+We want the smart bulb to always have power allowing full control through home automation software and wall switches.  Adds functionality without having to teach yourself and house guests how to turn a light on and off.
+
+DevGroups allow multiple tasmota devices to sync changes to each other.
+Click your light switch and it sends off or on to the members of the device group.
+
+Push the dimmer down on a dimmer light switch and have the smart bulbs dim as well.
+This page won't go into how awesome devgroups are but just shows how to wire things up physically to allow the software to sing.
 
 ## Single switch
 
