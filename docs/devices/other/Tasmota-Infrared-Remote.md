@@ -54,6 +54,8 @@ Choose the com port of the device and click install tasmota
 ## Configure Tasmota
 <hr/>
 
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `The pre-built device will need to be plugged into something that provides more juice than the computer USB port to power on and boot tasmota`
+
 Now connect to the tasmota ssid with your smart phone or workstation then visit http://192.168.4.1 and configure tasmota to connect to your wifi access point.
 
 Then visit the IP address of the device so we add the right template
@@ -151,7 +153,11 @@ I've found it useful to create a script per device for use in automations or lov
 
 Here is an example of a TV remote for a vizio TV
 
-```
+<details>
+    <summary>Script Code</summary>     
+    <p>
+
+```yaml
 sequence:
   - variables:
       power: >-
@@ -574,6 +580,8 @@ mode: single
 icon: mdi:remote
 alias: Remote - Vizio TV
 ```
+    </p>
+</details>
 
 To test this script we can use the developer tools of homeassistant.  In our example we will use the device topic or group topic via MQTT so your MQTT topic will vary and you can find that out by visiting your tasmota device console and type the command(s):
 
@@ -623,9 +631,11 @@ Once you've gotten the gist here is complete vizio tv remote card
 
 ![alt text](/img/devices/tasmota-ir-lovelace-card.png "Example vizio tv remote lovelace card")
 
-code:
+<details>
+    <summary>Card Code</summary>     
+    <p>
 
-```
+```yaml
 type: vertical-stack
 title: Vizio TV (Master Bedroom)
 cards:
@@ -1043,3 +1053,5 @@ cards:
         name: num_space
 ```
 
+    </p>
+</details>
