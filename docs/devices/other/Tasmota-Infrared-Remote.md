@@ -154,8 +154,8 @@ I've found it useful to create a script per device for use in automations or lov
 Here is an example of a TV remote for a vizio TV
 
 <details>
-    <summary>Script Code</summary>     
-    <p>
+<summary>Script Code</summary>     
+<p>
 
 ```yaml
 sequence:
@@ -580,7 +580,7 @@ mode: single
 icon: mdi:remote
 alias: Remote - Vizio TV
 ```
-    </p>
+</p>
 </details>
 
 To test this script we can use the developer tools of homeassistant.  In our example we will use the device topic or group topic via MQTT so your MQTT topic will vary and you can find that out by visiting your tasmota device console and type the command(s):
@@ -632,8 +632,8 @@ Once you've gotten the gist here is complete vizio tv remote card
 ![alt text](/img/devices/tasmota-ir-lovelace-card.png "Example vizio tv remote lovelace card")
 
 <details>
-    <summary>Card Code</summary>     
-    <p>
+<summary>Card Code</summary>     
+<p>
 
 ```yaml
 type: vertical-stack
@@ -1052,6 +1052,5 @@ cards:
         show_name: false
         name: num_space
 ```
-
-    </p>
+</p>
 </details>
