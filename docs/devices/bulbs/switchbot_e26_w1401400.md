@@ -8,6 +8,12 @@ Purchase via [SwitchBot Store](https://switchbot.vip/3mkXt45)
 Supported in Tasmota 12.0.2.2 or later. Thanks to Cossid for his [efforts](https://github.com/arendst/Tasmota/pull/15839)!  
 Please note the required SetOption below for correct color order.  A user configurable brightness limit of default of 10 is set via the template SM2335 Dat option.  This was found to be close to stock as possible.  Setting this higher could create power supply issues, excessive **heat/fire**, LED flame out errors, etc.
 
+Until the next Tasmota standard release, it is necessary to upgrade to 12.0.2.2 or later dev version.  Paste the following command on the Tasmota Console, do NOT interrupt it during the upgrade.  
+
+```
+backlog otaurl http://ota.tasmota.com/tasmota32/tasmota32c3.bin ; upgrade 1
+```
+
 #### Tasmota Template
 ```json
 {"NAME":"Switchbot E26 Bulb","GPIO":[0,0,0,0,9129,9088,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND": "SO37 25 | SO59 1"}
