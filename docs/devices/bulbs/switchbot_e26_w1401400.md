@@ -10,8 +10,9 @@ Please note the required SetOption below for correct color order.  A user config
 
 Until the next Tasmota standard release, it is necessary to upgrade to 12.0.2.2 or later dev version.  Paste the following command on the Tasmota Console, do NOT interrupt it during the upgrade.  
 
+# UPDATE 2022/06/30 DONT UPGRADE TO DEV AT THIS TIME
 ```
-backlog otaurl http://ota.tasmota.com/tasmota32/tasmota32c3.bin ; upgrade 1
+UPDATE 2022/06/30 DONT UPGRADE TO DEV AT THIS TIME backlog otaurl http://ota.tasmota.com/tasmota32/tasmota32c3.bin ; upgrade 1
 ```
 
 #### Tasmota Template

@@ -2,5 +2,7 @@
 sidebar_position: 1
 ---
 
-# Zigbee Index
+# Zigbee
+
+![alt text](/img/zigbee_channels.png "Zigbee Channels")
 
