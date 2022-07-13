@@ -68,7 +68,32 @@ If you don't want to use the encoder knob on the back of the lamp then you can j
 https://install.wled.me
 
 
-If you want to use the encoder on the back you'll have to compile WLED with the encoder usermod and flash that binary.  Details can be found [here](https://gitlab.invisibleworld.de/backup/github/wled/-/blob/1a2543ddde57683bc897a602573c504dcab0fc04/usermods/usermod_v2_rotary_encoder_ui/readme.md)
+If you want to use the encoder on the back you'll have to compile WLED with the encoder usermod and flash that binary.  Details can be found [here](https://github.com/Aircoookie/WLED/tree/main/usermods/usermod_v2_rotary_encoder_ui)
+
+To setup VSCode/Platformio to compile visit [here](https://kno.wled.ge/advanced/compiling-wled/)
+
+Here is a sample of the platformio_override.ini file used
+
+```
+[platformio]
+default_envs = d1_mini
+
+[env:WLED_SAL001S]
+board = d1_mini
+platform = ${common.platform_wled_default}
+platform_packages = ${common.platform_packages}
+board_build.ldscript = ${common.ldscript_1m128k}
+lib_deps = ${esp8266.lib_deps}
+build_unflags = ${common.build_unflags}
+build_flags = ${common.build_flags_esp8266}
+```
+
+Also added the following to the top of wled00\usermods_list.cpp file
+
+```
+#define USERMOD_MODE_SORT
+#define USERMOD_ROTARY_ENCODER_UI
+```
 
 <br/>
 
