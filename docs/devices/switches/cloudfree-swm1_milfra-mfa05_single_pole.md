@@ -265,7 +265,7 @@ This will allow these settings to trump the defaults on the boot up of the switc
 
 
 ## Home Assistant
-Let's get it setup that you can adjust these timers and entities to show up how you'd want them to and control the tiemr settings via home assistant dashboard
+Let's get it setup that you can adjust these timers and entities to show up how you'd want them to and control the timer settings via home assistant dashboard
 
 ![alt text](/img/devices/cloudfree_milfra_lovelace.jpg "Dashboard Card View")
 
@@ -292,10 +292,10 @@ Visit your home assistant instance and got to `/config/helpers` and create two h
 
 ### Script
 
-<details><summary>Adjust timeout script</summary>
-<p>
 
 Visit your home assistant instance and got to `/config/script/dashboard` and create a new script with it's content below:
+<details><summary>Adjust timeout script</summary>
+<p>
 
 ```yaml
 alias: Lights - Adjust motion light timer setting
