@@ -38,6 +38,8 @@ Open the tasmota [webinstaller](https://tasmota.github.io/install/) and flash it
 {"NAME":"CloudFree SWM1","GPIO":[32,0,0,0,0,160,0,0,224,576,161,0,0,0],"FLAG":0,"BASE":18}
 ```
 
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Some Milfra MFA05 switches don't have the LDR / Daylight sensor soldered on. This template is the only difference for the cloudfree one.  Use the cloudfree one if you have the LDR on your board.  You can add one by visiting here to buy the right one: ` https://www.amazon.com/dp/B00N1ZJUN4
+
 ```json
 {"NAME":"Milfra PIR switch","GPIO":[32,0,0,0,0,192,0,0,224,320,0,0,289,0],"FLAG":0,"BASE":18}
 ```
