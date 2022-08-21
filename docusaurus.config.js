@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'digiblurDIY',
   tagline: '',
-  url: 'https://digiblur.pages.dev',
+  url: 'https://digiblur.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
