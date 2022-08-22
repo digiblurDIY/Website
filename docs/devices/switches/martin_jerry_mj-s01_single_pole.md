@@ -1,8 +1,11 @@
 # Martin Jerry MJ-S01 (Single Pole)
 
-Single Pole Decora US switch.  This switch has a customizable Red and Blue LED, this setup uses a rule to toggle between the two LEDs.
+Single Pole Decora US switch.  This switch has a customizable Red and Blue LED, this setup uses a rule to toggle between the two LEDs.  As of the Summer of 2022, Martin Jerry is now offering a TASMOTA Pre-flashed model!
 
+Pre-Flashed with TASMOTA [Amazon](https://amzn.to/3K4qpIx)  
 Purchase via [Amazon](https://amzn.to/2IM0cn5)
+
+Detailed video of integration into Home Assistant [YouTube](https://youtu.be/H7GlOoJrOjU)
 
 #### Tasmota Template
 ```json
