@@ -5,7 +5,9 @@ Single Pole Decora US switch.  This switch has a customizable Red and Blue LED, 
 Pre-Flashed with TASMOTA [Amazon](https://amzn.to/3K4qpIx)  
 Purchase via [Amazon](https://amzn.to/2IM0cn5)
 
-Detailed video of integration into Home Assistant [YouTube](https://youtu.be/H7GlOoJrOjU)
+Detailed video integration into Home Assistant
+<iframe allowfullscreen height="353" src="https://www.youtube.com/embed/H7GlOoJrOjU" width="625" youtube-src-=""></iframe>  
+
 
 #### Tasmota Template
 ```json
