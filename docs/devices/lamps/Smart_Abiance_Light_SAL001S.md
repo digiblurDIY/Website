@@ -89,7 +89,7 @@ build_flags = ${common.build_flags_esp8266} -D WLED_RELEASE_NAME=SAL001S -D USER
 lib_deps = ${esp8266.lib_deps}
 ```
 
-After you build/compile the code it'll show up in the directory build_output/release/WLED_<VERSION>_SAL001S.bin
+After you build/compile the code it'll show up in the directory build_output/release/WLED_VERSION_SAL001S.bin
 Feel free do the manual firmware OTA in the wled web ui `/settings/sec?`
 
 <br/>
