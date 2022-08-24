@@ -63,37 +63,34 @@ If you want to use the rotary encoder on the back you'll need a voltage logic le
 ![alt text](/img/devices/sal001s_esp12f-burner.png "ESP12F chip in burner board")
 
 
-If you don't want to use the encoder knob on the back of the lamp then you can just flash a normal release of WLED by visiting the web installer of WLED.
+Let's start by just flashing a normal release of WLED by visiting the web installer of WLED.
 
 https://install.wled.me
 
-
-If you want to use the encoder on the back you'll have to compile WLED with the encoder usermod and flash that binary.  Details can be found [here](https://github.com/Aircoookie/WLED/tree/main/usermods/usermod_v2_rotary_encoder_ui)
+If you want to use the encoder on the back you'll have to compile WLED with the encoder usermod and flash that binary.
 
 To setup VSCode/Platformio to compile visit [here](https://kno.wled.ge/advanced/compiling-wled/)
+
+Details can be found [here](https://github.com/Aircoookie/WLED/tree/main/usermods/usermod_rotary_brightness_color)
 
 Here is a sample of the platformio_override.ini file used
 
 ```
 [platformio]
-default_envs = d1_mini
+default_envs = WLED_SAL001S
 
 [env:WLED_SAL001S]
-board = d1_mini
+board = nodemcuv2
 platform = ${common.platform_wled_default}
 platform_packages = ${common.platform_packages}
-board_build.ldscript = ${common.ldscript_1m128k}
-lib_deps = ${esp8266.lib_deps}
+board_build.ldscript = ${common.ldscript_4m1m}
 build_unflags = ${common.build_unflags}
-build_flags = ${common.build_flags_esp8266}
+build_flags = ${common.build_flags_esp8266} -D WLED_RELEASE_NAME=SAL001S -D USERMOD_ROTARY_ENCODER_BRIGHTNESS_COLOR
+lib_deps = ${esp8266.lib_deps}
 ```
 
-Also added the following to the top of wled00\usermods_list.cpp file
-
-```
-#define USERMOD_MODE_SORT
-#define USERMOD_ROTARY_ENCODER_UI
-```
+After you build/compile the code it'll show up in the directory build_output/release/WLED_<VERSION>_SAL001S.bin
+Feel free do the manual firmware OTA in the wled web ui `/settings/sec?`
 
 <br/>
 
@@ -227,5 +224,5 @@ This section is only needed if you've wired up the encoder as shown above
 | Location | Name | Setting |
 |----------|------|---------|
 | /settings/um? | pin1 | 12 |
-| /settings/um? | pin1 | 13 |
-| /settings/um? | pin1 | 14 |
+| /settings/um? | pin2 | 13 |
+| /settings/um? | pin3 | 14 |
