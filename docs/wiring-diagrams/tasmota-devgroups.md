@@ -39,9 +39,9 @@ We will want to give continous power to the light bulbs and turn them off and on
 ![alt text](/img/diagrams/Tasmota-DevGroups-MJ-SD01-3Way-WifiBulbs.png "Two Single Pole switches with always powered wifi smart bulbs")
 
 
-## Sonoff Ifan03 with Smart Bulbs
+## Sonoff iFan03/iFan04 with Smart Bulbs
 
-In this scenario there is a single pole dimmer switch that we don't want to control the lights or fan.  Instead we'll utilize it's buttons to control the remote smart fan controller (IFAN03) and smart bulbs both running Tasmota.
+In this scenario there is a single pole dimmer switch that we don't want to control the lights or fan.  Instead we'll utilize it's buttons to control the remote smart fan controller (IFAN03) and smart bulbs both running Tasmota.  The iFan04 is the same product as the iFan03 except the change to accomodate US 120V fans.
 We will want to give continous power to the light bulbs and turn them off and on with software.  Because the dimmer fan controller won't need to use their relays to power off and on the lights they will just use devgroups to keep in sync with the bulbs.
 The output of the dimmer switch will be capped off and the output of the IFAN03 for lights will be capped off.
 
