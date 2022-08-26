@@ -1,0 +1,78 @@
+# Device Name / Model Here
+
+This is a single button cool and stuff switch.
+
+Purchase on Amazon [Amazon](https://amzn.to/3K4qpIx)  
+Purchase on Aliexpress [Aliexpress](https://amzn.to/2IM0cn5)
+
+### Video Setup
+
+<iframe allowfullscreen height="353" src="https://www.youtube.com/embed/H7GlOoJrOjU" width="625" youtube-src-=""></iframe>  
+
+### Tasmota Template
+```json
+{"NAME":"MJ-S01 2Way Switch","GPIO":[1,1,1,1,288,321,0,0,224,32,544,1,0,0],"FLAG":0,"BASE":18, "CMND": "SO30 1 | SO13 1"}
+```
+
+<details><summary>Settings</summary>     
+<p>
+
+| Setting | Description
+|---------------|-------------
+| setoption13 1 | Set On/Off switch to respond instantly
+| setoption30 1 | Sets domain to a light
+</p></details>
+
+<details><summary>Rules</summary>     
+<p>
+
+Any rules
+
+```
+Rule1 on something do something endon
+```
+
+Activate the Rule with 
+
+```
+Rule1 1
+```
+</p></details>
+
+<details><summary>GPIO Layout</summary>     
+<p>
+
+| GPIO |    Component | Description |
+|------ |-------------|-------------|         
+|GPIO00	| None
+|GPIO01	| None
+|GPIO02	| None
+|GPIO03	| None
+|GPIO04	| Led1 | Red LED
+|GPIO05	| Led2 | Blue LED
+|GPIO09	| None
+|GPIO10	| None
+|GPIO12	| Relay1 | Relay for Load
+|GPIO13	| Button1 | Button
+|GPIO14	| None
+|GPIO15	| None
+|GPIO16	| None
+</p></details>
+
+<details><summary>ESPHome YAML</summary>     
+<p>
+
+```yaml
+#Delete me if no esphome setup
+esphome:
+  name: ${device_name}
+  platform: ESP8266
+  board: esp01_1m
+```
+</p></details>
+
+
+### Pics
+![alt text](/img/devices/mj-s01_main.jpg "Martin Jerry MJ-S01")
+
+![alt text](/img/devices/mj-s01_inside1.jpg "Martin Jerry MJ-S01 Insides")
