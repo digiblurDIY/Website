@@ -28,14 +28,14 @@ const config = {
         },
         blog: {
           showReadingTime: false,
-          routeBasePath: '/',
-          postsPerPage: 5,
+		  routeBasePath: '/',
+          postsPerPage: 10,
           //blogSidebarTitle: 'Recent Posts',
           blogSidebarCount: 0,
           feedOptions: {
             type: 'all',
-            title: 'digiblurDIY',
-            description: 'digiblurDIY',
+            title: 'digiblurDIY Smart Home Solutions',
+            description: 'No cloud is the way!  DIY Smart Home Automation projects &amp; reviews.  Projects and devices that offer the best value. As an Amazon Associate I earn from qualifying purchases. digiblurDIY earns commissions for purchases made through links in this post.',
           },
         },
         theme: {

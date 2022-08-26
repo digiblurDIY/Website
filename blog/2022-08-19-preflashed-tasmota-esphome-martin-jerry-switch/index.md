@@ -14,10 +14,11 @@ The Martin Jerry Switches and Dimmers are pre-flashed and here!  No soldering, n
 Pre-Flashed Switch with TASMOTA [Amazon](https://amzn.to/3K4qpIx)  
 Pre-Flashed Dimmer with TASMOTA [Amazon](https://amzn.to/3Kk2VQ5)  
 
-
 <iframe allowfullscreen height="353" src="https://www.youtube.com/embed/H7GlOoJrOjU" width="625" youtube-src-=""></iframe>  
   
 <iframe allowfullscreen height="353" src="https://www.youtube.com/embed/uU7oy-Kz7T8" width="625" youtube-src-=""></iframe>  
+
+<!--truncate-->
 
 ⚡Products We Use/Recommend  
 Amazon US - [https://amzn.to/2YZNDeO](https://amzn.to/2YZNDeO)  
