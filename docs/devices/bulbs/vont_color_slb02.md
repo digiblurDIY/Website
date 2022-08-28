@@ -36,7 +36,5 @@ Purchase via [Amazon](https://amzn.to/3EoVow6)
 
 ![alt text](/img/devices/vontcolorpro_2.jpg "Vont Color Bulb #2")
 
-![alt text](/img/devices/vontcolorpro_3.png "Vont Color Bulb #3")
-
 ![alt text](/img/devices/vontcolor_1.jpg "Vont Color Bulb #4")
 
