@@ -5,6 +5,8 @@
 Purchase via [Amazon](https://amzn.to/3MzVSSR)  
 Purchase via [SwitchBot Store](https://switchbot.vip/3avyiJe)
 
+<iframe allowfullscreen height="353" src="https://www.youtube.com/embed/iTexFQ0Th0I" width="625" youtube-src-=""></iframe>  
+
 #### Tasmota Template
 ```json
 {"NAME":"SwitchBot 15A Plug","GPIO":[0,0,32,0,0,0,224,320,321,0,0,0,0,0,0,0,0,0,2720,2656,2624,0],"FLAG":0,"BASE":1}

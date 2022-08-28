@@ -10,6 +10,8 @@ Please note the required SetOption below for correct color order.  A user config
 
 Until the next Tasmota standard release, it is necessary to upgrade to 12.0.2.2 or later dev version.  Paste the following command on the Tasmota Console, do NOT interrupt it during the upgrade.  
 
+<iframe allowfullscreen height="353" src="https://www.youtube.com/embed/iTexFQ0Th0I" width="625" youtube-src-=""></iframe>  
+
 #### Quick Setup via Tasmota Console Command
 ```
 backlog template {"NAME":"Switchbot E26 Bulb","GPIO":[0,0,0,0,9128,9088,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}; module 0; so37 25; so59 1
