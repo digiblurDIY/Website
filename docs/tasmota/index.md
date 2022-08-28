@@ -8,6 +8,8 @@ title: Tasmota
 
 # TASMOTA Procedures
 
+[TASMOTA Web Installer](https://tasmota.github.io/install/) - Recommended method 
+
 How to Connect to an ESP8266 or ESP32
 
 How to Backup the ESP8266 and ESP32
