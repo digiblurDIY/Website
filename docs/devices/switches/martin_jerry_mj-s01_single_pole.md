@@ -9,7 +9,7 @@ Detailed video integration into Home Assistant
 <iframe allowfullscreen height="353" src="https://www.youtube.com/embed/H7GlOoJrOjU" width="625" youtube-src-=""></iframe>  
 
 
-#### Tasmota Template
+### Tasmota Template
 ```json
 {"NAME":"MJ-S01 2Way Switch","GPIO":[1,1,1,1,288,321,0,0,224,32,544,1,0,0],"FLAG":0,"BASE":18, "CMND": "SO30 1 | SO13 1"}
 ```
@@ -135,6 +135,7 @@ Rule1 1
 ```
 </p></details>
 
+### Pics
 
 ![alt text](/img/devices/mj-s01_main.jpg "Martin Jerry MJ-S01")
 

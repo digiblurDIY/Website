@@ -4,15 +4,15 @@
 
 Purchase via [Amazon](https://amzn.to/3Eq4WH8)  
 
-#### digiblurDIY Video
+### digiblurDIY Video
 <iframe allowfullscreen height="353" src="https://www.youtube.com/embed/92F7DqQrZWg" width="625" youtube-src-=""></iframe>  
 
-#### Quick Setup via Tasmota Console Command
+### Quick Setup via Tasmota Console Command
 ```
 backlog template {"NAME":"Vont ESP32-C3 A19 RGBCT","GPIO":[0,0,0,452,419,418,416,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"so92 1"}; module 0; so92 1; so59 1
 ```
 
-#### Tasmota Template
+### Tasmota Template
 ```json
 {"NAME":"Vont ESP32-C3 A19 RGBCT","GPIO":[0,0,0,452,419,418,416,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"so92 1"}
 ```
@@ -36,6 +36,8 @@ backlog template {"NAME":"Vont ESP32-C3 A19 RGBCT","GPIO":[0,0,0,452,419,418,416
 | setoption92 1 | Set the correct color temperature method
 | setoption59 1  | Report light state changes via MQTT
 </p></details>
+
+### Pics
 
 ![alt text](/img/devices/vontcolorpro_1.jpg "Vont Color Pro Bulb #1")
 
