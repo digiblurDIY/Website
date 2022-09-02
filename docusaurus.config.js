@@ -29,7 +29,7 @@ const config = {
         blog: {
           showReadingTime: false,
 		  routeBasePath: '/',
-          postsPerPage: 10,
+          postsPerPage: 7,
           //blogSidebarTitle: 'Recent Posts',
           blogSidebarCount: 0,
           feedOptions: {
