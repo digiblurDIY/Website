@@ -6,10 +6,8 @@ sidebar_position: 1
 
 Device Types - Bulbs, Switches, Dimmers, DIY, etc (on the left side bar) 
 
+[Current Flashable or Pre-Flashed Devices](http://localhost:3000/wiki/devices/esp-flashable-devices)
+
 digiblurDIY Favorites
-
-OTA Flashable Devices
-
-Flashable Devices
 
 How to Use a TASMOTA Template
