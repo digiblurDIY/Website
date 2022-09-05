@@ -4,7 +4,8 @@ sidebar_position: 1
 
 # Flashable Smart Devices
 
-These are devices that are Espressif chip based and do NOT require a chip swap.  If one of the below devices needs to be removed due to a hardware change please contact us.
+These are devices that are Espressif chip based and do NOT require a chip swap.  If one of the below devices needs to be removed due to a hardware change please contact us.  
+**Last Update: 9/5/2022**
 
 ### Bulbs
 
@@ -41,4 +42,9 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 
 ### Other
 
-Got any ideas?  We take edits & suggestions.
+[Shelly 1](https://s.click.aliexpress.com/e/_DF9rCJZ)  
+[Shelly Plus 1](https://s.click.aliexpress.com/e/_Dn1KLaF)  
+[Shelly Plus 2PM](https://s.click.aliexpress.com/e/_DD4OEs7)  
+[Shelly Plus i4](https://s.click.aliexpress.com/e/_DCZkZ0R)  
+
+Got edits?
