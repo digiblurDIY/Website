@@ -8,17 +8,17 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 
 ### Bulbs
 
-[Switchbot 5 Channel ESP32-C3 Bulb](/wiki/devices/bulbs/switchbot_e26_w1401400)  
-[Vont 5 Channel Smart ESP32-C3 Bulb](/wiki/devices/bulbs/vont_color_pro_slb04)  
-[Vont 4 Channel Smart ESP32-C3 Bulb](/wiki/devices/bulbs/vont_color_slb02)  
+[Switchbot 5 Channel ESP32-C3 Bulb](https://amzn.to/38Vhuv3) - [Template Page](/wiki/devices/bulbs/switchbot_e26_w1401400)  
+[Vont 5 Channel Smart ESP32-C3 Bulb](https://amzn.to/3Eq4WH8) - [Template Page](/wiki/devices/bulbs/vont_color_pro_slb04)  
+[Vont 4 Channel Smart ESP32-C3 Bulb](https://amzn.to/3EoVow6) - [Template Page](/wiki/devices/bulbs/vont_color_slb02)  
 [CloudFree 5 Channel Bulb](https://cloudfree.shop/product/cloudfree-smart-bulb-rgbcw/?ref=digiblur)  
 [Kauf 5 Channel BR30](https://amzn.to/3BaxDIi)  
 [Kauf 5 Channel A21](https://amzn.to/3KKsSbq)
 
 ### Switches
 
-[Martin Jerry Single Pole Switch](/wiki/devices/switches/martin_jerry_mj-s01_single_pole)  
-[Milfra Single Pole Motion Switch](/wiki/devices/switches/cloudfree-swm1_milfra-mfa05_single_pole)  
+[Martin Jerry Single Pole Switch Pre-Flashed](https://amzn.to/3K4qpIx) or [Flashable Switch](https://amzn.to/2IM0cn5) - [Template Page](/wiki/devices/switches/martin_jerry_mj-s01_single_pole)  
+[Milfra Single Pole Motion Switch](https://amzn.to/3NQUJ9W) - [Template & Setup Guide](/wiki/devices/switches/cloudfree-swm1_milfra-mfa05_single_pole)  
 [Milfra Dual Button Motion Switch](https://amzn.to/3TTlm2m)  
 [Kauf PreFlashed LED Panel Switch](https://amzn.to/3TGXqPo)  
 
@@ -28,7 +28,7 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 
 ### Plugs
 
-[Switchbot 15A ESP32-C3 Plug](/wiki/devices/plugs/switchbot_15_amp_w1901400)  
+[Switchbot 15A ESP32-C3 Plug](https://amzn.to/3MzVSSR) - [Template Page](/wiki/devices/plugs/switchbot_15_amp_w1901400)  
 [Sonoff S31](https://amzn.to/3cQ0Wqk)  
 [Kauf Plug](https://amzn.to/3enZdZr)
 
