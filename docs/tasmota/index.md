@@ -10,7 +10,7 @@ title: Tasmota
 
 [TASMOTA Web Installer](https://tasmota.github.io/install/) - Recommended method 
 
-[Current Flashable or Pre-Flashed Devices](http://localhost:3000/wiki/devices/esp-flashable-devices)
+[Current Flashable or Pre-Flashed Devices](/wiki/devices/esp-flashable-devices)
 
 How to Connect to an ESP8266 or ESP32
 
