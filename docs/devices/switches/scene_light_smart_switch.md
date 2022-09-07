@@ -24,22 +24,19 @@ Purchase via:
 
 ![alt text](/img/devices/ssms118-rgb-switch.jpg "SSMS118 RGB Switch")
 
-![alt text](/img/devices/ssms118-rgb-switch-inside1.jpg "SSMS118 RGB Switch Inside")
-
-![alt text](/img/devices/ssms118-rgb-switch-inside2.jpg "SSMS118 RGB Switch")
-
 ## Flashing
 
 ### TuyaConvert (Preferred)
 
 These switches can be flashed with the OTA hacked called TuyaConvert.
 You'll tuyaconvert this switch and then upload the full-rules bin afterwards.  It can be downloaded here:
- https://github.com/Jason2866/Tasmota-specials/blob/firmware/firmware/tasmota/other/tasmota-fullrules.bin
+
+[Full Rules bin](https://github.com/Jason2866/Tasmota-specials/blob/firmware/firmware/tasmota/other/tasmota-fullrules.bin)
 
 ### Serial Flashing
 
 #### Video Tutorial
-https://youtu.be/JDt74GjLe9g
+[Anatomy of an RGB Smart Switch - Teardown and Flash Tasmota](https://youtu.be/JDt74GjLe9g)
 
 <details><summary>Switch Tear Down</summary>     
 <p>
@@ -301,23 +298,23 @@ Using the switch as a bathroom fan switch.
 
 ### Demos
 
-Single Press (5 Minutes to keep the fan on)
+Single Press - 5 Minutes to keep the fan on
 
 ![alt text](/img/devices/ssms118-1x-duration.gif "Single Press Demo")
 
-Double Press (10 Minutes to keep the fan on)
+Double Press - 10 Minutes to keep the fan on
 
 ![alt text](/img/devices/ssms118-2x-duration.gif "Double Press Demo")
 
-Triple Press (15 Minutes to keep the fan on)
+Triple Press - 15 Minutes to keep the fan on
 
 ![alt text](/img/devices/ssms118-3x-duration.gif "Triple Press Demo")
 
-Quad Press (30 Minutes to keep the fan on)
+Quad Press - 30 Minutes to keep the fan on
 
 ![alt text](/img/devices/ssms118-4x-duration.gif "Quad Press Demo")
 
-Hold Press (keep the fan on until pressed off)
+Hold Press - keep the fan on until pressed off
 
 ![alt text](/img/devices/ssms118-long-hold-stay-on.gif "Long Hold Demo")
 
