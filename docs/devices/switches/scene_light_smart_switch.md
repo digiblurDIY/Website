@@ -1,5 +1,4 @@
 # SSMS118-01A1 Scene Light Smart Switch
-![alt text](/img/devices/ssms118-rgb-switch.jpg "Scene Light Smart Switch")
 
 Single pole smart light switch with RGB LEDs in face of the switch.
 
@@ -19,6 +18,48 @@ Purchase via:
 [Alibaba](https://alibaba.com/pla/wholesalers-Mechanical-wifi-smart-switch-with_62318172300.html)
 
 [Aliexpress](https://www.aliexpress.com/item/3256803649753950.html)
+
+
+## Images
+
+![alt text](/img/devices/ssms118-rgb-switch.jpg "SSMS118 RGB Switch")
+
+![alt text](/img/devices/ssms118-rgb-switch-inside1.jpg "SSMS118 RGB Switch Inside")
+
+![alt text](/img/devices/ssms118-rgb-switch-inside2.jpg "SSMS118 RGB Switch")
+
+## Flashing
+
+### TuyaConvert (Preferred)
+
+These switches can be flashed with the OTA hacked called TuyaConvert.
+You'll tuyaconvert this switch and then upload the full-rules bin afterwards.  It can be downloaded here:
+ https://github.com/Jason2866/Tasmota-specials/blob/firmware/firmware/tasmota/other/tasmota-fullrules.bin
+
+### Serial Flashing
+
+#### Video Tutorial
+https://youtu.be/JDt74GjLe9g
+
+<details><summary>Switch Tear Down</summary>     
+<p>
+You'll have to push delicately the tabs in of the button cover to pull it off to access the four screws to pull open the switch:
+
+![alt text](/img/devices/ssms118-rgb-switch-teardown1.jpg "Smart Scene Switch Tear Down removing the face plate")
+![alt text](/img/devices/ssms118-rgb-switch-teardown2.jpg "Smart Scene Switch Tear Down removing screws")
+![alt text](/img/devices/ssms118-rgb-switch-teardown3.jpg "Smart Scene Switch Tear Down removing back plate")
+![alt text](/img/devices/ssms118-rgb-switch-teardown4.jpg "Smart Scene Switch Tear Down removing the PCBs")
+![alt text](/img/devices/ssms118-rgb-switch-teardown5.jpg "Smart Scene Switch Tear Down removing LED Shield")
+
+You'll need a FTDI adapter and here is the wiring diagram:
+
+![alt text](/img/devices/ssms118-rgb-switch-flashing-pinout.jpg "5 Inside Flashing Pinout")
+
+We use the full rules in the configuration and it requires the special `full-rules`
+
+Open the TASMOTA [webinstaller](https://tasmota.github.io/install/) and flash it with the latest TASMOTA unoffical fullrules.
+
+</p></details>
 
 ## TASMOTA Template
 <hr/>
@@ -161,7 +202,6 @@ You'll need to know how to setup devgroups and put this switch and other smart b
 
 ### Rules
 
-
 <details><summary>Explained rule</summary>
 <p>
 
@@ -258,6 +298,28 @@ Rule1 ON system#boot DO backlog var1 0; var2 0 ENDON ON power1#state=1 DO backlo
 <hr/>
 
 Using the switch as a bathroom fan switch.
+
+### Demos
+
+Single Press (5 Minutes to keep the fan on)
+
+![alt text](/img/devices/ssms118-1x-duration.gif "Single Press Demo")
+
+Double Press (10 Minutes to keep the fan on)
+
+![alt text](/img/devices/ssms118-2x-duration.gif "Double Press Demo")
+
+Triple Press (15 Minutes to keep the fan on)
+
+![alt text](/img/devices/ssms118-3x-duration.gif "Triple Press Demo")
+
+Quad Press (30 Minutes to keep the fan on)
+
+![alt text](/img/devices/ssms118-4x-duration.gif "Quad Press Demo")
+
+Hold Press (keep the fan on until pressed off)
+
+![alt text](/img/devices/ssms118-long-hold-stay-on.gif "Long Hold Demo")
 
 ### Rules
 
