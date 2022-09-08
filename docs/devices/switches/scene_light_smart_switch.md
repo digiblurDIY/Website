@@ -62,7 +62,7 @@ Open the TASMOTA [webinstaller](https://tasmota.github.io/install/) and flash it
 <hr/>
 
 ```json
-{"NAME":"RGB Switch","GPIO":[257,0,259,161,418,417,0,0,258,32,416,224,0,0],"FLAG":0,"BASE":18}
+{"NAME":"RGB Switch","GPIO":[257,0,258,0,418,417,0,0,259,32,416,224,0,0],"FLAG":0,"BASE":18}
 ```
 
 <details><summary>GPIO Layout</summary>     
