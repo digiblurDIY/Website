@@ -5,7 +5,8 @@ sidebar_position: 1
 # Flashable Smart Devices
 
 These are devices that are Espressif chip based and do NOT require a chip swap.  If one of the below devices needs to be removed due to a hardware change please contact us.  
-**Last Update: 9/5/2022**
+
+**Last Updated: 9/8/2022**
 
 ### Bulbs
 
@@ -25,7 +26,12 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 
 ### Dimmers
 
-[Martin Jerry Single Pole Dimmer](https://amzn.to/3RzMRf9)
+[Martin Jerry Single Pole Dimmer](https://amzn.to/3RzMRf9)  
+[Hamilton Hills Touch Dimmer](https://amzn.to/3D6RwBw)  
+
+### Fan Controllers
+
+[Esmlfe Decora Fan / Dimmer Combo](https://amzn.to/3hgfoqX) - [Template & Setup Guide](/wiki/devices/other/treatlife_esmlfe_fan_ds03)  
 
 ### Plugs
 
