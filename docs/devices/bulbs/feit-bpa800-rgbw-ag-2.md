@@ -1,10 +1,10 @@
 # Feit Electric A19 800lm RGBW Bulb (BPA800/RGBW/AG/2 OR BPA800/RGBW/AG/2P)
 
-4 Channel RGBW E26 800 lumen bulb using the SM16716 LED driver. This is a 2TDS device. It seems that ESP8266 bulbs can be identified if your bulbs are angled to the right in packaging (like this //). If they are angled to the left, they are the P version and may contain the WB2L.
+4 Channel RGBW E26 800 lumen bulb using the SM16716 LED driver. It seems that ESP8266 bulbs can be identified if your bulbs are angled to the right in packaging (like this //). If they are angled to the left, they are the P version and may contain the WB2L.
 
-Purchase for 2 via [Amazon](https://amzn.to/3CppvEX)
-Purchase for 2P via [Amazon](https://amzn.to/3AGdNEu)
-Purchase via Costco (Costco does not sell this model anymore)
+Purchase for 2 via [Amazon](https://amzn.to/3CppvEX)  
+Purchase for 2P via [Amazon](https://amzn.to/3AGdNEu)  
+Purchase via Costco (Costco does not sell this model anymore)  
 
 Supported in Tasmota, ESPHome. Not supported in WLED.
 
@@ -45,6 +45,7 @@ backlog template {"NAME":"Feit BPA800/RGBW/AG/2P","GPIO":[0,0,0,0,37,47,0,0,141,
 |---------------|-------------
 | setoption37 54 | Correct red/blue mismatch
 | ledtable 0  | Enable software gamma correction
+| setoption59 1  | Report light state changes via MQTT
 </p></details>
 
 <details><summary>GPIO Layout for 2P</summary>     
@@ -65,6 +66,7 @@ backlog template {"NAME":"Feit BPA800/RGBW/AG/2P","GPIO":[0,0,0,0,37,47,0,0,141,
 | Setting | Description
 |---------------|-------------
 | ledtable 0 | Enable software gamma correction
+| setoption59 1  | Report light state changes via MQTT
 </p></details>
 
 <details><summary>Rules</summary>     
