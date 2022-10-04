@@ -31,7 +31,7 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 
 ### Fan Controllers
 
-[Martin Jerry Preflashed TASMOTA Fan Controller](https://amzn.to/3SzwaBA)
+[Martin Jerry Preflashed TASMOTA Fan Controller](https://amzn.to/3SzwaBA)  
 [Esmlfe Decora Fan / Dimmer Combo](https://amzn.to/3hgfoqX) - [Template & Setup Guide](/wiki/devices/other/treatlife_esmlfe_fan_ds03)  
 
 ### Plugs
