@@ -6,7 +6,7 @@ sidebar_position: 1
 
 These are devices that are Espressif chip based and do NOT require a chip swap.  If one of the below devices needs to be removed due to a hardware change please contact us.  
 
-**Last Updated: 9/8/2022**
+**Last Updated: 10/3/2022**
 
 ### Bulbs
 
@@ -15,7 +15,7 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 [Vont 4 Channel Smart ESP32-C3 Bulb](https://amzn.to/3EoVow6) - [Template Page](/wiki/devices/bulbs/vont_color_slb02)  
 [CloudFree 5 Channel Bulb](https://cloudfree.shop/product/cloudfree-smart-bulb-rgbcw/?ref=digiblur)  
 [Kauf 5 Channel BR30](https://amzn.to/3BaxDIi)  
-[Kauf 5 Channel A21](https://amzn.to/3KKsSbq)
+[Kauf 5 Channel A21](https://amzn.to/3KKsSbq) - [Kauf A19](https://amzn.to/3CvxZd8) - [Kauf A15](https://amzn.to/3ruBcmQ)
 
 ### Switches
 
@@ -31,13 +31,15 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 
 ### Fan Controllers
 
+[Martin Jerry Preflashed TASMOTA Fan Controller](https://amzn.to/3SzwaBA)
 [Esmlfe Decora Fan / Dimmer Combo](https://amzn.to/3hgfoqX) - [Template & Setup Guide](/wiki/devices/other/treatlife_esmlfe_fan_ds03)  
 
 ### Plugs
 
 [Switchbot 15A ESP32-C3 Plug](https://amzn.to/3MzVSSR) - [Template Page](/wiki/devices/plugs/switchbot_15_amp_w1901400)  
 [Sonoff S31](https://amzn.to/3cQ0Wqk)  
-[Kauf Plug](https://amzn.to/3enZdZr)
+[Kauf Plug](https://amzn.to/3enZdZr)  
+[Wyze Dual Relay Outdoor ESP32 Plug](https://amzn.to/3V01knd) - [Template/Pictures](/2021/03/27/how-to-flash-the-wyze-outdoor-plug-esphome-or-tasmota-local-control)
 
 ### LED Controllers
 
