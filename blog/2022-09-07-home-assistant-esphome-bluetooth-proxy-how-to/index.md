@@ -41,6 +41,17 @@ If you are using a regular NodeMCU ESP32 select generic otherwise select the oth
 
 ![alt text](images/ble_freezer.jpg "Freezer Sensor")
 
+## Existing ESPHome ESP32 Devices
+
+If you have an existing ESP32 based device and want to enable Bluetooth Proxy add the following YAML code to the device.  NOTE: API must be enabled for the device.
+
+```yaml
+esp32_ble_tracker:
+  scan_parameters:
+    active: true
+bluetooth_proxy:
+```
+
 ⚡Products We Use/Recommend  
 Amazon US - [https://amzn.to/2YZNDeO](https://amzn.to/2YZNDeO)  
 Amazon UK - [https://amzn.to/2TnG2R4](https://amzn.to/2TnG2R4)  
