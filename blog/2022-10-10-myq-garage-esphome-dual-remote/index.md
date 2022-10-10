@@ -4,13 +4,13 @@ date: "2022-10-10"
 categories: 
   - "home assistant"
   - "esphome"
-  - "bluetooth"
+  - "garage door"
 ---
 
 ## digiblurDIY Video
 <iframe allowfullscreen height="353" src="https://www.youtube.com/embed/FgebGcBuHxI" width="625" youtube-src-=""></iframe> 
 
-myQ garage door openers have these "digital" buttons where you can't just use a relay to act like the button is being pushed to open/close the garage door.  I used a spare remote opener to control both of my doors without the cloud and keep it all local and reliable.  In a later revision I will also be adding vehicle sensors to determine if a vehicle is parked in the spot for automating the doors opening and closing.
+myQ newer model garage door openers have these "digital" buttons where you can't just use a relay to act like the button is being pushed to open/close the garage door.  I used a spare remote opener to control both of my doors without the cloud and keep it all local and reliable.  In a later revision I will also be adding vehicle sensors to determine if a vehicle is parked in the spot for automating the doors opening and closing.
 
 ## Parts
 [Project Box](https://amzn.to/3yq107O) to fit everything in and keep dust, bugs, etc out of.  
