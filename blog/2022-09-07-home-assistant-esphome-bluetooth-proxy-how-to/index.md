@@ -50,6 +50,7 @@ esp32_ble_tracker:
   scan_parameters:
     active: true
 bluetooth_proxy:
+  active: true
 ```
 
 ⚡Products We Use/Recommend  
