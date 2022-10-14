@@ -23,6 +23,6 @@ esptool.py flash_id
 Download the full factory build from the Tasmota Github.  Example: tasmota32c3-bluetooth.factory.bin - for the ESP32-C3 4M with Bluetooth drivers enabled
 
 ```
-esptool.py --chip esp32 --baud 460800 --before default_reset --after hard_reset write_flash -z 0x0 <buildname>.factory.bin
+esptool.py write_flash 0x0 tasmota32<buildname>.factory.bin
 ```
-Note: If you receive an error, change the baud rate from 460800 to 115200.
+Note: If you receive an error, try lowering the baud rate to 115200 or slower by adding the `--baud 115200` parameter.

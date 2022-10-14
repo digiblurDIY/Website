@@ -32,7 +32,7 @@ You can just use dupont wires and push them into the slots no soldering required
 Open the TASMOTA [webinstaller](https://tasmota.github.io/install/) and flash it with the latest TASMOTA release.
 
 
-## Tasmota Template
+## TASMOTA Template
 
 ```json
 {"NAME":"CloudFree/Milfra PIR MFA05","GPIO":[32,0,0,0,0,160,0,0,224,576,161,0,0,0],"FLAG":0,"BASE":18}
@@ -69,12 +69,10 @@ Open the TASMOTA [webinstaller](https://tasmota.github.io/install/) and flash it
 
 | Setting | Description
 |---------------|-------------
-| switchmode1 2 | Set the motion sensor to inverted follow mode
-| switchmode2 1 | Set the switch to follow mode
+| switchmode1 2 | Set the motion sensor off=idle / on=motion
+| switchmode2 1 | Set the light sensor off=dark / on=light
 | setoption114 1 | Detach switches from relays and send MQTT messages instead
 | setoption73 1 | Detach buttons from relays and send MQTT messages instead  (Used for double press)
-
-You can apply thsese settings by running this command via the tasmota web console `/cs?`
 
 ```
 backlog switchmode1 2; switchmode2 1; setoption114 1; setoption73 1;
@@ -90,9 +88,6 @@ This rule will give you the basic motion controlled switch rule but allow you to
 
 <details><summary>Explained rules</summary>
 <p>
-
-Rule1
-<hr/>
 
 This rule executes the turning on an off the light
 
@@ -291,11 +286,7 @@ Rule3 1
 
 ## Using retain to adjust timeouts
 
-Each one of these rules are using variables to make sure there are default values to adhere to if they can't get the values from MQTT. We want to be able to adjust the values with Home Assistant or per switch etc..
-
 This will be as easy as publishing the desired values into MQTT with a retain flag set. Then when the switch comes back online and able to talk to MQTT it will say hey.. pick up these retained values and change the variables to the time periods we selected.
-
-We'll want to find our switches device topic to know where to publish the change. Visit the TASMOTA web console and type in the following command:
 
 ```
 topic
@@ -321,7 +312,6 @@ This will allow these settings to trump the defaults on the boot up of the switc
 
 
 ## Home Assistant
-When you visit the device page in Home Assistant you can adjust these timers as shown:
 
 ![alt text](/img/devices/cloudfree_milfra_homeassistant.jpg "Device View")
 
@@ -333,5 +323,6 @@ Let's rename them and adjust the shown as option accordingly
 ![alt text](/img/devices/cloudfree_milfra_motion_entity.jpg "HomeAssistant Entity settings motion")
 
 ![alt text](/img/devices/cloudfree_milfra_daylight_entity.jpg "HomeAssistant Entity settings daylight")
+
 
 After you've done all of that you shouldn't have any issues adjusting your helper values and having it adjust it on the TASMOTA motion switch!

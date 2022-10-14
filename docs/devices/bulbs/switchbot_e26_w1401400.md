@@ -5,14 +5,22 @@
 Purchase via [Amazon](https://amzn.to/38Vhuv3)  
 Purchase via [SwitchBot Store](https://switchbot.vip/3mkXt45)
 
-Supported in Tasmota 12.0.2.2 or later, use this [Tasmota bin file](/firmware/tasmota32c3_2022_06_26.bin) until the next standard Tasmota release. Thanks to Cossid for his [efforts](https://github.com/arendst/Tasmota/pull/15839)!  
-Please note the required SetOption below for correct color order.  A user configurable brightness limit of default of 10 is set via the template SM2335 Dat option.  This was found to be close to stock as possible.  Setting this higher could create power supply issues, excessive **heat/fire**, LED flame out errors, etc.
+Supported in TASMOTA 12.0.2.2 or later, use this [TASMOTA Stock Bin file](/firmware/tasmota32c3_2022_06_26.bin) or [Bluetooth enabled](https://github.com/tasmota/install/raw/0533fd275fad9f4f3bf8350a6afdb9c6176d6879/firmware/unofficial/tasmota32c3-bluetooth.bin) until the next standard Tasmota release. Thanks to Cossid for his [efforts](https://github.com/arendst/Tasmota/pull/15839)!    
 
-Until the next Tasmota standard release, it is necessary to upgrade to 12.0.2.2 or later dev version.  Paste the following command on the Tasmota Console, do NOT interrupt it during the upgrade.  
+Please note the required SetOption below for correct color order.  A user configurable brightness limit of default of 9 is set via the template SM2335 Dat option.  This was found to be close to stock as possible.  Setting this higher could create power supply issues, excessive **heat/fire**, LED flame out errors, etc.
 
-#### Tasmota Template
+Until the next Tasmota standard release, it is necessary to upgrade to 12.0.2.2 or later dev version.  
+
+<iframe allowfullscreen height="353" src="https://www.youtube.com/embed/iTexFQ0Th0I" width="625" youtube-src-=""></iframe>  
+
+#### Quick Setup via TASMOTA Console Command
+```
+backlog template {"NAME":"Switchbot E26 Bulb","GPIO":[0,0,0,0,9128,9088,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}; module 0; so37 25; so59 1
+```
+
+#### TASMOTA Template
 ```json
-{"NAME":"Switchbot E26 Bulb","GPIO":[0,0,0,0,9129,9088,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND": "SO37 25 | SO59 1"}
+{"NAME":"Switchbot E26 Bulb","GPIO":[0,0,0,0,9128,9088,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
 ```
 
 <details><summary>GPIO Layout</summary>     
@@ -20,7 +28,7 @@ Until the next Tasmota standard release, it is necessary to upgrade to 12.0.2.2 
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
-|GPIO04	| SM2335 Dat | Data - Brightness limit - Default 10
+|GPIO04	| SM2335 Dat | Data - Brightness limit - Default 9
 |GPIO05	| SM2335 Clk | Clock
 </p></details>
 
@@ -52,3 +60,5 @@ Currently not supported.
 ![alt text](/img/devices/switchbot_bulb2.jpg "SwitchBot RGB+CT E26 W1401400 #2")
 
 ![alt text](/img/devices/switchbot_bulb3.jpg "SwitchBot RGB+CT E26 W1401400 #3")
+
+![alt text](/img/devices/switchbot_bulb4.jpg "SwitchBot RGB+CT E26 W1401400 #4")

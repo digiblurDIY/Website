@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'digiblurDIY',
   tagline: '',
-  url: 'https://digiblur.pages.dev',
+  url: 'https://digiblur.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -28,14 +28,14 @@ const config = {
         },
         blog: {
           showReadingTime: false,
-          routeBasePath: '/',
-          postsPerPage: 5,
+		  routeBasePath: '/',
+          postsPerPage: 7,
           //blogSidebarTitle: 'Recent Posts',
           blogSidebarCount: 0,
           feedOptions: {
             type: 'all',
-            title: 'digiblurDIY',
-            description: 'digiblurDIY',
+            title: 'digiblurDIY Smart Home Solutions',
+            description: 'No cloud is the way!  DIY Smart Home Automation projects &amp; reviews.  Projects and devices that offer the best value. As an Amazon Associate I earn from qualifying purchases. digiblurDIY earns commissions for purchases made through links in this post.',
           },
         },
         theme: {
@@ -62,6 +62,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'affiliate',
+        content:
+          'Links to products provided through the Amazon Affiliate program. As an Amazon Associate I earn from qualifying purchases.',
+        backgroundColor: '#242526',
+        textColor: '#7390ae',
+        isCloseable: true,
+      },
       navbar: {
         title: 'digiblurDIY',
         logo: {

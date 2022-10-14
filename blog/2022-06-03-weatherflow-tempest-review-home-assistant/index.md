@@ -16,6 +16,8 @@ The Ultimate Weather Station for Home Assistant.  Complete Review and Setup of t
 Amazon - https://amzn.to/3x1e2Il or https://geni.us/weather  
 Direct - https://weatherflow.com/tempest-weather-system/
 
+<!--truncate-->
+
 ⚡Resources  
 Installation Photos - https://community.weatherflow.com/t/photos-of-tempest-installations/6000  
 WeatherFlow2MQTT - https://community.weatherflow.com/t/weatherflow2mqtt-for-home-assistant/13718  
