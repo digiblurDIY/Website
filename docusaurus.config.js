@@ -62,6 +62,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'affiliate',
+        content:
+          'Links to products provided through the Amazon Affiliate program. As an Amazon Associate I earn from qualifying purchases.',
+        backgroundColor: '#242526',
+        textColor: '#7390ae',
+        isCloseable: true,
+      },
       navbar: {
         title: 'digiblurDIY',
         logo: {
