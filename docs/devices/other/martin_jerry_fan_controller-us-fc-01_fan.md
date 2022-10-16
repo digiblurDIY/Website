@@ -86,8 +86,8 @@ mqtt:
   fan:
     - name: "Living Room Fan"  
       qos: 1
-      state_topic: "stat/fan_living_room/POWER1"
-      command_topic: "cmnd/fan_living_room/POWER1"
+      state_topic: "stat/fan_living_room/POWER"
+      command_topic: "cmnd/fan_living_room/POWER"
       availability_topic: "tele/fan_living_room/LWT"
       percentage_state_topic: "stat/fan_living_room/speed"
       percentage_value_template: '{{ ((value | replace("3,","")) | int + 1) * 25 }}'
@@ -112,7 +112,7 @@ That's it!  Enjoy!  If you need help feel free to pop into [Discord](https://dis
 
 ### Bonus Home Assistant Card
 
-Utilizing the HACS fan-mode-button-row card
+HA Dashboard YAML - Utilizing the HACS fan-mode-button-row card
 
 ```yaml
 entities:
@@ -120,9 +120,6 @@ entities:
     type: custom:fan-mode-button-row
     reverseButtons: true
     sendStateWithMode: true
-  - entity: light.bedroom_lamps
-    type: custom:slider-entity-row
-    toggle: true
 ```
 ![alt text](/img/devices/ha_fan_card.png "HA Fan Card")
 
