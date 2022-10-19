@@ -139,3 +139,5 @@ entities:
 
 ![alt text](/img/devices/mj-us-fc-01_external.jpg "Martin Jerry Fan Speed Controller US-FC-01 External")
 ![alt text](/img/devices/mj-us-fc-01_internal.jpg "Martin Jerry Fan Speed Controller US-FC-01 Internal")
+### Wiring Diagram
+![alt text](/img/diagrams/wiring-mj-fan.png "Martin Jerry Fan Speed Controller US-FC-01 Wiring Diagram")
