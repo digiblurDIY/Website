@@ -8,6 +8,9 @@ Pre-Flashed with TASMOTA [Purchase on Amazon](https://amzn.to/3EINobv)
 
 NOTE: The pre-flashed version comes with some settings already set in the default firmware on the device.  I've included them all below in case the switch is upgraded to a later release of TASMOTA and set to default settings which would remove the preconfigure MJ factory settings.
 
+## Detailed video integration
+<iframe allowfullscreen height="353" src="https://www.youtube.com/embed/LtfqPoDvNYk" width="625" youtube-src-=""></iframe>  
+
 ### Tasmota Template
 None necessary.  Tasmota GUI -> Configuration -> Configure Module -> Tuya MCU (54)  
 ***OR***  
