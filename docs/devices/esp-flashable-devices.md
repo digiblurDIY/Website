@@ -43,8 +43,8 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 
 ### LED Controllers
 
-[LEDeez v1.0](https://ledeez.wantmoore.com/product/ledeez-v1-0/6?cs=true&cst=custom)  
-[miniDEEZ-5 v1.0](https://ledeez.wantmoore.com/product/minideez-5/9?cs=true&cst=custom)  
+[LEDeez 12-24volt](https://ledeez.wantmoore.com)  
+[miniDEEZ 5 volt](https://ledeez.wantmoore.com)  
 [Electrodragon LED Controller](https://www.electrodragon.com/product/esp-led-strip-board/) (get the ESP32-C3 version!)  
 [Electrodragon ESP32 from US Cloudfree.shop](https://cloudfree.shop/product/esp32-led-strip-wifi-control-board/?ref=digiblur)
 
