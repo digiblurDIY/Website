@@ -20,7 +20,7 @@ Identify the ESP32 and the flash memory size.  This can easily be done via:
 esptool.py flash_id
 ```
 
-Download the full factory build from the Tasmota Github.  Example: tasmota32c3-bluetooth.factory.bin - for the ESP32-C3 4M with Bluetooth drivers enabled
+Download the full factory build firmware file from the [Tasmota OTA Server](http://ota.tasmota.com/tasmota32/release/) for the ESP32 chip and features you want.  Example: tasmota32c3-bluetooth.factory.bin
 
 ```
 esptool.py write_flash 0x0 tasmota32<buildname>.factory.bin
