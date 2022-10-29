@@ -1,6 +1,7 @@
 # ESPHome Bluetooth Proxy ESP32-C3 YAML
 
-ESPHome YAML Configuration to create a Home Assistant Bluetooth Active Proxy
+ESPHome YAML Configuration to create an ESP32-C3 Home Assistant Bluetooth Active Proxy.  In layman's terms, it is a remote network attached Bluetooth adapter Home Assistant can use to communicate with Bluetooth devices.  For instance, put one in your backyard to pick up temperature sensors in the pool and greenhouse; list of [Bluetooth Compatible Devices](/wiki/ha/bluetooth-compatible-devices)   
+
 Thanks to Cossid on Discord for help with config options to get this booting correctly!  This file can be used as a base to adapt to other ESP32-C3 Devices such as SwitchBot [Plugs](/wiki/devices/plugs/switchbot_15_amp_w1901400), [Bulbs](/wiki/devices/bulbs/switchbot_e26_w1401400), or even just [ESP32-C3 NodeMCU](https://amzn.to/3zrlyx4) Dev Boards.
 
 ## The YAML

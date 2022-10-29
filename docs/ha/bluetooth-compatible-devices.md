@@ -1,6 +1,8 @@
 # Bluetooth Compatible Devices
 
-Devices the [Discord Crew](https://discord.digiblur.com) and I have found to be compatible with Home Assistant and [ESPHome Bluetooth Proxies](/2022/09/07/home-assistant-esphome-bluetooth-proxy-how-to)
+Devices the [Discord Crew](https://discord.digiblur.com) and I have found to be compatible with Home Assistant and [ESPHome Bluetooth Proxies](/2022/09/07/home-assistant-esphome-bluetooth-proxy-how-to)  
+
+Most of these devices are plug and play auto discovery right into Home Assistant utilizing the Bluetooth or Bluetooth Proxy integration with ESPHome.  Need to turn your ESP32 into a BT Proxy?  [ESP32](/wiki/ha/esphome-bluetooth-proxy-esp32), [ESP32-C3](/wiki/ha/esphome-bluetooth-proxy-esp32c3), [ESP32 Solo](/wiki/ha/esphome-bluetooth-proxy-esp32solo), or use the [prebuilt flasher](https://esphome.github.io/bluetooth-proxies/) on ESPHome. 
 
 ## Temperature Sensors
 
