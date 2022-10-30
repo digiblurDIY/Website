@@ -6,7 +6,7 @@ sidebar_position: 1
 
 These are devices that are Espressif chip based and do NOT require a chip swap.  If one of the below devices needs to be removed due to a hardware change please contact us.  
 
-**Last Updated: 10/3/2022**
+**Last Updated: 10/29/2022**
 
 ### Bulbs
 
@@ -40,11 +40,14 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 [Sonoff S31](https://amzn.to/3cQ0Wqk)  
 [Kauf Plug](https://amzn.to/3enZdZr)  
 [Wyze Dual Relay Outdoor ESP32 Plug](https://amzn.to/3V01knd) - [Template/Pictures](/2021/03/27/how-to-flash-the-wyze-outdoor-plug-esphome-or-tasmota-local-control)
+[GHome 6 Plug Outlet Extender](https://amzn.to/3DluMw2)
+[GHome 3 Plug Power Strip](https://amzn.to/3TNHkDu)
+[Xuntiy 4 Plug Power Strip](https://amzn.to/3TWzLKQ)
 
 ### LED Controllers
 
-[LEDeez 12-24volt](https://ledeez.wantmoore.com)  
-[miniDEEZ 5 volt](https://ledeez.wantmoore.com)  
+[LEDeez 12-24volt](https://wantmoore.tech/)  
+[miniDEEZ 5 volt](https://wantmoore.tech/)  
 [Electrodragon LED Controller](https://www.electrodragon.com/product/esp-led-strip-board/) (get the ESP32-C3 version!)  
 [Electrodragon ESP32 from US Cloudfree.shop](https://cloudfree.shop/product/esp32-led-strip-wifi-control-board/?ref=digiblur)
 
