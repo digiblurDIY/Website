@@ -12,23 +12,20 @@ Purchase via [Amazon](https://amzn.to/3EoVow6)
 {"NAME":"Vont ESP32-C3 A19 RGBW","GPIO":[0,0,0,0,419,418,416,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
 ```
 
-<details><summary>GPIO Layout</summary>     
-<p>
+### GPIO Layout
+
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
 |GPIO04	| PWM 4 | Warm White
 |GPIO05	| PWM 3 | Blue
 |GPIO06	| PWM 1 | Red
 |GPIO07	| PWM 2 | Green
-</p></details>
 
-<details><summary>Settings</summary>     
-<p>
+### TASMOTA Settings
 
 | Setting | Description
 |---------------|-------------
 | setoption59 1  | Report light state changes via MQTT
-</p></details>
 
 ### Pics
 

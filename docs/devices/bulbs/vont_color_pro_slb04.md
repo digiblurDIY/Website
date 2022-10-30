@@ -17,24 +17,86 @@ backlog template {"NAME":"Vont ESP32-C3 A19 RGBCT","GPIO":[0,0,0,452,419,418,416
 {"NAME":"Vont ESP32-C3 A19 RGBCT","GPIO":[0,0,0,452,419,418,416,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"so92 1"}
 ```
 
-<details><summary>GPIO Layout</summary>     
-<p>
+### GPIO Layout
+
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
-|GPIO03	| PWM_i 5 | Warm White
-|GPIO04	| PWM 4 | Cool White
-|GPIO05	| PWM 3 | Blue
-|GPIO06	| PWM 1 | Red
-|GPIO07	| PWM 2 | Green
-</p></details>
+|GPIO03 | PWM_i 5 | Warm White
+|GPIO04	| PWM 4   | Cool White
+|GPIO05	| PWM 3   | Blue
+|GPIO06	| PWM 1   | Red
+|GPIO07	| PWM 2   | Green
 
-<details><summary>Settings</summary>     
-<p>
+### TASMOTA Settings
 
 | Setting | Description
 |---------------|-------------
 | setoption92 1 | Set the correct color temperature method
 | setoption59 1  | Report light state changes via MQTT
+
+<details><summary>ESPHome YAML Config</summary>     
+<p>
+
+```yaml
+substitutions:
+  display_name: <your display name>
+  friendly_name: <your friendly name>
+
+esphome:
+  name: ${display_name}
+  platformio_options:
+    board_build.mcu: esp32c3
+    board_build.variant: esp32c3  
+
+esp32:
+  variant: ESP32C3
+  board: esp32dev
+  framework:
+    type: esp-idf
+    sdkconfig_options:
+      CONFIG_BT_BLE_50_FEATURES_SUPPORTED: y
+      CONFIG_BT_BLE_42_FEATURES_SUPPORTED: y
+      CONFIG_ESP_TASK_WDT_TIMEOUT_S: "10"
+
+logger:
+api:
+ota:
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+output:
+ - platform: ledc
+   id: red_output
+   pin: GPIO6
+ - platform: ledc
+   id: green_output
+   pin: GPIO7
+ - platform: ledc
+   id: blue_output
+   pin: GPIO5
+ - platform: ledc
+   id: white_output
+   pin: GPIO4
+ - platform: ledc
+   id: ct_output
+   inverted: true
+   pin: GPIO3
+
+light:
+ - platform: rgbct
+   restore_mode: RESTORE_DEFAULT_ON
+   name: "${friendly_name}"
+   red: red_output
+   green: green_output
+   blue: blue_output
+   white_brightness: white_output
+   color_temperature: ct_output
+   cold_white_color_temperature: 153 mireds
+   warm_white_color_temperature: 500 mireds
+   color_interlock: true
+```
 </p></details>
 
 ### Pics

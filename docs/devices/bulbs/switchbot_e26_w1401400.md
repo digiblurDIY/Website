@@ -18,29 +18,24 @@ Until the next Tasmota standard release, it is necessary to upgrade to 12.0.2.2 
 backlog template {"NAME":"Switchbot E26 Bulb","GPIO":[0,0,0,0,9128,9088,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}; module 0; so37 25; so59 1
 ```
 
-#### TASMOTA Template
+### TASMOTA Template
 ```json
 {"NAME":"Switchbot E26 Bulb","GPIO":[0,0,0,0,9128,9088,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
 ```
 
-<details><summary>GPIO Layout</summary>     
-<p>
+### GPIO Layout
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
 |GPIO04	| SM2335 Dat | Data - Brightness limit - Default 9
 |GPIO05	| SM2335 Clk | Clock
-</p></details>
 
-
-<details><summary>Settings</summary>     
-<p>
+### TASMOTA Settings
 
 | Setting | Description
 |---------------|-------------
 | setoption37 25 | Set the correct RGB+CT order
 | setoption59 1  | Report light state changes via MQTT
-</p></details>
 
 <details><summary>Rules</summary>     
 <p>
@@ -51,7 +46,7 @@ None necessary.
 <p>
 
 ```yaml
-Currently not supported.
+Currently not supported.  In BETA via PR
 ```
 </p></details>
 
