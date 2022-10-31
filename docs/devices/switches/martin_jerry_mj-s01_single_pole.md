@@ -137,6 +137,6 @@ Rule1 1
 
 ### Pics
 
-![alt text](/img/devices/mj-s01_main.jpg "Martin Jerry MJ-S01")
+![alt text](/img/devices/mj-s01_main.webp "Martin Jerry MJ-S01")
 
-![alt text](/img/devices/mj-s01_inside1.jpg "Martin Jerry MJ-S01 Insides")
+![alt text](/img/devices/mj-s01_inside1.webp "Martin Jerry MJ-S01 Insides")

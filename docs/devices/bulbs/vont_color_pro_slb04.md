@@ -102,11 +102,11 @@ light:
 
 ### Pics
 
-![alt text](/img/devices/vontcolorpro_1.jpg "Vont Color Pro Bulb #1")
+![alt text](/img/devices/vontcolorpro_1.webp "Vont Color Pro Bulb #1")
 
-![alt text](/img/devices/vontcolorpro_2.jpg "Vont Color Pro Bulb #2")
+![alt text](/img/devices/vontcolorpro_2.webp "Vont Color Pro Bulb #2")
 
-![alt text](/img/devices/vontcolorpro_3.png "Vont Color Pro Bulb #3")
+![alt text](/img/devices/vontcolorpro_3.webp "Vont Color Pro Bulb #3")
 
-![alt text](/img/devices/vontcolorpro_4.png "Vont Color Pro Bulb #4")
+![alt text](/img/devices/vontcolorpro_4.webp "Vont Color Pro Bulb #4")
 

@@ -85,12 +85,12 @@ light:
 
 After unscrewing and pulling the faceplate off of the HV internals, you should be faced with the TYWE2S module.
 
-![alt text](/img/devices/feit-mcu-dimmer-pins.jpeg "Feit Dimmer Pins")
+![alt text](/img/devices/feit-mcu-dimmer-pins.webp "Feit Dimmer Pins")
 
 If the shield has not already been removed, remove it.
 
-![alt text](/img/devices/feit-mcu-dimmer-remove-shield.jpeg "Feit Dimmer Pins")
+![alt text](/img/devices/feit-mcu-dimmer-remove-shield.webp "Feit Dimmer Pins")
 
 Solder (!very carefully!) or touch (you must have surgeon hands) GPIO0 and flash as you would normally.
 
-![alt text](/img/devices/feit-mcu-dimmer-io-zero.jpeg "Feit Dimmer Pins")
+![alt text](/img/devices/feit-mcu-dimmer-io-zero.webp "Feit Dimmer Pins")

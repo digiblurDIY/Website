@@ -143,6 +143,6 @@ power_supply:
 ```
 </p></details>
 
-![alt text](/img/devices/feit-bpa800-rgbw-ag-2.jpg "Feit Electric BPA800/RGBW/AG/2")
+![alt text](/img/devices/feit-bpa800-rgbw-ag-2.webp "Feit Electric BPA800/RGBW/AG/2")
 
-![alt text](/img/devices/feit-bpa800-rgbw-ag-2p.jpg "Feit Electric BPA800/RGBW/AG/2P")
+![alt text](/img/devices/feit-bpa800-rgbw-ag-2p.webp "Feit Electric BPA800/RGBW/AG/2P")

@@ -8,11 +8,11 @@ Purchase Milfra MFA05 via [Amazon](https://amzn.to/3NQUJ9W)
 
 ## Images
 
-![alt text](/img/devices/cloudfree_milfra_motion_switch_main.jpg "CloudFree SWM1 / Milfra MFA05")
+![alt text](/img/devices/cloudfree_milfra_motion_switch_main.webp "CloudFree SWM1 / Milfra MFA05")
 
-![alt text](/img/devices/cloudfree_milfra_motion_switch_inside1.jpg "CloudFree SWM1 / Milfra MFA05 Inside 1")
+![alt text](/img/devices/cloudfree_milfra_motion_switch_inside1.webp "CloudFree SWM1 / Milfra MFA05 Inside 1")
 
-![alt text](/img/devices/cloudfree_milfra_motion_switch_inside2.jpg "CloudFree SWM1 / Milfra MFA05 Inside 2")
+![alt text](/img/devices/cloudfree_milfra_motion_switch_inside2.webp "CloudFree SWM1 / Milfra MFA05 Inside 2")
 
 ## Flashing
 
@@ -23,11 +23,11 @@ None needed it's already running TASMOTA! OH YEAH BABY ❤️ CloudFree
 
 You'll need a FTDI adapter and here is the wiring diagram:
 
-![alt text](/img/devices/cloudfree_milfra_flashing_pinout.jpg "Milfra MFA05 Inside Flashing Pinout")
+![alt text](/img/devices/cloudfree_milfra_flashing_pinout.webp "Milfra MFA05 Inside Flashing Pinout")
 
 You can just use dupont wires and push them into the slots no soldering required like shown here:
 
-![alt text](/img/devices/cloudfree_milfra_flashing_dupont.jpg "Milfra MFA05 Inside Flashing Pinout")
+![alt text](/img/devices/cloudfree_milfra_flashing_dupont.webp "Milfra MFA05 Inside Flashing Pinout")
 
 Open the TASMOTA [webinstaller](https://tasmota.github.io/install/) and flash it with the latest TASMOTA release.
 
@@ -313,16 +313,16 @@ This will allow these settings to trump the defaults on the boot up of the switc
 
 ## Home Assistant
 
-![alt text](/img/devices/cloudfree_milfra_homeassistant.jpg "Device View")
+![alt text](/img/devices/cloudfree_milfra_homeassistant.webp "Device View")
 
 ### Display as
 
 The daylight sensor will show up as a sensors but have horrible entity id's and names.
 Let's rename them and adjust the shown as option accordingly
 
-![alt text](/img/devices/cloudfree_milfra_motion_entity.jpg "HomeAssistant Entity settings motion")
+![alt text](/img/devices/cloudfree_milfra_motion_entity.webp "HomeAssistant Entity settings motion")
 
-![alt text](/img/devices/cloudfree_milfra_daylight_entity.jpg "HomeAssistant Entity settings daylight")
+![alt text](/img/devices/cloudfree_milfra_daylight_entity.webp "HomeAssistant Entity settings daylight")
 
 
 After you've done all of that you shouldn't have any issues adjusting your helper values and having it adjust it on the TASMOTA motion switch!

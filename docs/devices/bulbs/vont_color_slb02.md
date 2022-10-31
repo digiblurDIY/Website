@@ -29,9 +29,9 @@ Purchase via [Amazon](https://amzn.to/3EoVow6)
 
 ### Pics
 
-![alt text](/img/devices/vontcolorpro_1.jpg "Vont Color Bulb #1")
+![alt text](/img/devices/vontcolorpro_1.webp "Vont Color Bulb #1")
 
-![alt text](/img/devices/vontcolorpro_2.jpg "Vont Color Bulb #2")
+![alt text](/img/devices/vontcolorpro_2.webp "Vont Color Bulb #2")
 
-![alt text](/img/devices/vontcolor_1.jpg "Vont Color Bulb #4")
+![alt text](/img/devices/vontcolor_1.webp "Vont Color Bulb #4")
 

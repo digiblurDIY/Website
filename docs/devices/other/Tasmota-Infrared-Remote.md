@@ -8,7 +8,7 @@
 There is a good number of tuya smart ir remote controllers from tuya under different brands
 If you can find one with an ESP8266 chip inside then you can flash Tasmota onto it
 
-![alt text](/img/devices/tuya-ir-remote.jpg "Tuya Infrared Remote")
+![alt text](/img/devices/tuya-ir-remote.webp "Tuya Infrared Remote")
 
 Purchase via [Amazon](https://amzn.to/3QCl2TP)
 
@@ -20,7 +20,7 @@ The example we'll show in this page is using a Wemos D1 mini and it's IR shield.
 
 Note: this is a short ranged IR device but very small so it can be hidden close to the targeted device.
 
-![alt text](/img/devices/wemos-d1-ir-remote.png "Wemos IR Shield")
+![alt text](/img/devices/wemos-d1-ir-remote.webp "Wemos IR Shield")
 
 Wemos D1: Purchase via [Amazon](https://www.amazon.com/HiLetgo-NodeMcu-Development-ESP8266-Compatiable/dp/B073CQVFLK)
 
@@ -33,11 +33,11 @@ IR Sheild: Purchase via [AliExpress](https://www.aliexpress.com/item/22518327048
 
 We'll use a pry bar to pop the lid off
 
-![alt text](/img/devices/tuya-ir-pry-open.png "Pry open Tuya IR Remote")
+![alt text](/img/devices/tuya-ir-pry-open.webp "Pry open Tuya IR Remote")
 
 You'll see all the needed pins to flash the chip with your FTDI Adapter
 
-![alt text](/img/devices/tuya-ir-flashing-pins.png "Pins to hook up your to flashing adapter")
+![alt text](/img/devices/tuya-ir-flashing-pins.webp "Pins to hook up your to flashing adapter")
 
 ### DIY (USB Cord)
 
@@ -595,7 +595,7 @@ grouptopic
 Visit your homeassistant dev tools section and we'll test the script.  You can see in the screen show we are trying the power command with the topic of our new device
 
 
-![alt text](/img/devices/tasmota-ir-script-testing.png "HA Dev Tools script screenshot")
+![alt text](/img/devices/tasmota-ir-script-testing.webp "HA Dev Tools script screenshot")
 
 If you've done this successfully when you hit the call service button your IR blaster should send the power command to the TV!
 
@@ -629,7 +629,7 @@ As you can see the button is of the script that we created with the tap action u
 
 Once you've gotten the gist here is complete vizio tv remote card
 
-![alt text](/img/devices/tasmota-ir-lovelace-card.png "Example vizio tv remote lovelace card")
+![alt text](/img/devices/tasmota-ir-lovelace-card.webp "Example vizio tv remote lovelace card")
 
 <details>
 <summary>Card Code</summary>     

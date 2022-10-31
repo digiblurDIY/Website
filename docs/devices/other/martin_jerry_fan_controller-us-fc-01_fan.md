@@ -4,7 +4,7 @@ Single Gang Decora 4 Speed Fan Controller.  This switch has a touch panel with L
 
 Pre-Flashed with TASMOTA [Purchase on Amazon](https://amzn.to/3EINobv)  
 
-![alt text](/img/devices/mj-us-fc-01_external.jpg "Martin Jerry Fan Speed Controller US-FC-01 External")
+![alt text](/img/devices/mj-us-fc-01_external.webp "Martin Jerry Fan Speed Controller US-FC-01 External")
 
 NOTE: The pre-flashed version comes with some settings already set in the default firmware on the device.  I've included them all below in case the switch is upgraded to a later release of TASMOTA and set to default settings which would remove the preconfigure MJ factory settings.
 
@@ -50,13 +50,13 @@ Rule1 1
 
 On the TASMOTA Web GUI -> Configuration -> Configure Other
 
-![alt text](/img/devices/tasmota_config_other.png "TASMOTA Configuration Other Screen")
+![alt text](/img/devices/tasmota_config_other.webp "TASMOTA Configuration Other Screen")
 
 Set a Device Name and Friendly Name 1.*(For example: Living Room Fan)*  Save the changes.  
 
 On the TASMOTA Web GUI -> Configuration -> Configure MQTT.  
 
-![alt text](/img/devices/tasmota_config_mqtt.png "TASMOTA Configuration MQTT Screen")
+![alt text](/img/devices/tasmota_config_mqtt.webp "TASMOTA Configuration MQTT Screen")
 
 Set your MQTT Settings: Host, User, Password and Topic.  You do not need to change the fulltopic or client.  Save the Settings
 
@@ -124,7 +124,7 @@ entities:
     reverseButtons: true
     sendStateWithMode: true
 ```
-![alt text](/img/devices/ha_fan_card.png "HA Fan Card")
+![alt text](/img/devices/ha_fan_card.webp "HA Fan Card")
 
 <details><summary>GPIO Layout</summary>     
 <p>
@@ -137,7 +137,7 @@ entities:
 
 ### Pics
 
-![alt text](/img/devices/mj-us-fc-01_external.jpg "Martin Jerry Fan Speed Controller US-FC-01 External")
-![alt text](/img/devices/mj-us-fc-01_internal.jpg "Martin Jerry Fan Speed Controller US-FC-01 Internal")
+![alt text](/img/devices/mj-us-fc-01_external.webp "Martin Jerry Fan Speed Controller US-FC-01 External")
+![alt text](/img/devices/mj-us-fc-01_internal.webp "Martin Jerry Fan Speed Controller US-FC-01 Internal")
 ### Wiring Diagram
-![alt text](/img/diagrams/wiring-mj-fan.png "Martin Jerry Fan Speed Controller US-FC-01 Wiring Diagram")
+![alt text](/img/diagrams/wiring-mj-fan.webp "Martin Jerry Fan Speed Controller US-FC-01 Wiring Diagram")

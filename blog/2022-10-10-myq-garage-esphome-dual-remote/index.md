@@ -30,7 +30,7 @@ Links to products provided through the Amazon Affiliate program. As an Amazon As
 
 ## Wiring
 
-![alt text](/img/diagrams/esphome_myq_killer_garage.png "ESPHome Dual Relay myQ Killer")
+![alt text](/img/diagrams/esphome_myq_killer_garage.webp "ESPHome Dual Relay myQ Killer")
 
 Open the image in a new tab or download it for full zooming resolution. Thanks to Caleb for the drawing!
 

@@ -69,25 +69,25 @@ Waiting for your PR!
 
 Disconnect any power going to the device!  Remove the 4 screws and the face plate will come off.  There are no ribbon cables or wires to worry about.
 
-![alt text](/img/devices/treatlife_fan_face.jpg "Treatlife Fan Controller")
+![alt text](/img/devices/treatlife_fan_face.webp "Treatlife Fan Controller")
 
 The TYWE3S module containing the flash-able ESP8266 chip is wide out in the open.  There are multiple choices you can use to flash this chip with the 3v3 and GND headers.  Using a TTL USB adapter, you need to connect the following wires:  3v3 (do not use 5 volts!), Ground, RX, and TX.  GPIO 0 will also need to be attached to ground to enable flash mode on an ESP8266.  Instead of soldering, if you have a 3D printer you can also make a pogo pin jig as shown here and below.  Remember that RX goes TX and TX goes to RX on the USB TTL adapter.
 
-![alt text](/img/devices/treatlife_fan_board1.jpg "Treatlife Fan Controller")
+![alt text](/img/devices/treatlife_fan_board1.webp "Treatlife Fan Controller")
 
 Also, note you will need to put a jumper between NRESET and GND locations. This keeps the secondary TuyaMCU in a reset loop during the flashing of Tasmota.  Without this jumper the flashing process will not work.  
 
-![alt text](/img/devices/treatlife_fan_board2.jpg "Treatlife Fan Controller")
+![alt text](/img/devices/treatlife_fan_board2.webp "Treatlife Fan Controller")
 
 treatlife_fan_board_pins1
 
 Once you've connected the necessary wires to your USB TTL device you can utilize Tasmotizer to flash the chip.  Additional information available on flashing Tuya devices can be found here in the Tasmota Wiki  
 
-![alt text](/img/devices/tywes3_pinout.png "Treatlife Fan Controller")
+![alt text](/img/devices/tywes3_pinout.webp "Treatlife Fan Controller")
 
-![alt text](/img/devices/treatlife_fan_board2.jpg "Treatlife Fan Controller")
+![alt text](/img/devices/treatlife_fan_board2.webp "Treatlife Fan Controller")
 
-![alt text](/img/devices/treatlife_fan_board_pins2.jpg "Treatlife Fan Controller")
+![alt text](/img/devices/treatlife_fan_board_pins2.webp "Treatlife Fan Controller")
 
 Once flashed, disconnect GPIO 0 so it will boot up into Tasmota.  You need to scan the WiFi access points with a phone, laptop, or tablet.  You should see a tasmota-xxxx or similar named WiFi access point.  Connect to this AP, accept any messages about no internet connectivity if your device prompts you, this is normal.  Browse to 192.168.4.1 if it does not open the Tasmota page automatically. Click scan, select your home WiFi network and enter the password for your network.  Check the box show password to make sure you have the password correct.  Save the settings.  The Fan controller should now be on your network.  You can look on your router or WiFi attached devices and find the IP address of the device.  Browse to this IP address to complete the rest of the Tasmota setup.
 
@@ -121,7 +121,7 @@ Add the following rule, this should be all on ONE line in the Tasmota Console on
 
 *Rule1 1*
 
-![alt text](/img/devices/treatlife_fan_tas1.png "Treatlife Fan Controller")
+![alt text](/img/devices/treatlife_fan_tas1.webp "Treatlife Fan Controller")
 
 ### Testing
 

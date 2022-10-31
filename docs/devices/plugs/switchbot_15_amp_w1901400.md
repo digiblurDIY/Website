@@ -41,6 +41,6 @@ None added yet.
 ```
 </p></details>
 
-![alt text](/img/devices/switchbot_bulb1.jpg "SwitchBot 15Amp W1901400 #1")
+![alt text](/img/devices/switchbot_bulb1.webp "SwitchBot 15Amp W1901400 #1")
 
-![alt text](/img/devices/switchbot_plug1.jpg "SwitchBot 15Amp W1901400 #2")
+![alt text](/img/devices/switchbot_plug1.webp "SwitchBot 15Amp W1901400 #2")

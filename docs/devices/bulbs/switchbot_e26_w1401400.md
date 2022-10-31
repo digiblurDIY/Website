@@ -50,10 +50,10 @@ Currently not supported.  In BETA via PR
 ```
 </p></details>
 
-![alt text](/img/devices/switchbot_bulb1.jpg "SwitchBot RGB+CT E26 W1401400 #1")
+![alt text](/img/devices/switchbot_bulb1.webp "SwitchBot RGB+CT E26 W1401400 #1")
 
-![alt text](/img/devices/switchbot_bulb2.jpg "SwitchBot RGB+CT E26 W1401400 #2")
+![alt text](/img/devices/switchbot_bulb2.webp "SwitchBot RGB+CT E26 W1401400 #2")
 
-![alt text](/img/devices/switchbot_bulb3.jpg "SwitchBot RGB+CT E26 W1401400 #3")
+![alt text](/img/devices/switchbot_bulb3.webp "SwitchBot RGB+CT E26 W1401400 #3")
 
-![alt text](/img/devices/switchbot_bulb4.jpg "SwitchBot RGB+CT E26 W1401400 #4")
+![alt text](/img/devices/switchbot_bulb4.webp "SwitchBot RGB+CT E26 W1401400 #4")
