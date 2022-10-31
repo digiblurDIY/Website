@@ -48,7 +48,10 @@ If you have an existing ESP32 based device and want to enable Bluetooth Proxy ad
 ```yaml
 esp32_ble_tracker:
   scan_parameters:
+    interval: 1100ms
+    window: 1100ms
     active: true
+
 bluetooth_proxy:
   active: true
 ```

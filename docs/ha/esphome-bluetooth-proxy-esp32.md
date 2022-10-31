@@ -67,8 +67,11 @@ ota:
 
 esp32_ble_tracker:
   scan_parameters:
+    interval: 1100ms
+    window: 1100ms
     active: true
-bluetooth_proxy:   
+
+bluetooth_proxy:
   active: true
 
 button:
