@@ -26,7 +26,7 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 
 ### Dimmers
 
-[Martin Jerry Single Pole Dimmer](https://amzn.to/3RzMRf9)  
+[Martin Jerry Single Pole Dimmer](https://amzn.to/3RzMRf9) - [Template/Setup Guide](/wiki/devices/dimmers/martin_jerry_mj-sd01_pwm_dimmer)    
 [Hamilton Hills Touch Dimmer](https://amzn.to/3D6RwBw)  
 
 ### Fan Controllers
