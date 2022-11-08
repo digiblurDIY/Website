@@ -12,13 +12,17 @@ title: Tasmota
 
 [Current Flashable or Pre-Flashed Devices](/wiki/devices/esp-flashable-devices)
 
+<!---
 How to Connect to an ESP8266 or ESP32
 
 How to Backup the ESP8266 and ESP32
+--->
 
 [How to Flash the ESP8266 or ESP32](how_to_flash_esp32.md)
 
 [New Device Procedures](new_device_procedure.md) - creating a template for a new light bulb, switch, etc.
 
+<!---
 How to Flash the ESP32-C3 in a ESP-12F Style Code Burner
+--->
 

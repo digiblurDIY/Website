@@ -62,7 +62,9 @@ Once all of the outputs are found, return to the Configure Template, and configu
 
 If the device does not have any inputs such as buttons, switches, etc. this process can be skipped.  Navigate to Configuration->Configure Module.  Assign any unused GPIO entries to SwitchX, do not assign go GPIO9 or GPIO10 unless you are 100% sure the device is ESP8285 based, and do not duplicate any SwitchX numbers.  GPIO17 (ADC) can be skipped for now. See below for an example.
 
+<!---
 ### ESP32 Users can find All Switch Templates at: https://templates.digiblur.com
+--->
 
 ![](/img/procedures/newd_switch_assign.png)
 
@@ -77,3 +79,5 @@ In this example, "Switch2" shows a TOGGLE, this is due to the press then depress
 ![](/img/procedures/newd_button_assigned.png)
 
 Last but not least, change the Template Name to a proper name, and issue a `SetOption0 1` and `SetOption114 0` command on the console to turn power state saves back on attach the switch/buttons to the relays.  It is also recommended to use the Backup Configuration option in Tasmota.
+
+Submit your findings to us on [Discord](https://discord.digiblur.com) or via this Site
