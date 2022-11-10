@@ -40,4 +40,8 @@ Most of these devices are plug and play auto discovery right into Home Assistant
 [SwitchBot Bot](https://amzn.to/3fdNiP1)
 <a href="https://amzn.to/3fdNiP1"><img src="/img/devices/switchbot-bot-977904.webp" width="300" /></a>
 
+[Mi Flora Soil Sensors](https://s.click.aliexpress.com/e/_DD26pwR)
+<a href="https://s.click.aliexpress.com/e/_DD26pwR"><img src="/img/devices/mi-flora.webp" width="150" /></a>  
+
+
 Have others?  Edit the page or drop us a line on [Discord](https://discord.digiblur.com)
