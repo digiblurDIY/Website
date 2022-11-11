@@ -14,6 +14,37 @@ Detailed video integration into Home Assistant
 {"NAME":"MJ-S01 2Way Switch","GPIO":[1,1,1,1,288,321,0,0,224,32,544,1,0,0],"FLAG":0,"BASE":18, "CMND": "SO30 1 | SO13 1"}
 ```
 
+### GPIO Layout
+
+| GPIO |    Component | Description |
+|------ |-------------|-------------|         
+|GPIO04	| Led1 | Red LED
+|GPIO05	| Led2 | Blue LED
+|GPIO12	| Relay1 | Actual relay to toggle on/off
+|GPIO13	| Button1 | Button
+
+### TASMOTA Settings
+
+| Setting | Description
+|---------------|-------------
+| setoption13 1 | Set On/Off switch to respond instantly (optional)
+| setoption30 1 | Sets domain to a light (optional)
+
+### TASMOTA Rules
+
+If a Red LED while Off and Blue LED while On is desired paste the following rule into the Tasmota console.  If you want opposite colors, edit the template in the configure template screen and transpose Led_i with Led and vice versa. The "i" stands for inverted.  Copy the below rule as one line to the Tasmota console:  
+
+```
+Rule1 on power1#state do backlog ledpower1 %value%; ledpower2 %value% endon
+      on power1#boot do backlog ledpower1 %value%; ledpower2 %value% endon
+```
+
+Activate the Rule with 
+
+```
+Rule1 1
+```
+
 <details><summary>ESPHome YAML</summary>     
 <p>
 
@@ -84,54 +115,6 @@ status_led:
   pin:
     number: GPIO5
     inverted: true
-```
-</p></details>
-
-<details><summary>GPIO Layout</summary>     
-<p>
-
-| GPIO |    Component | Description |
-|------ |-------------|-------------|         
-|GPIO00	| None
-|GPIO01	| None
-|GPIO02	| None
-|GPIO03	| None
-|GPIO04	| Led1 | Red LED
-|GPIO05	| Led2 | Blue LED
-|GPIO09	| None
-|GPIO10	| None
-|GPIO12	| Relay1 | Actual relay to toggle on/off
-|GPIO13	| Button1 | Button
-|GPIO14	| None
-|GPIO15	| None
-|GPIO16	| None
-</p></details>
-
-
-<details><summary>Settings</summary>     
-<p>
-
-| Setting | Description
-|---------------|-------------
-| setoption13 1 | Set On/Off switch to respond instantly
-| setoption30 1 | Sets domain to a light
-</p></details>
-
-
-<details><summary>Rules</summary>     
-<p>
-
-If a Red LED while Off and Blue LED while On is desired paste the following rule into the Tasmota console.  If you want opposite colors, edit the template in the configure template screen and transpose Led_i with Led and vice versa. The "i" stands for inverted.  Copy the below rule as one line to the Tasmota console:  
-
-```
-Rule1 on power1#state do backlog ledpower1 %value%; ledpower2 %value% endon
-      on power1#boot do backlog ledpower1 %value%; ledpower2 %value% endon
-```
-
-Activate the Rule with 
-
-```
-Rule1 1
 ```
 </p></details>
 

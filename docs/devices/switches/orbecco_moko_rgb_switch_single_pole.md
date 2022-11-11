@@ -1,8 +1,8 @@
-# Orbecco/Moko RGB Switch (Single Pole)
+# Orbecco/Moko/Kauf RGB Switch (Single Pole)
 
-Single pole switch with an RGB faceplate and status light. 
+Single pole switch with an RGB faceplate and status light. Also known as the Kauf SRF10.  
 
-Purchase via [Amazon](https://amzn.to/3PKs9Ib)
+Purchase via [Amazon](https://amzn.to/3DZQdmv)
 
 Supported in TASMOTA, ESPHome. Not supported in WLED.
 
@@ -16,8 +16,7 @@ backlog template {"NAME":"RGB Switch","GPIO":[320,1,322,1,418,417,0,0,321,160,41
 {"NAME":"RGB Switch","GPIO":[320,1,322,1,418,417,0,0,321,160,416,224,544,0],"FLAG":26956,"BASE":18}
 ```
 
-<details><summary>GPIO Layout</summary>
-<p>
+### GPIO Layout
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
@@ -30,17 +29,19 @@ backlog template {"NAME":"RGB Switch","GPIO":[320,1,322,1,418,417,0,0,321,160,41
 |GPIO014| PWM 1 | Switch PWM Light
 |GPIO015| Relay| Internal Relay
 |GPIO016| LedLink | Status Light
-</p></details>
 
-<details><summary>Settings</summary>     
-<p>
+### TASMOTA Settings
 
 | Setting | Description
 |---------------|-------------
 | setoption59 1  | Report light state changes via MQTT
-</p></details>
 
 <details><summary>ESPHome YAML</summary>     
 <p>
-No data available
+https://kaufha.com/srf10/
 </p></details>
+
+### Pics
+
+![alt text](/img/devices/kauf-srf10-1.webp "KAUF SRF10")
+![alt text](/img/devices/kauf-srf10-2.webp "KAUF SRF10")

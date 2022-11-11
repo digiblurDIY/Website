@@ -16,8 +16,8 @@ Purchase via [SwitchBot Store](https://switchbot.vip/3avyiJe)
 Power calibration needs to be done via the [Tasmota Calibration Procedure](https://tasmota.github.io/docs/Power-Monitoring-Calibration/#calibration-procedure)  
 To turn off the useless ESP32 Temperature use the following command on the console `SetSensor127 0`
 
-<details><summary>GPIO Layout</summary>     
-<p>
+### GPIO Layout
+
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
 |GPIO02	| Button 1 | Plug ON/OFF Button
@@ -27,12 +27,6 @@ To turn off the useless ESP32 Temperature use the following command on the conso
 |GPIO18	| BL0937 CF | Power Monitoring Pins
 |GPIO19	| HLWBL CF1 | Power Monitoring Pins
 |GPIO20	| HLWBL SEL_i | Power Monitoring Pins
-</p></details>
-
-<details><summary>Rules</summary>     
-<p>
-None necessary.
-</p></details>
 
 <details><summary>ESPHome YAML</summary>     
 <p>
