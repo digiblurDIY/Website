@@ -72,8 +72,9 @@ wifi:
 #  Disable the bluetooth tracker/proxy if they are not needed
 esp32_ble_tracker:
   scan_parameters:
-    interval: 1100ms
-    window: 1100ms
+# Adjust timing if the defaults do not work in your environment
+#    interval: 1100ms
+#    window: 1100ms
     active: true
 
 bluetooth_proxy:
