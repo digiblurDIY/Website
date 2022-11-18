@@ -150,8 +150,14 @@ status_led:
 ```
 </p></details>
 
-### Pics
+### Pics & Disassembly
 
 ![alt text](/img/devices/switchbot_bulb1.webp "SwitchBot 15Amp W1901400 #1")
 
 ![alt text](/img/devices/switchbot_plug1.webp "SwitchBot 15Amp W1901400 #2")
+
+![alt text](/img/devices/switchbot_plug2.webp "SwitchBot 15Amp W1901400 #3")
+
+![alt text](/img/devices/switchbot_plug3.webp "SwitchBot 15Amp W1901400 #4")
+
+The plug is sonic welded at the edge on the back.  Use a spudger and/or blade to carefully remove the two halves.  The ESP32-C3 module is the white board with the S on the back.  You can use these pins to manually flash the ESP32-C3 with ESPHome or TASMOTA if needed.  P9 is like GPIO 0 in the ESP32-C3 world, it needs to be grounded at power up to enter into bootloader mode.  [ESP32 flashing procedures](/wiki/tasmota/how_to_flash_esp32)
