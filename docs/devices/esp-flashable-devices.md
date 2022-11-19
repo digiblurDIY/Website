@@ -1,4 +1,8 @@
 ---
+title: TASMOTA and ESPHome Compatible Flashable Devices
+description: List of maintained devices that a user can flash TASMOTA, ESPHome, etc to as well as Pre-Flashed ready to go devices
+image: /img/tas_white_blackbg.png
+keywords: [esp8266 tasmota, esp8266, esp32, tasmota compatible devices, esphome compatible devices, espressif]
 sidebar_position: 1
 ---
 

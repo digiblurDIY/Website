@@ -1,3 +1,9 @@
+---
+title: Home Assistant Bluetooth Compatible Devices
+description: List of maintained devices that a user automatically add to their Home Assistant system over bluetooth adapter and/or proxy device
+image: /img/ha_proxies.jpg
+keywords: [home assistant bluetooth, bluetooth compatible devices, bluetooth proxy, bluetooth proxies, bluetooth auto discovery]
+---
 # Bluetooth Compatible Devices
 
 **Updated on: November 19, 2022**
