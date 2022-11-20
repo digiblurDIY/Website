@@ -1,4 +1,11 @@
-# CloudFree SWM1 / Milfra MFA05 Motion Switch (Single Pole)
+---
+title: Milfra MFA05 / CloudFree SWM1 Motion Smart Switch Template & Setup
+description: How to configure TASMOTA and setup the MFA05 smart switch with Home Assistant
+image: /img/devices/cloudfree_milfra_motion_switch_main.webp
+keywords: [MFA05 Template, Milfra MFA05, Tasmota Motion Switch, MQTT Motion Switch, CloudFree SWM1]
+---
+
+# Milfra MFA05 Motion Switch / CloudFree SWM1 (Single Pole)
 
 Single Pole smart motion switch.  This switch has a motion sensor, daylight (non-lux) sensor, single button and relay.
 
@@ -21,7 +28,7 @@ None needed it's already running TASMOTA! OH YEAH BABY ❤️ CloudFree
 
 ### Milfra MFA05
 
-You'll need a FTDI adapter and here is the wiring diagram:
+You'll need a [USB TTL adapter](https://amzn.to/3tIybRd) and here is the wiring diagram:
 
 ![alt text](/img/devices/cloudfree_milfra_flashing_pinout.webp "Milfra MFA05 Inside Flashing Pinout")
 
@@ -30,7 +37,6 @@ You can just use dupont wires and push them into the slots no soldering required
 ![alt text](/img/devices/cloudfree_milfra_flashing_dupont.webp "Milfra MFA05 Inside Flashing Pinout")
 
 Open the TASMOTA [webinstaller](https://tasmota.github.io/install/) and flash it with the latest TASMOTA release.
-
 
 ## TASMOTA Template
 
@@ -50,22 +56,13 @@ Open the TASMOTA [webinstaller](https://tasmota.github.io/install/) and flash it
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
 |GPIO00	| Button      | The main switch button |
-|GPIO01	| None
-|GPIO02	| None
-|GPIO03	| None
-|GPIO04	| None
 |GPIO05	| Switch1 | Motion Sensor Switch |
-|GPIO09	| None
-|GPIO10	| None
 |GPIO12	| Relay1 | Actual relay to toggle on/off |
 |GPIO13	| LedLink_i | LED
 |GPIO14	| Switch2 | Daylight Sensor Switch |
-|GPIO15	| None
-|GPIO16	| None
 </p></details>
 
-<details><summary>Settings</summary>     
-<p>
+### Settings
 
 | Setting | Description
 |---------------|-------------
@@ -78,16 +75,13 @@ Open the TASMOTA [webinstaller](https://tasmota.github.io/install/) and flash it
 backlog switchmode1 2; switchmode2 1; setoption114 1; setoption73 1;
 ```
 
-</p></details>
-
 ## Rules 
 
 ### Motion light
 
 This rule will give you the basic motion controlled switch rule but allow you to configure a blind time so if you turn off the switch it won't just immediately turn back on while you leave the room. This rule can be input in the console of the TASMOTA webui
 
-<details><summary>Explained rules</summary>
-<p>
+### Explained rules
 
 This rule executes the turning on an off the light
 
@@ -214,43 +208,6 @@ ON system#boot DO
     } 
 ENDON
 ```
-
-</p></details>
-
-<details><summary>Condensed rules</summary>
-<p>
-
-Rule1
-<hr/>
-
-```
-Rule1 ON system#boot DO backlog var1 300; var2 10; var3 1 ENDON 
-      ON button1#state DO backlog power1 toggle; ruletimer2 %var2%; var3 0 ENDON 
-      ON rules#timer=2 DO var3 1 ENDON 
-      ON switch1#state=1 DO event motion=%var3% ENDON 
-      ON rules#timer=1 DO event timeroff=%var3% ENDON 
-      ON power1#state=0 DO event poweroff=%var3% ENDON 
-      ON event#motion=1 DO backlog power1 1; ruletimer1 %var1% ENDON 
-      ON event#timeroff=1 DO power1 0 ENDON 
-      ON event#poweroff=1 DO ruletimer1 0 ENDON 
-```
-Rule2
-<hr/>
-
-```
-Rule2 ON Var1 DO publish2 stat/%topic%/light_time %Var1% ENDON
-      ON Var2 DO publish2 stat/%topic%/blind_time %Var2% ENDON
-```
-
-Rule3 
-<hr/>
-
-```
-Rule3 ON system#boot DO publish2 homeassistant/number/%macaddr%_light_time/config {"name":"Light Time","state_topic":"stat/%topic%/light_time","availability_topic":"tele/%topic%/LWT","payload_available":"Online","payload_not_available":"Offline","command_topic":"cmnd/%topic%/Var1","min":15,"max":1800,"retain":true,"step":15,"unit_of_measurement":"s","unique_id":"%macaddr%_light_time","device":{"connections":[["mac","%macaddr%"]]}} ENDON
-      ON system#boot DO publish2 homeassistant/number/%macaddr%_blind_time/config {"name":"Blind Time","state_topic":"stat/%topic%/blind_time","availability_topic":"tele/%topic%/LWT","payload_available":"Online","payload_not_available":"Offline","command_topic":"cmnd/%topic%/Var2","min":0,"max":60,"retain":true,"step":5,"unit_of_measurement":"s","unique_id":"%macaddr%_blind_time","device":{"connections":[["mac","%macaddr%"]]}} ENDON
-```
-
-</p></details>
 
 One liner rules (for copy pasting into console)
 
