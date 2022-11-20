@@ -60,6 +60,9 @@ Most of these devices are plug and play auto discovery right into Home Assistant
 
 These are devices we've found that **DO NOT** work with the current BLE/BLE Proxy Integration
 
-digiblur on 11/19/2022 - [iLC LED Flood Light 800W Equivalent](https://amzn.to/3hVW84K)
+digiblur 11/19/2022 [iLC LED Flood Light 800W Equivalent](https://amzn.to/3hVW84K)  
+splnut 11/19/2022 [iLC LED Flood Light 100W](https://www.amazon.com/dp/B07T1B5S58)  
+splnut 11/19/2022 [LOLpetik LED Flood Light Outdoor 25W](https://www.amazon.com/dp/B08YYQ4QW7)  
+splnut 11/19/2022 [LECLSTAR LED Flood 20W](https://www.amazon.com/dp/B0B9GRYTCB)  
 
 Have others?  Edit the page or let us know on [Discord](https://discord.digiblur.com)
