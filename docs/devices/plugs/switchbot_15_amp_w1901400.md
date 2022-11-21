@@ -1,6 +1,6 @@
 ---
-title: SwitchBot 15Amp W1901400 ESP32 Smart Plug with Power Monitoring
-description: Template and Setup for the TASMOTA and ESPHome configuration on the Switchbot Plug Mini
+title: SwitchBot 15Amp W1901400 ESP32 Plug
+description: SwitchBot 15Amp W1901400 ESP32 Smart Plug Template and Setup for TASMOTA and ESPHome
 image: /img/switchbot_plug4.webp
 keywords: [switchbot plug tasmota template, Switchbot W1901400 Template, Switchbot Plug ESPHome, 2AKXB-W1901400, switchbot tasmota, switchbot bluetooth proxy]
 ---
