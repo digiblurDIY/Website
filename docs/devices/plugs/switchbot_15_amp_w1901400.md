@@ -1,6 +1,13 @@
+---
+title: SwitchBot 15Amp W1901400 ESP32 Smart Plug with Power Monitoring
+description: Template and Setup for the TASMOTA and ESPHome configuration on the Switchbot Plug Mini
+image: /img/switchbot_plug4.webp
+keywords: [switchbot plug tasmota template, Switchbot W1901400 Template, Switchbot Plug ESPHome, 2AKXB-W1901400, switchbot tasmota, switchbot bluetooth proxy]
+---
+
 # SwitchBot 15Amp W1901400 
 
-15 amp ESP32-C3 based plug for the North America market that does not block the other outlet.  This smart plug can currently be upgraded via the SwitchBot OTA process - [GitHub](https://github.com/kendallgoto/switchbota) or [digiblurDIY Video](https://youtu.be/iTexFQ0Th0I), no soldering or manual flashing invovled.  
+15 amp ESP32-C3 based plug for the North America market that does not block the other outlet.  This smart plug can currently be upgraded via the SwitchBot OTA process - [GitHub](https://github.com/kendallgoto/switchbota) or [digiblurDIY Video](https://youtu.be/iTexFQ0Th0I), no soldering or manual flashing invovled.  FCC-ID: 2AKXB-W1901400  
 
 Purchase via [Amazon](https://amzn.to/3MzVSSR)  
 Purchase via [SwitchBot Store](https://switchbot.vip/3avyiJe)
