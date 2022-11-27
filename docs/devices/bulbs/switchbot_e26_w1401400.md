@@ -1,5 +1,10 @@
-# SwitchBot RGB+CT E26 W1401400
-
+---
+title: SwitchBot RGB+CT E26 Bulb W1401400
+description: SwitchBot W1401400 ESP32-C3 Smart Bulb Template and Setup for TASMOTA and ESPHome
+image: /img/switchbot_bulb5.webp
+keywords: [switchbot bulb tasmota template, Switchbot W1401400 Template, Switchbot Plug ESPHome, 2AKXB-W1401400, switchbot tasmota, switchbot bluetooth proxy]
+---
+# SwitchBot RGB+CT E26 Bulb W1401400 
 5 Channel RGB+CT E26 800 lumen bulb with an ESP32-C3.  This smart bulb can currently be upgraded via the SwitchBot OTA process - [GitHub](https://github.com/kendallgoto/switchbota) or [digiblurDIY Video](https://youtu.be/iTexFQ0Th0I), no soldering or manual flashing invovled.  
 
 Purchase via [Amazon](https://amzn.to/38Vhuv3)  

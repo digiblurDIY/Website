@@ -1,6 +1,6 @@
 ---
-title: Milfra MFA05 / CloudFree SWM1 Motion Smart Switch Template & Setup
-description: How to configure TASMOTA and setup the MFA05 smart switch with Home Assistant
+title: Milfra MFA05 / CloudFree SWM1 Motion Smart Switch
+description: Milfra MFA05 / CloudFree SWM1 Motion Smart Switch Template & Setup - How to configure TASMOTA and setup the MFA05 smart switch with Home Assistant
 image: /img/devices/cloudfree_milfra_motion_switch_main.webp
 keywords: [MFA05 Template, Milfra MFA05, Tasmota Motion Switch, MQTT Motion Switch, CloudFree SWM1]
 ---
