@@ -1,5 +1,7 @@
 # Linkind Siren Hub (ZZS120000118)
 
+![Image of Siren Hub ZZS120000118](/img/devices/linkind-siren-hub.jpg)
+
 These keep popping up as part of a `"Linkind Wireless Smart Home Security System, DIY 5 Piece set"` that include this hub.
 Wonderful thing about this device is the [community discoverd it was running OpenWRT](https://discord.com/channels/530777070435827722/667175804920397883/1047018318973911120)
 
