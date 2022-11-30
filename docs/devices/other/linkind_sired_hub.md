@@ -11,6 +11,10 @@ It has a QCA4531-BL3A QUALCOMM WiFi Module, running OpenWRT and has a EFR32 Zigb
 
 [Amazon](https://amzn.to/3Vho6Xk)
 
+or
+
+[Amazon](https://amzn.to/3AVSBKe)
+
 > `Info`: The set was picked up for ~$9 USD at some point.  Watch for a deal.
 
 ## Default Credentials
@@ -74,7 +78,7 @@ for i in mosquitto freifunk-watchdog subdevice ota lagent smart; do
     /etc/init.d/"$i" stop
   fi
 done
-if /etc/init.d/siren_client disabled; then
+if ! /etc/init.d/siren_client enabled; then
   /etc/init.d/siren_client enable
   /etc/init.d/siren_client start
 fi
