@@ -81,7 +81,7 @@ exit 0
 
 ![Picture of the script in the Local Startup field](/img/devices/linkind-siren-hub-services.jpg)
 
-Now this submit.
+Now hit submit.
 
 ### Join the device to your Wi-Fi
 
