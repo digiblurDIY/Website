@@ -34,7 +34,7 @@ Press the button 3 times within 3 seconds
 
 ## Reprogram via Wi-Fi
 
-If your device is vanilla and never paired up with the Linkind app then it will broadcast and SSID that you can connect a device to.  Something like `SirenHub-XXXX`.
+If your device is vanilla and never paired up with the Linkind app then it will broadcast and SSID that you can connect a device to.  Something like `Siren-Hub-XXXX`.
 
 ![Picture shows the broadcast SSID you connect to](/img/devices/linkind-siren-hub-ap.jpg)
 
@@ -63,6 +63,26 @@ Disable the following services:
 - lagent
 - smart
 
+Scroll to the bottom where there is a `Local Startup` section where you can paste in the following script:
+
+```
+for i in mosquitto freifunk-watchdog subdevice ota lagent smart; do
+  if /etc/init.d/"$i" enabled; then
+    /etc/init.d/"$i" disable
+    /etc/init.d/"$i" stop
+  fi
+done
+if /etc/init.d/siren_client disabled; then
+  /etc/init.d/siren_client enable
+  /etc/init.d/siren_client start
+fi
+exit 0
+```
+
+![Picture of the script in the Local Startup field](/img/devices/linkind-siren-hub-services.jpg)
+
+Now this submit.
+
 ### Join the device to your Wi-Fi
 
 Visit the top menu and choost `Network` -> `Wifi`
@@ -71,11 +91,17 @@ Visit the top menu and choost `Network` -> `Wifi`
 
 You'll see two networks.  The `Siren-Hub-XXXX` Access point network and a disabled Client network.
 
+![Picture of the default Wi-Fi networks](/img/devices/linkind-siren-hub-wifi-default-networks.jpg)
+
 We will want to edit the disabled client network and change the SSID to match your wireless network you want this hub to connect to.
+
+Then check the lan checkbox
 
 ![Picture of the SSID configuration screen](/img/devices/linkind-siren-hub-wifi-ssid-configuration.jpg)
 
 Then click on the `Wireless Security` tab and type in the password you use to connect to your Wi-Fi
+
+![Picture of the wireless client security tab](/img/devices/linkind-siren-hub-wifi-creds-configuration.jpg)
 
 Click `Save` at the bottom.
 
@@ -85,6 +111,14 @@ Click the enable button on the client network you just configured and it will tr
 ![Picture of the enable button on the Wi-Fi network](/img/devices/linkind-siren-hub-wifi-enable-client.jpg)
 
 Visit your router / DHCP server and find what IP address it picked up.
+
+If you were able to access it via the new IP address now we want to clean up the `Siren-Hub-XXX` SSID broadast.
+
+Revisit the top menu and choost `Network` -> `Wifi`
+
+Click the delete button on the network that shows the SSID as `Siren-Hub-XXXX`
+
+![Picture of the remove button for the Siren-Hub network](/img/devices/linkind-siren-hub-wifi-remove-ap.jpg)
 
 ### Neuter Linkind Agent Configuration
 
@@ -244,3 +278,33 @@ root@Leedarson:~# reboot
 The device should auto discover in Home Assistant and you'll be able to trigger the siren with a button push!
 
 ![Home assistant instance ID](/img/devices/linkind-siren-hub-home-assistant.jpg)
+
+## Make a backup
+
+Now that you have everything setup properly then make a backup of the configuration and download the `tar.gz` file for easier restore if something gets messed up.
+
+![Picture of the menu option for backup](/img/devices/linkind-siren-hub-menu-backup.jpg)
+
+![Picture of the generate the backup button](/img/devices/linkind-siren-hub-backup.jpg)
+
+## Manual Commands (SSH)
+
+You can control the siren via the command prompt of the SSH shell.
+
+### Example 1 (Loud and flashing lights) for one second
+
+```
+ubus -t 1 call device set_prop '{ "siren_level": "high", "strobe": "on", "strobe_level": "high", "warning_duration": 1, "warning_mode": "fire"}'
+```
+
+### Example 2 (Quiet and no lights) for 10 seconds
+
+```
+ubus -t 1 call device set_prop '{ "siren_level": "low", "strobe": "off", "warning_duration": 10, "warning_mode": "fire"}'
+```
+
+### Example 3 (Medium sound and lights)
+
+```
+ubus -t 1 call device set_prop '{ "siren_level": "medium", "strobe": "on", "strobe_level": "medium", "warning_mode": "fire"}'
+```
