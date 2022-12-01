@@ -1,6 +1,12 @@
-# Linkind Siren Hub (ZZS120000118)
+---
+title: Linkind Siren Hub (ZS120000118)
+description: How to take control of the Linkind Siren Hub (FCC ID:2ASHKZS120000108) via root and use it locally without the cloud!
+image: /img/devices/linkind-siren-hub.webp
+keywords: [Linkind Siren Hub template, Linkind Siren Hub root, ZZS120000118 root, 2ASHKZS120000108, ZS120000118]
+---
+# Linkind Siren Hub (ZS120000118)
 
-![Image of Siren Hub ZZS120000118](/img/devices/linkind-siren-hub.jpg)
+![Image of Siren Hub ZS120000118](/img/devices/linkind-siren-hub.webp)
 
 These keep popping up as part of a `"Linkind Wireless Smart Home Security System, DIY 5 Piece set"` that include this hub.
 Wonderful thing about this device is the [community discoverd it was running OpenWRT](https://discord.com/channels/530777070435827722/667175804920397883/1047018318973911120)

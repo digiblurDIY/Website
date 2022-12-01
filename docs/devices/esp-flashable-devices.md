@@ -25,8 +25,8 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 
 [Martin Jerry Single Pole Switch TASMOTA Pre-Flashed](https://amzn.to/3K4qpIx) or [Flashable Switch](https://amzn.to/2IM0cn5) - [Template Page](/wiki/devices/switches/martin_jerry_mj-s01_single_pole)  
 [Martin Jerry 3 Way Switch TASMOTA Pre-Flashed](https://amzn.to/3u2PJrv)  
-[Milfra Single Pole Motion Switch](https://amzn.to/3NQUJ9W) - [Template & Setup Guide](/wiki/devices/switches/cloudfree-swm1_milfra-mfa05_single_pole)  
-[Milfra Dual Button Motion Switch](https://amzn.to/3TTlm2m)  
+[Milfra Single Pole Motion Switch](https://amzn.to/3NQUJ9W) - [Template & Setup Guide](/wiki/devices/switches/milfra-mfa05_cloudfree-swm1-single-relay)  
+[Milfra Dual Button Motion Switch](https://amzn.to/3TTlm2m) - [Template & Setup Guide](/wiki/devices/switches/milfra-mfa06_dual_relay)    
 [Kauf PreFlashed LED Panel Switch](https://amzn.to/3TGXqPo)  
 
 ### Dimmers
