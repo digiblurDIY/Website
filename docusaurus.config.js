@@ -35,7 +35,7 @@ const config = {
           feedOptions: {
             type: 'all',
             title: 'digiblurDIY Smart Home Solutions',
-            description: 'No cloud is the way!  DIY Smart Home Automation projects &amp; reviews.  Projects and devices that offer the best value. As an Amazon Associate I earn from qualifying purchases. digiblurDIY earns commissions for purchases made through links in this post.',
+            description: 'No cloud is the way!  DIY Smart Home Automation projects and reviews.  Projects and devices that offer the best value.',
           },
         },
         theme: {
@@ -62,6 +62,8 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'img/digiblur-large.jpg',
+      metadata: [{name: 'keywords', content: 'smart home, digiblur, digiblurdiy, home assistant, tasmota, smart home how to guides'}],
       announcementBar: {
         id: 'affiliate',
         content:
@@ -108,21 +110,15 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'tools/index',
-            position: 'left',
-            label: 'Tools',
-          },
-          {
-            type: 'doc',
-            docId: 'cameras/index',
-            position: 'left',
-            label: 'Cameras',
-          },
-          {
-            type: 'doc',
             docId: 'led/index',
             position: 'left',
             label: 'LEDs',
+          },
+          {
+            type: 'doc',
+            docId: 'digiblur-picks/index',
+            position: 'left',
+            label: 'digiblur Top Picks',
           },
         ],
       },
@@ -133,20 +129,16 @@ const config = {
             title: 'Wiki',
             items: [
               {
+                label: 'Devices',
+                to: '/wiki/devices',
+              },
+              {
                 label: 'Tasmota',
                 to: '/wiki/tasmota',
               },
               {
-                label: 'ESPHome',
-                to: '/wiki/esphome',
-              },
-              {
                 label: 'Home Assistant',
                 to: '/wiki/ha',
-              },
-              {
-                label: 'MQTT',
-                to: '/wiki/mqtt',
               },
             ],
           },
