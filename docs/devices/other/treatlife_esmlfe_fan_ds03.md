@@ -61,7 +61,67 @@ Rule1 1
 <p>
 
 ```yaml
-Waiting for your PR!
+substitutions:
+  device_name: DeviceName #change
+  friendly_name: Device Friendly Name #change
+  
+esphome:
+  name: ${device_name}
+  platform: ESP8266
+  board: esp01_1m
+
+wifi:
+  # https://esphome.io/components/wifi
+  
+#captive_portal:
+# doesn't work under esp-idf
+  
+#web_server:
+  #port: 80
+  # https://esphome.io/components/web_server.html
+# doesn't work under esp-idf
+
+logger:
+  # https://esphome.io/components/logger
+
+api:
+  #password: !secret esphome_api_password
+  # https://esphome.io/components/api
+  reboot_timeout: 0s #disable auto-reboot if homeassistant is not connecting
+
+ota:
+  #password: !secret esphome_ota_password
+  # https://esphome.io/components/ota
+
+uart:
+  rx_pin: GPIO3
+  tx_pin: GPIO1
+  baud_rate: 115200
+
+tuya:
+
+sensor:
+  - platform: wifi_signal
+    name: ${friendly_name} Wifi Signal
+    update_interval: 60s
+
+  - platform: uptime
+    name: ${friendly_name} uptime
+
+light:
+  - platform: "tuya"
+    name: ${friendly_name} Light
+    dimmer_datapoint: 10
+    switch_datapoint: 9
+    min_value: 100
+    max_value: 1000
+
+fan:
+  - platform: "tuya"
+    name: ${friendly_name} Speed
+    switch_datapoint: 1
+    speed_datapoint: 3
+    speed_count: 4
 ```
 </p></details>
 
