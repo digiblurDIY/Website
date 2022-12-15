@@ -51,11 +51,63 @@ None necessary.
 <p>
 
 ```yaml
-Currently not supported.  In BETA via PR
+# Current BETA PR via Cossid https://github.com/esphome/esphome/pull/3924
+external_components:
+  - source:
+      type: git
+      url: https://github.com/dentra/esphome.git
+      ref: web-server-idf
+    components: [ web_server_base, web_server_idf, web_server, captive_portal ]
+  - source:
+      type: git
+      url: https://github.com/Cossid/esphome.git
+      ref: sm2335
+    components: [ sm10bit_base, sm2335 ]
+
+sm2335:
+  data_pin: GPIO4
+  clock_pin: GPIO5
+  max_power_color_channels: 9
+  max_power_white_channels: 9
+
+# Individual outputs
+output:
+  - platform: sm2335
+    id: output_red
+    channel: 1
+  - platform: sm2335
+    id: output_green
+    channel: 0
+  - platform: sm2335
+    id: output_blue
+    channel: 2
+  - platform: sm2335
+    id: output_coldwhite
+    channel: 4
+  - platform: sm2335
+    id: output_warmwhite
+    channel: 3
+
+light:
+  - platform: rgbww
+    restore_mode: RESTORE_DEFAULT_OFF
+    name: "${friendly_name}"
+    red: output_red
+    green: output_green
+    blue: output_blue
+    cold_white: output_coldwhite 
+    warm_white: output_warmwhite 
+    cold_white_color_temperature: 6536 K
+    warm_white_color_temperature: 2000 K
+    color_interlock: true
 ```
 </p></details>
 
 ### Pics & Disassembly
+
+Pop the diffuser off with a spudger.  Remove the silicone around the edge of the LED board.  Use a spudger again to remove this board as it just using tension connector pins.  It might stick a little especially if the bulb is cold.  You will see the back of the ESP32-C3 for manual serial flashing if needed. 
+
+**The P9 pad is like GPIO 0 in the ESP32-C3 world, it needs to be grounded at power up to enter into bootloader mode.**  [ESP32 flashing procedures](/wiki/tasmota/how_to_flash_esp32)
 
 ![alt text](/img/devices/switchbot_bulb1.webp "SwitchBot RGB+CT E26 W1401400 #1")
 
@@ -64,5 +116,3 @@ Currently not supported.  In BETA via PR
 ![alt text](/img/devices/switchbot_bulb3.webp "SwitchBot RGB+CT E26 W1401400 #3")
 
 ![alt text](/img/devices/switchbot_bulb4.webp "SwitchBot RGB+CT E26 W1401400 #4")
-
-Pop the diffuser off with a spudger.  Remove the silicone around the edge of the LED board.  Use a spudger again to remove this board as it just using tension connector pins.  It might stick a little especially if the bulb is cold.  You will see the back of the ESP32-C3 for manual serial flashing if needed.  P9 is like GPIO 0 in the ESP32-C3 world, it needs to be grounded at power up to enter into bootloader mode.  [ESP32 flashing procedures](/wiki/tasmota/how_to_flash_esp32)
