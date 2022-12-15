@@ -1,7 +1,7 @@
 ---
 title: Sonoff Mini R4
 description: Sonoff Mini R4 Template and Setup for TASMOTA and ESPHome
-image: /img/sonoff-mini-r4-top_out.webp
+image: /img/devices/sonoff-mini-r4-top_out2.jpg
 keywords: [Sonoff Mini R4 tasmota template, itead MiniR4 Extreme Template, Sonoff Mini ESPHome, 2APN5-MINIR4, SONOFF bluetooth proxy]
 ---
 
