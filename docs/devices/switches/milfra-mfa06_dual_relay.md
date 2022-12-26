@@ -1,5 +1,5 @@
 ---
-title: Milfra MFA06 Motion Smart Switch
+title: Milfra MFA06 Motion Dual Relay Smart Switch
 description: Milfra MFA06 Motion Smart Switch Template & Setup - How to configure TASMOTA and setup the MFA06 Dual Button switch with Home Assistant
 image: /img/devices/milfra-mfa06_1.webp
 keywords: [MFA06 Template, Milfra MFA06, Tasmota Motion Switch, MQTT Motion Switch]

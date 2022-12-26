@@ -51,6 +51,7 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 
 ### LED Controllers
 
+[Athom Sound Reactive Pre-Flashed WLED Controller](https://s.click.aliexpress.com/e/_Dedl7Hd)  
 [LEDeez 12-24volt](https://wantmoore.tech/)  
 [miniDEEZ 5 volt](https://wantmoore.tech/)  
 [Electrodragon LED Controller](https://www.electrodragon.com/product/esp-led-strip-board/) (get the ESP32-C3 version!)  
