@@ -48,7 +48,7 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 ### Plugs
 
 [Switchbot 15A ESP32-C3 Plug](https://amzn.to/3MzVSSR) - [Template Page](/wiki/devices/plugs/switchbot_15_amp_w1901400)  
-[Sonoff S31](https://amzn.to/3cQ0Wqk)  
+[Sonoff S31](https://amzn.to/3cQ0Wqk) - [Template/Setup](/wiki/devices/plugs/sonoff_s31)  
 [Kauf Plug](https://amzn.to/3enZdZr)  
 [Wyze Dual Relay Outdoor ESP32 Plug](https://amzn.to/3V01knd) - [Template/Pictures](/2021/03/27/how-to-flash-the-wyze-outdoor-plug-esphome-or-tasmota-local-control)  
 [GHome 6 Plug Outlet Extender](https://amzn.to/3DluMw2)  
