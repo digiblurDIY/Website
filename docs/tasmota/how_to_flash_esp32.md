@@ -14,7 +14,7 @@ Follow the directions via the browser at the [Tasmota WebInstaller](http://tasmo
 
 ESPTool.py python tool is required and needs to be installed on the host machine.  [ESPTool.py installation procedure](https://docs.espressif.com/projects/esptool/en/latest/esp32/)  
 
-Identify the ESP32 and the flash memory size.  This can easily be done via:
+Identify the ESP32 variant and the flash memory size.  This can easily be done via:
 
 ```
 esptool.py flash_id
