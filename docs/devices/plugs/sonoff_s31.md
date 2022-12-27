@@ -1,15 +1,15 @@
 ---
-title: Sonoff S31
-description: iTead SonOff S31 Smart Power Monitoring Plug Template and Setup for TASMOTA and ESPHome
+title: SONOFF S31
+description: iTead SONOFF S31 Smart Power Monitoring Plug Template and Setup for TASMOTA and ESPHome
 image: /img/devices/sonoff-s31_1.webp
 keywords: [sonoff s31 tasmota template, itead s31 Template, s31 Plug ESPHome, solderless flashing tasmota plug]
 ---
 
-# Sonoff S31
+# SONOFF S31
 
 One of the top favorite smart plugs.  Easy to disassemble with a screw driver, exposed pin headers to the ESP8266, button on GPIO 0, and excellent power monitoring!  You can even flash it without soldering utilizing a [USB TTL adapter](https://amzn.to/3WonIHp) and [dupont test clips known as clippy bois](https://amzn.to/3jtnZdl) - see the pics section below.  
 
-Purchase on Amazon [Amazon](https://amzn.to/3K4qpIx)  
+Purchase on Amazon [Amazon](https://amzn.to/3WG3cBG)  
 Purchase on iTead [iTead](https://itead.cc/product/sonoff-s31/ref/28/)  
 Purchase on Aliexpress [Aliexpress](https://s.click.aliexpress.com/e/_Dk8wPtl)
 
@@ -19,7 +19,7 @@ Purchase on Aliexpress [Aliexpress](https://s.click.aliexpress.com/e/_Dk8wPtl)
 
 ### Tasmota Template
 
-None needed as it is built into TASMOTA.  Click Configuration -> Configure Module -> Pick Sonoff S31 and hit Save.
+None needed as it is built into TASMOTA.  Click Configuration -> Configure Module -> Pick SONOFF S31 and hit Save.
 
 ![alt text](/img/devices/sonoff-s31_9.webp)
 
