@@ -12,6 +12,8 @@ keywords: [switchbot plug tasmota template, Switchbot W1901400 Template, Switchb
 Purchase via [Amazon](https://amzn.to/3MzVSSR)  
 Purchase via [SwitchBot Store](https://switchbot.vip/3avyiJe)
 
+As noted in the video walkthrough, if your device already has the latest firmware you will need to reference the [video at 9:14](https://youtu.be/iTexFQ0Th0I?t=554) or [this Github thread](https://github.com/kendallgoto/switchbota/issues/3#issuecomment-1121864522) to send over the bluetooth update packet to initiate the trigger from your local SwitchBot OTA process.  
+
 <iframe allowfullscreen height="353" src="https://www.youtube.com/embed/iTexFQ0Th0I" width="625" youtube-src-=""></iframe>  
 
 ### TASMOTA Template

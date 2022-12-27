@@ -34,7 +34,7 @@ const config = {
           blogSidebarCount: 0,
           feedOptions: {
             type: 'all',
-            title: 'digiblurDIY Smart Home Solutions',
+            title: 'digiblurDIY Smart Home',
             description: 'No cloud is the way!  DIY Smart Home Automation projects and reviews.  Projects and devices that offer the best value.',
           },
         },

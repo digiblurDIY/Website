@@ -14,7 +14,7 @@ Supported in TASMOTA 12.0.2.2 or later, use this [TASMOTA Stock Bin file](/firmw
 
 Please note the required SetOption below for correct color order.  A user configurable brightness limit of default of 9 is set via the template SM2335 Dat option.  This was found to be close to stock as possible.  Setting this higher could create power supply issues, excessive **heat/fire**, LED flame out errors, etc.
 
-Until the next Tasmota standard release, it is necessary to upgrade to 12.0.2.2 or later dev version.  
+As noted in the video walkthrough, if your device already has the latest firmware you will need to reference the [video at 9:14](https://youtu.be/iTexFQ0Th0I?t=554) or [this Github thread](https://github.com/kendallgoto/switchbota/issues/3#issuecomment-1121864522) to send over the bluetooth update packet to send over the bluetooth update packet to initiate the trigger from your local SwitchBot OTA process.  
 
 <iframe allowfullscreen height="353" src="https://www.youtube.com/embed/iTexFQ0Th0I" width="625" youtube-src-=""></iframe>  
 
