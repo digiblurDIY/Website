@@ -7,7 +7,7 @@ categories:
 ---
 I've tried a bunch of different methods to have some tube looking lights in the yard.  I found some simple [white wire loom](https://amzn.to/3NFERIQ) looks great and is easy to keep straight.  It has an awesome look at night!  
 
-I'm using [addressable pixels](https://amzn.to/3t4U2lt) on a [12v power supply](https://amzn.to/3WCEXVW) connected to the [LEDeez board](https://wantmoore.tech) running WLED.  Super simple to setup and wire up.
+I'm using [addressable pixels](https://amzn.to/3t4U2lt) on a [12v power supply](https://amzn.to/3WCEXVW) connected to the LEDeez board from [WantMoore.tech](https://wantmoore.tech) running WLED.  Super simple to setup and wire up.
 
 <iframe allowfullscreen height="353" src="https://www.youtube.com/embed/ot5LwWz71qs" width="625" youtube-src-=""></iframe>    
 
