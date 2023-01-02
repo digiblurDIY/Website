@@ -43,15 +43,4 @@ Reolink still has a bit of a ghost effect with this camera.  I was unable to fin
 #### Night Zoom Lens 2
 ![alt text](images/nightshot2.jpg "Trackmix Picture #8")
 
-⚡Products We Use/Recommend  
-Amazon US - [https://amzn.to/2YZNDeO](https://amzn.to/2YZNDeO)  
-Amazon UK - [https://amzn.to/2TnG2R4](https://amzn.to/2TnG2R4)  
-Amazon CA - [https://amzn.to/2JWsNq5](https://amzn.to/2JWsNq5)  
 
-⚡Be Social!⚡  
-YouTube - [https://youtube.digiblur.com](https://youtube.digiblur.com/)  
-Discord Chat - [https://discord.digiblur.com](https://discord.digiblur.com/)  
-Patreon - [https://patreon.digiblur.com](https://patreon.digiblur.com/)  
-Facebook - [https://facebook.digiblur.com](https://facebook.digiblur.com/)  
-Instagram - [https://instagram.digiblur.com](https://instagram.digiblur.com/)  
-_Please note, the product links above could be affiliate links, using them could earn digiblurDIY a small commission of most purchases and helps with future video projects. Thank you!  As an Amazon Associate I earn from qualifying purchases._

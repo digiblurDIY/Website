@@ -35,16 +35,3 @@ Links to products provided through the Amazon Affiliate program. As an Amazon As
 Open the image in a new tab or download it for full zooming resolution. Thanks to Caleb for the drawing!
 
 Full ESPHome Configuration File in this [article](/wiki/ha/esphome-garage-opener). 
-
-⚡Products We Use/Recommend  
-Amazon US - [https://amzn.to/2YZNDeO](https://amzn.to/2YZNDeO)  
-Amazon UK - [https://amzn.to/2TnG2R4](https://amzn.to/2TnG2R4)  
-Amazon CA - [https://amzn.to/2JWsNq5](https://amzn.to/2JWsNq5)  
-
-⚡Be Social!⚡  
-YouTube - [https://youtube.digiblur.com](https://youtube.digiblur.com/)  
-Discord Chat - [https://discord.digiblur.com](https://discord.digiblur.com/)  
-Patreon - [https://patreon.digiblur.com](https://patreon.digiblur.com/)  
-Facebook - [https://facebook.digiblur.com](https://facebook.digiblur.com/)  
-Instagram - [https://instagram.digiblur.com](https://instagram.digiblur.com/)  
-_Please note, the product links above could be affiliate links, using them could earn digiblurDIY a small commission of most purchases and helps with future video projects. Thank you!  As an Amazon Associate I earn from qualifying purchases._
