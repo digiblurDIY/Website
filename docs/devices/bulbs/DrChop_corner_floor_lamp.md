@@ -40,9 +40,18 @@ Our ESP Burner isn't designed for use with the ESP32-C3 in particular but becaus
 
 ![alt text](/img/devices/espburner-c3-pinout.png "ESP-C3-12F chip in burner board and jumper pins")
 
-We want to flash WLED onto the chip but because this is an ESP32 chip you need to flash the factory firmware image
+We want to flash WLED onto the chip but because this is an ESP32 chip you need to flash the factory firmware image then use wled
 
+#### Compile WLED
 To setup VSCode/Platformio to compile visit [here](https://kno.wled.ge/advanced/compiling-wled/)
+
+We need to comment out or delete this line in https://github.com/Aircoookie/WLED/blob/main/wled00/pin_manager.cpp#L246
+
+Line to ommit because we need to use GPIO pin 18 and 19:
+
+```
+    if (gpio > 17 && gpio < 20) return false;     // 18-19 USB-JTAG
+```
 
 Here is a sample of the platformio_override.ini file used
 
@@ -61,11 +70,19 @@ build_unflags = ${common.build_unflags}
 lib_deps = ${esp32c3.lib_deps}
 ```
 
-After you build/compile the code it'll show up in the directory build_output/release/WLED_VERSION_drchop_corner_lamp.factory.bin
+After you build/compile the code it'll show up in the directory build_output/release/WLED_VERSION_drchop_corner_lamp.bin
+
+#### Pre-Compiled WLED
+
+[WLED-0.14.0-b1 with GPIO pin 18 and 19 enabled](/firmware/wled-0.14.0-b1-esp32c3-4m-gpio1819enabled.factory.bin)
 
 Use ESPtool to flash it to the memory spaces `0x0`
 
 [Instructions here](/wiki/ha/esphome-esp32-how-to-flash#install-the-esphome-factory-bin-via-esptoolpy)
+
+```
+esptool.py write_flash 0x0 wled-0.14.0-b1-esp32c3-4m-gpio1819enabled.factory.bin
+```
 
 <br/>
 
@@ -128,4 +145,4 @@ Reassemble the board back into the case
 | /settings/leds? | Button 0 GPIO | 19 | Button 0 GPIO pin |
 | /settings/leds? | Button 1 GPIO | 18 | Button 1 GPIO pin |
 | /settings/leds? | Button 2 GPIO | 5 | Button 2 GPIO pin |
-| /settings/leds? | IR GPIO | 3 | Pick your remote type if you have one the lamp comes with the receiver but no remote | 
+| /settings/leds? | IR GPIO | 3 | Pick your [remote type](https://kno.wled.ge/interfaces/json-ir/json_infrared/) if you have one the lamp comes with the receiver but no remote | 
