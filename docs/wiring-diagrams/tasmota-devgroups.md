@@ -10,6 +10,18 @@ Click your light switch and it sends off or on to the members of the device grou
 Push the dimmer down on a dimmer light switch and have the smart bulbs dim as well.
 This page won't go into how awesome devgroups are but just shows how to wire things up physically to allow the software to sing.
 
+## Quick Primer
+
+Need a quick example that you can see for yourself?  Find two TASMOTA devices in your home to test with.  2 Smart Plugs, 2 Switches, or whatever combo you can find that have at least one relay or light to them.  The full TASMOTA standard release build is necessary on each device.  Go to the webpage GUI of each device and do the following on BOTH devices; go to the console, enter in `devgroupname1 testgroup` and hit Enter.  
+  
+Once the device reboots, enter in `SetOption85 1` on both devices.  
+  
+Once they reboot, enter in `devgroupshare` without any value to verify it is set to `{"DevGroupShare":{"In":"FFFFFFFF","Out":"FFFFFFFF"}}`.  This means send all changes and receive all changes.  
+  
+Now toggle the relay/light on one of the devices.  It should make the other device sync up to the other and vice versa.  To disable this test just set `SetOption85 0` to each device.
+
+See the Devgroups [Wiki Page](https://tasmota.github.io/docs/Device-Groups/), video above, and our wiring diagrams below for more info.
+
 ## Single switch
 
 ### Scenario 1
