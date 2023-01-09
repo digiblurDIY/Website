@@ -146,3 +146,10 @@ Reassemble the board back into the case
 | /settings/leds? | Button 1 GPIO | 18 | Button 1 GPIO pin |
 | /settings/leds? | Button 2 GPIO | 5 | Button 2 GPIO pin |
 | /settings/leds? | IR GPIO | 3 | Pick your [remote type](https://kno.wled.ge/interfaces/json-ir/json_infrared/) if you have one the lamp comes with the receiver but no remote | 
+
+## 3D Printable wall mount
+<hr/>
+
+Huge thanks to `oldcrazyeye` for the wonderful model:
+
+[STL Downloads](https://www.thingiverse.com/thing:5776603)
