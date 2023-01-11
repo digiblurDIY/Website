@@ -152,4 +152,4 @@ Reassemble the board back into the case
 
 Huge thanks to `oldcrazyeye` for the wonderful model:
 
-[STL Downloads](https://www.thingiverse.com/thing:5776603)
+[STL Downloads](https://www.printables.com/model/364992-drchop-corner-lamp-wall-mounts)
