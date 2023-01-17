@@ -2,11 +2,12 @@
 title: Home Assistant Bluetooth Compatible Devices
 description: List of maintained devices that a user automatically add to their Home Assistant system over bluetooth adapter and/or proxy device
 image: /img/ha_proxies.jpg
+date: "2023-01-16"
 keywords: [home assistant bluetooth, bluetooth compatible devices, bluetooth proxy, bluetooth proxies, bluetooth auto discovery]
 ---
 # Bluetooth Compatible Devices
 
-**Updated on: November 19, 2022**
+**Updated on: January 16, 2023**
 
 Devices the [Discord Crew](https://discord.digiblur.com) and I have found to be compatible with Home Assistant and [ESPHome Bluetooth Proxies](/2022/09/07/home-assistant-esphome-bluetooth-proxy-how-to)  
 
@@ -52,6 +53,13 @@ Most of these devices are plug and play auto discovery right into Home Assistant
 
 [SwitchBot Bot](https://amzn.to/3fdNiP1)
 <a href="https://amzn.to/3fdNiP1"><img src="/img/devices/switchbot-bot-977904.webp" width="300" /></a>
+
+[SwitchBot Lock](https://amzn.to/3Xf545a) or [direct](https://www.switch-bot.com/products/switchbot-lock?sca_ref=2053167.M3lc8rkPzc&utm_source=kol&utm_medium=referral&utm_campaign=uppromote&utm_content=affiliate-Travis-Griggs)
+<a href="https://amzn.to/3Xf545a"><img src="/img/devices/switchbot-lock.webp" width="300" /></a>
+
+[SwitchBot Humidifier](https://us.switch-bot.com/products/switchbot-smart-humidifier?_pos=2&_psq=hu&_ss=e&_v=1.0&sca_ref=2053167.M3lc8rkPzc&utm_source=kol&utm_medium=referral&utm_campaign=uppromote&utm_content=affiliate-Travis-Griggs)
+<a href="https://us.switch-bot.com/products/switchbot-smart-humidifier?_pos=2&_psq=hu&_ss=e&_v=1.0&sca_ref=2053167.M3lc8rkPzc&utm_source=kol&utm_medium=referral&utm_campaign=uppromote&utm_content=affiliate-Travis-Griggs"><img src="/img/devices/switchbot-humid.webp" width="250" /></a>
+
 
 [Mi Flora Soil Sensors](https://s.click.aliexpress.com/e/_DD26pwR)
 <a href="https://s.click.aliexpress.com/e/_DD26pwR"><img src="/img/devices/mi-flora.webp" width="150" /></a>  

@@ -2,6 +2,7 @@
 title: TASMOTA and ESPHome Compatible Flashable Devices
 description: List of maintained devices that a user can flash TASMOTA, ESPHome, etc to as well as Pre-Flashed ready to go devices
 image: /img/tas_white_blackbg.png
+date: "2022-12-25"
 keywords: [esp8266 tasmota, esp8266, esp32, tasmota compatible devices, esphome compatible devices, espressif]
 sidebar_position: 1
 ---
@@ -10,7 +11,7 @@ sidebar_position: 1
 
 These are devices that are Espressif chip based and do NOT require a chip swap.  If one of the below devices needs to be removed due to a hardware change please contact us.  
 
-**Updated on: November 19, 2022**
+**Updated on: December 25, 2022**
 
 ### Bulbs
 
