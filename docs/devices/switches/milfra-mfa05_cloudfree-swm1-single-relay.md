@@ -28,7 +28,7 @@ None needed it's already running TASMOTA! OH YEAH BABY ❤️ CloudFree
 
 ### Milfra MFA05
 
-You'll need a [USB TTL adapter](https://amzn.to/3tIybRd) and here is the wiring diagram:
+You'll need a [USB TTL adapter](https://amzn.to/3tIybRd) and here is the wiring diagram.  Verify your USB TTL adapter jumper is on 3v3(if equipped) and you use the 3V3 pin.  DO NOT USE THE 5V for flashing.
 
 ![alt text](/img/devices/cloudfree_milfra_flashing_pinout.webp "Milfra MFA05 Inside Flashing Pinout")
 

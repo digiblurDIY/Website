@@ -46,7 +46,7 @@ Sold under many different product brands:
 <hr/>
 You'll need to buy yourself an 
 
-[ESP12F Chip](https://geni.us/JANv)
+[ESP32C3 12F 4MB Chip](https://geni.us/JANv)
 
 If you want to use the rotary encoder on the back you'll need a voltage logic level shifter due to the board having 5V supplied and the ESP chip only tolerating 3.3v on it's pins
 

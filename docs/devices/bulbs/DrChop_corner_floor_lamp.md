@@ -24,12 +24,9 @@ Purchase via [Amazon](https://amzn.to/3YGy7j9)
 <hr/>
 You'll need to buy yourself an 
 
-[ESP-C3-12F Chip](https://a.aliexpress.com/_mOr497g)
+[ESP-C3-12F Chip](https://geni.us/8FsZeR)  
 
-ESP burner
-
-[Amazon](https://www.amazon.com/dp/B08F9HTR9Z?tag=digiblurd-20)
-
+[ESP burner](https://geni.us/lc6BBaD)
 
 ## Pre-Flash ESP-C3-12F
 <hr/>

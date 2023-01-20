@@ -20,13 +20,13 @@ Purchase Milfra MFA06 via [Amazon](https://amzn.to/3Ol1Its)
 
 ## Flashing
 
-You'll need a [USB TTL adapter](https://amzn.to/3tIybRd) and here is the wiring diagram:
+You'll need a [USB TTL adapter](https://amzn.to/3tIybRd) and here is the wiring diagram. Verify your USB TTL adapter jumper is on 3v3(if equipped) and you use the 3V3 pin.  DO NOT USE THE 5V for flashing.
 
-![alt text](/img/devices/cloudfree_milfra_flashing_pinout.webp "Milfra MFA05 Inside Flashing Pinout")
+![alt text](/img/devices/cloudfree_milfra_flashing_pinout.webp "Milfra MFA06 Inside Flashing Pinout")
 
 You can just use dupont wires and push them into the slots no soldering required like shown here:
 
-![alt text](/img/devices/cloudfree_milfra_flashing_dupont.webp "Milfra MFA05 Inside Flashing Pinout")
+![alt text](/img/devices/cloudfree_milfra_flashing_dupont.webp "Milfra MFA06 Inside Flashing Pinout")
 
 Open the TASMOTA [webinstaller](https://tasmota.github.io/install/) and flash it with the regular TASMOTA release.
 
