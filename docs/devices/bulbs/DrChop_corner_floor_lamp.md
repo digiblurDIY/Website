@@ -28,7 +28,7 @@ You'll need to buy yourself an
 
 ESP burner
 
-[Amazon](https://www.amazon.com/gp/product/B089488G11?tag=digiblur-20)
+[Amazon](https://www.amazon.com/dp/B08F9HTR9Z?tag=digiblurd-20)
 
 
 ## Pre-Flash ESP-C3-12F
