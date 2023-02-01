@@ -4,7 +4,7 @@ date: "2023-02-01"
 categories: 
   - "zigbee"
 description: ZStack Firmware 2022-12-26 has been released as stable.  Improving peformance and reliability on large networks and more.
-image: images/zigbee-zstack-upgrade.jpg
+image: /img/thumbs/zigbee-zstack-upgrade.jpg
 keywords: [zstack, cc2652 upgrade, zigbee2mqtt upgrade, koenkk zigbee]
 authors: digiblur
 ---
