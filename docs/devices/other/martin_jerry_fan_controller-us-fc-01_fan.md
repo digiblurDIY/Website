@@ -135,6 +135,63 @@ entities:
 |GPIO03 | Tuya RX | MCU Recieve
 </p></details>
 
+<details><summary>ESPHome YAML</summary>     
+<p>
+
+```yaml
+substitutions:
+  device_name: Fan_name   #CustomizeThis
+  friendly_name: Fan  Name #CustomizeThis
+  icon: "mdi:light-fan"
+
+esphome:
+  name: ${device_name}
+  platform: ESP8266
+  board: esp01_1m
+
+wifi:
+  # https://esphome.io/components/wifi
+   
+#web_server:
+  #port: 80
+  # https://esphome.io/components/web_server.html
+
+logger:
+  # https://esphome.io/components/logger
+
+api:
+  #password: !secret esphome_api_password
+  # https://esphome.io/components/api
+
+ota:
+  #password: !secret esphome_ota_password
+  # https://esphome.io/components/ota
+
+uart:
+  rx_pin: GPIO3
+  tx_pin: GPIO1
+  baud_rate: 9600
+
+tuya:
+
+sensor:
+  - platform: wifi_signal
+    name: ${friendly_name} Wifi Signal
+    update_interval: 60s
+
+  - platform: uptime
+    name: ${friendly_name} uptime
+
+fan:
+  - platform: "tuya"
+    name: ${friendly_name} Speed
+    switch_datapoint: 1
+    speed_datapoint: 3
+    speed_count: 4
+```
+</p></details>
+
+
 ### Pics
 
 ![alt text](/img/devices/mj-us-fc-01_external.webp "Martin Jerry Fan Speed Controller US-FC-01 External")
