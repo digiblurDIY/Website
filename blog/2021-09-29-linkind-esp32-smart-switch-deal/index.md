@@ -5,7 +5,7 @@ date: "2021-09-29"
 
 [![](images/PXL_20210929_014411343.jpg)](https://1.bp.blogspot.com/-ZNLNKvJHv_Y/YVRkcKwQChI/AAAAAAAEwxk/IBNSUC7QMd4C0yTJGp2zOyFJSWbuI1kCQCLcBGAsYHQ/s4032/PXL_20210929_014411343.jpg)
 
-**Looking for How to Flash them?**  [Complete Flashing Guide - Wiki Link](/docs) 
+**Looking for How to Flash them?**  [Complete Flashing Guide - Wiki Link](/wiki/devices/switches/linkind-switch-WS240010008) 
 
 [**Buy the 1 pack on Amazon**](https://amzn.to/3ijr6RC)
 

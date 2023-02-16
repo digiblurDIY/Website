@@ -4,7 +4,7 @@
 
 ESPHome YAML Configuration to create an ESP32-Solo (Single Core) Home Assistant Bluetooth Active Proxy.  In layman's terms, it is a remote network attached Bluetooth adapter Home Assistant can use to communicate with Bluetooth devices.  For instance, put one in your backyard to pick up temperature sensors in the pool and greenhouse; list of [Bluetooth Compatible Devices](/wiki/ha/bluetooth-compatible-devices)   
 
-This file can be used as a base to adapt to other ESP32-Solo Devices such as [Linkind Switches/Dimmers Gen1](https://1b8d781e8c5fc5437e2f6f4d44a644d6.blogspot.com/p/linkind-esp32-smart-switch-how-to-flash.html), [Shelly Plus 1](/2021/12/01/diy-smart-garage-opener-local-shelly-plus), and more.
+This file can be used as a base to adapt to other ESP32-Solo Devices such as [Linkind Switches/Dimmers Gen1](/wiki/devices/switches/linkind-switch-WS240010008), [Shelly Plus 1](/2021/12/01/diy-smart-garage-opener-local-shelly-plus), and more.
 
 ## The YAML
 

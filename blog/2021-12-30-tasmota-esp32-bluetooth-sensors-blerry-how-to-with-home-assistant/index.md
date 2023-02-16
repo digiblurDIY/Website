@@ -36,7 +36,7 @@ Wyze Outdoor Check a Local Home Depot!
 ⚡**Resources**  
 Tasmota Blerry Project - [https://github.com/tony-fav/tasmota-blerry](https://github.com/tony-fav/tasmota-blerry)  
 Wyze Outdoor Plug - [/?p=28](/?p=28)  
-Linkind Switch How To - [/p/linkind-esp32-smart-switch-how-to-flash.html](/p/linkind-esp32-smart-switch-how-to-flash.html)  
+Linkind Switch How To - [/p/linkind-esp32-smart-switch-how-to-flash.html](/wiki/devices/switches/linkind-switch-WS240010008)  
 Shelly Plus 1 How To - [https://youtu.be/eLoOT3mXcMs](https://youtu.be/eLoOT3mXcMs)  
 Sonoff Dual R3 - [https://youtu.be/VT6bY-iSveI](https://youtu.be/VT6bY-iSveI)  
 Xiaomi Bluetooth ATC Sensor Project [https://github.com/pvvx/ATC\_MiThermometer](https://github.com/pvvx/ATC_MiThermometer)  
