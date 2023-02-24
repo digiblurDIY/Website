@@ -11,7 +11,7 @@ sidebar_position: 1
 
 These are devices that are Espressif chip based and do NOT require a chip swap.  If one of the below devices needs to be removed due to a hardware change please contact us.  
 
-**Updated on: February 9, 2023**
+**Updated on: February, 23 2023**
 
 ### Bulbs
 
@@ -49,6 +49,8 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 [GHome 6 Plug Outlet Extender](https://amzn.to/3DluMw2)  
 [GHome 3 Plug Power Strip](https://amzn.to/3TNHkDu)  
 [Xuntiy 4 Plug Power Strip](https://amzn.to/3TWzLKQ)  
+[AHRISE 6 Outlet Extender](https://amzn.to/3KfmKtF) - [Template](/wiki/devices/#misc-templates)  
+[POWRUI 3 Outlet Extender](https://amzn.to/3xrCAd2) - [Template](/wiki/devices/#misc-templates)
 
 ### LED Controllers
 
@@ -65,4 +67,9 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 [Shelly Plus 2PM](https://s.click.aliexpress.com/e/_DD4OEs7)  
 [Shelly Plus i4](https://s.click.aliexpress.com/e/_DCZkZ0R)  
 
-Got edits?
+#### Misc Templates
+
+[AHRISE 6 Outlet Extender](https://amzn.to/3KfmKtF) - <sup>```{"NAME":"AHRise AHR-085","GPIO":[0,0,0,0,32,544,0,0,225,226,224,0,0,0],"FLAG":0,"BASE":18}```</sup>  
+[POWRUI 3 Outlet Extender](https://amzn.to/3xrCAd2) - <sup>```{"NAME":"POWRUI AHR-087","GPIO":[0,0,0,0,225,226,0,0,32,544,0,224,0,0],"FLAG":0,"BASE":18}```</sup>   
+
+Got Edits?
