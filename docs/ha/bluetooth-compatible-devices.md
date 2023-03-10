@@ -7,7 +7,7 @@ keywords: [home assistant bluetooth, bluetooth compatible devices, bluetooth pro
 ---
 # Bluetooth Compatible Devices
 
-**Updated on: January 16, 2023**
+**Updated on: March 10, 2023**
 
 Devices the [Discord Crew](https://discord.digiblur.com) and I have found to be compatible with Home Assistant and [ESPHome Bluetooth Proxies](/2022/09/07/home-assistant-esphome-bluetooth-proxy-how-to)  
 
@@ -18,7 +18,7 @@ Most of these devices are plug and play auto discovery right into Home Assistant
 [SwitchBot Temperature & Humidity MeterTH S1](https://amzn.to/3Dlu6qi)
 <a href="https://amzn.to/3Dlu6qi"><img src="/img/devices/switchbot-meter-th-s1.webp" width="250" /></a>
 
-[Xiaomi & Humidity Display Sensor](https://s.click.aliexpress.com/e/_AUojlM) or [CloudFree Shop](https://cloudfree.shop/product/xiaomi-mijia-bluetooth-temperature-and-humidity-sensor/?ref=digiblur) with [PVVX BTHome Firmware Settings](https://github.com/pvvx/ATC_MiThermometer)
+[Xiaomi & Humidity Display Sensor](https://s.click.aliexpress.com/e/_DnS67Ql) or [CloudFree Shop](https://cloudfree.shop/product/xiaomi-mijia-bluetooth-temperature-and-humidity-sensor/?ref=digiblur) with [PVVX BTHome Firmware Settings](https://github.com/pvvx/ATC_MiThermometer)
 <a href="https://s.click.aliexpress.com/e/_AUojlM"><img src="/img/devices/xiaomi_lywsd03mmc.webp" width="230" /></a>
 
 [Inkbird Temperature & Humidity IBS-TH2](https://amzn.to/3D3lqWY)
@@ -35,6 +35,22 @@ Most of these devices are plug and play auto discovery right into Home Assistant
 
 [Govee Temperature & Humidity Display H5102](https://amzn.to/3WJV4Ry)
 <a href="https://amzn.to/3WJV4Ry"><img src="/img/devices/govee_h5102.webp" width="250" /></a>
+
+[RuuviTag 4in1](https://amzn.to/3YzgeBz)
+<a href="https://amzn.to/3YzgeBz"><img src="/img/devices/ruuvitag.webp" width="25%" /></a>
+
+[Moat S2](https://amzn.to/3ZFqf1y)
+<a href="https://amzn.to/3ZFqf1y"><img src="/img/devices/moat.webp" width="25%" /></a>
+
+[SensorPush HT.w Wireless](https://amzn.to/3yr1kT8)
+<a href="https://amzn.to/3yr1kT8"><img src="/img/devices/sensorpush.webp" width="25%" /></a>
+
+[ThermoPro TP357](https://amzn.to/3YwNBoE)
+<a href="https://amzn.to/3YwNBoE"><img src="/img/devices/thermpro_tp357.webp" width="25%" /></a>
+
+[ThermoPro TP393](https://amzn.to/3FdzzBl) or on [Aliexpress](https://s.click.aliexpress.com/e/_DBcVs4N)
+<a href="https://amzn.to/3FdzzBl"><img src="/img/devices/thermpro_tp393.webp" width="35%" /></a>
+
 
 ## Lights
 

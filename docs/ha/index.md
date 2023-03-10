@@ -8,6 +8,8 @@ sidebar_position: 1
 ## Getting Started
 --->
 
+[Complete Temperature & Humidity Sensor Comparison Results](/wiki/ha/temp-humidity-sensor-testing)
+
 ## ESPHome
 
 [Initial ESP32 Installation Procedures](/wiki/ha/esphome-esp32-how-to-flash)

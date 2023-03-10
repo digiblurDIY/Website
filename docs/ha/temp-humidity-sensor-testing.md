@@ -24,15 +24,32 @@ Testing 24 different sensors with temperature and humidity in various environmen
 ## Sensor List
 
 ### Bluetooth (HA BT Proxy Compatible)
-[Moat S2](https://amzn.to/3ZFqf1y)  
-[SensorPush HT.w Wireless](https://amzn.to/3yr1kT8)  
-[XIAOMI Display](https://s.click.aliexpress.com/e/_DnS67Ql)  
-[Inkbird IBS-TH2](https://amzn.to/3FapwwP)  
-[RuuviTag 4in1](https://amzn.to/3YzgeBz)  
-[Govee H5075](https://amzn.to/3Jq1osA)  
-[ThermoPro TP357](https://amzn.to/3YwNBoE)  
-[ThermoPro TP393](https://amzn.to/3FdzzBl)  
-[SwitchBot Display](https://amzn.to/3ZQNCVh)  
+[Xiaomi Display Sensor](https://s.click.aliexpress.com/e/_DnS67Ql) or [CloudFree Shop](https://cloudfree.shop/product/xiaomi-mijia-bluetooth-temperature-and-humidity-sensor/?ref=digiblur) with [PVVX BTHome Firmware Settings](https://github.com/pvvx/ATC_MiThermometer)
+<a href="https://s.click.aliexpress.com/e/_DnS67Ql"><img src="/img/devices/xiaomi_lywsd03mmc.webp" width="25%" /></a>
+
+[Inkbird Temperature & Humidity IBS-TH2](https://amzn.to/3D3lqWY)
+<a href="https://amzn.to/3D3lqWY"><img src="/img/devices/inkbird-ibs-th2.webp" width="25%" /></a>  
+
+[Govee Temperature & Humidity Display H5075](https://amzn.to/3DiPPPK)
+<a href="https://amzn.to/3DiPPPK"><img src="/img/devices/govee_h5075.webp" width="25%" /></a>
+
+[SwitchBot Temperature & Humidity MeterTH S1](https://amzn.to/3Dlu6qi)
+<a href="https://amzn.to/3Dlu6qi"><img src="/img/devices/switchbot-meter-th-s1.webp" width="25%" /></a>
+
+[RuuviTag 4in1](https://amzn.to/3YzgeBz)
+<a href="https://amzn.to/3YzgeBz"><img src="/img/devices/ruuvitag.webp" width="25%" /></a>
+
+[Moat S2](https://amzn.to/3ZFqf1y)
+<a href="https://amzn.to/3ZFqf1y"><img src="/img/devices/moat.webp" width="25%" /></a>
+
+[SensorPush HT.w Wireless](https://amzn.to/3yr1kT8)
+<a href="https://amzn.to/3yr1kT8"><img src="/img/devices/sensorpush.webp" width="25%" /></a>
+
+[ThermoPro TP357](https://amzn.to/3YwNBoE)
+<a href="https://amzn.to/3YwNBoE"><img src="/img/devices/thermpro_tp357.webp" width="25%" /></a>
+
+[ThermoPro TP393](https://amzn.to/3FdzzBl) or on [Aliexpress](https://s.click.aliexpress.com/e/_DBcVs4N)
+<a href="https://amzn.to/3FdzzBl"><img src="/img/devices/thermpro_tp393.webp" width="35%" /></a>
 
 ### Zigbee
 

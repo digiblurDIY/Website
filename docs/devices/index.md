@@ -73,15 +73,9 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 [Shelly Plus 2PM](https://s.click.aliexpress.com/e/_DD4OEs7)  
 [Shelly Plus i4](https://s.click.aliexpress.com/e/_DCZkZ0R)  
 
-Got edits?
-
-<!---
-digiblurDIY Favorites
-
-How to Use a TASMOTA Template
---->
-
 #### Misc Templates
 
 [AHRISE 6 Outlet Extender](https://amzn.to/3KfmKtF) - <sup>```{"NAME":"AHRise AHR-085","GPIO":[0,0,0,0,32,544,0,0,225,226,224,0,0,0],"FLAG":0,"BASE":18}```</sup>  
 [POWRUI 3 Outlet Extender](https://amzn.to/3xrCAd2) - <sup>```{"NAME":"POWRUI AHR-087","GPIO":[0,0,0,0,225,226,0,0,32,544,0,224,0,0],"FLAG":0,"BASE":18}```</sup>   
+
+Got Edits?
