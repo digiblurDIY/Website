@@ -13,7 +13,7 @@ Testing 24 different sensors with temperature and humidity in various environmen
 <iframe allowfullscreen height="353" src="https://www.youtube.com/embed/pxcy1ZYnWBw" width="625" youtube-src-=""></iframe>  
 
 ### Sensors Specs
-**Click the charts for larger image**
+**Click Open in New Tab for larger images**
 
 <a href="/img/charts/temp-test_sensor_table1.png"><img src="/img/charts/temp-test_sensor_table1.png" width="100%" /></a>
 
@@ -59,7 +59,7 @@ Testing 24 different sensors with temperature and humidity in various environmen
 
 ## Temperature Testing
 
-**Click the graphs for larger image**
+**Click Open in New Tab for larger images**
 
 ### In the Freezer
 <a href="/img/charts/temp-test_temps_freezer.png"><img src="/img/charts/temp-test_temps_freezer.png" width="100%" /></a>
@@ -75,7 +75,7 @@ Testing 24 different sensors with temperature and humidity in various environmen
 
 ## Humidity Testing
 
-**Click the graphs for larger image**
+**Click Open in New Tab for larger images**
 
 ### In an Average Room 1
 <a href="/img/charts/temp-test_humid_average_room.png"><img src="/img/charts/temp-test_humid_average_room.png" width="100%" /></a>
