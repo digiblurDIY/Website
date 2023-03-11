@@ -24,32 +24,18 @@ Testing 24 different sensors with temperature and humidity in various environmen
 ## Sensor List
 
 ### Bluetooth (HA BT Proxy Compatible)
-[Xiaomi Display Sensor](https://s.click.aliexpress.com/e/_DnS67Ql) or [CloudFree Shop](https://cloudfree.shop/product/xiaomi-mijia-bluetooth-temperature-and-humidity-sensor/?ref=digiblur) with [PVVX BTHome Firmware Settings](https://github.com/pvvx/ATC_MiThermometer)
-<a href="https://s.click.aliexpress.com/e/_DnS67Ql"><img src="/img/devices/xiaomi_lywsd03mmc.webp" width="25%" /></a>
 
-[Inkbird Temperature & Humidity IBS-TH2](https://amzn.to/3D3lqWY)
-<a href="https://amzn.to/3D3lqWY"><img src="/img/devices/inkbird-ibs-th2.webp" width="25%" /></a>  
-
-[Govee Temperature & Humidity Display H5075](https://amzn.to/3DiPPPK)
-<a href="https://amzn.to/3DiPPPK"><img src="/img/devices/govee_h5075.webp" width="25%" /></a>
-
-[SwitchBot Temperature & Humidity MeterTH S1](https://amzn.to/3Dlu6qi)
-<a href="https://amzn.to/3Dlu6qi"><img src="/img/devices/switchbot-meter-th-s1.webp" width="25%" /></a>
-
-[RuuviTag 4in1](https://amzn.to/3YzgeBz)
-<a href="https://amzn.to/3YzgeBz"><img src="/img/devices/ruuvitag.webp" width="25%" /></a>
-
-[Moat S2](https://amzn.to/3ZFqf1y)
-<a href="https://amzn.to/3ZFqf1y"><img src="/img/devices/moat.webp" width="25%" /></a>
-
-[SensorPush HT.w Wireless](https://amzn.to/3yr1kT8)
-<a href="https://amzn.to/3yr1kT8"><img src="/img/devices/sensorpush.webp" width="25%" /></a>
-
-[ThermoPro TP357](https://amzn.to/3YwNBoE)
-<a href="https://amzn.to/3YwNBoE"><img src="/img/devices/thermpro_tp357.webp" width="25%" /></a>
-
-[ThermoPro TP393](https://amzn.to/3FdzzBl) or on [Aliexpress](https://s.click.aliexpress.com/e/_DBcVs4N)
-<a href="https://amzn.to/3FdzzBl"><img src="/img/devices/thermpro_tp393.webp" width="35%" /></a>
+| Sensor | Name | Links |
+|------ |-------------|-------------|         
+| <a href="https://s.click.aliexpress.com/e/_DnS67Ql"><img src="/img/devices/xiaomi_lywsd03mmc.webp" width="200" /></a>	| Xiaomi Display Sensor | [Aliexpress](https://s.click.aliexpress.com/e/_DnS67Ql) <br/> [CloudFree Shop](https://cloudfree.shop/product/xiaomi-mijia-bluetooth-temperature-and-humidity-sensor/?ref=digiblur) |
+| <a href="https://amzn.to/3D3lqWY"><img src="/img/devices/inkbird-ibs-th2.webp" width="200" /></a>	| Inkbird Temperature & Humidity IBS-TH2 | [Amazon](https://amzn.to/3D3lqWY)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_Dno3z4p) |
+| <a href="https://amzn.to/3DiPPPK"><img src="/img/devices/govee_h5075.webp" width="200" /></a>	| Govee Temperature & Humidity Display H5075 | [Amazon](https://amzn.to/3DiPPPK) |
+| <a href="https://amzn.to/3Dlu6qi"><img src="/img/devices/switchbot-meter-th-s1.webp" width="200" /></a>	| SwitchBot Temperature & Humidity MeterTH S1 | [Amazon](https://amzn.to/3Dlu6qi)  <br/> [Switch-Bot](https://www.switch-bot.com//products/switchbot-meter?sca_ref=2053167.M3lc8rkPzc&utm_source=kol&utm_medium=referral&utm_campaign=uppromote) |
+| <a href="https://amzn.to/3YzgeBz"><img src="/img/devices/ruuvitag.webp" width="200" /></a>	| RuuviTag 4in1 | [Amazon](https://amzn.to/3YzgeBz) |
+| <a href="https://amzn.to/3ZFqf1y"><img src="/img/devices/moat.webp" width="200" /></a> | Moat S2 | [Amazon](https://amzn.to/3ZFqf1y) |
+| <a href="https://amzn.to/3yr1kT8"><img src="/img/devices/sensorpush.webp" width="200" /></a>	| SensorPush HT.w Wireless | [Amazon](https://amzn.to/3yr1kT8) |
+| <a href="https://amzn.to/3FdzzBl"><img src="/img/devices/thermpro_tp393.webp" width="250" /></a>	| ThermoPro 393 | [Amazon](https://amzn.to/3FdzzBl)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DBcVs4N) |
+| <a href="https://amzn.to/3YwNBoE"><img src="/img/devices/thermpro_tp357.webp" width="200" /></a>	| ThermoPro 357 | [Amazon](https://amzn.to/3YwNBoE)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DBWn2it) |
 
 ### Zigbee
 
