@@ -39,26 +39,32 @@ Testing 24 different sensors with temperature and humidity in various environmen
 
 ### Zigbee
 
-[Aqara Temperature Sensor](https://amzn.to/3Jq1kck)  
-[Third Reality Zigbee Display](https://amzn.to/3mF29W1)  
-[SONOFF SNZB-02D Zigbee](https://itead.cc/product/sonoff-snzb-02d-zigbee-lcd-smart-temperature-humidity-sensor/ref/28/)  
-[MOES ZigBee Display](https://amzn.to/3La9dnQ)  
-[Moes ZigBee Sensor](https://amzn.to/41Yyd79)  
-[Hue Motion Sensor](https://amzn.to/3FbCoTr)  
+| Sensor | Name | Links |
+|------ |-------------|-------------|  
+| <a href="https://amzn.to/3Jq1kck"><img src="/img/devices/aqara_temp.webp" width="200" /></a>	| Aqara Temperature Sensor | [Amazon](https://amzn.to/3Jq1kck)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DF2iwGH) |
+| <a href="https://amzn.to/3mF29W1"><img src="/img/devices/thirdreality_temp.webp" width="200" /></a>	| Third Reality Zigbee Display | [Amazon](https://amzn.to/3mF29W1)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DF2iwGH) |
+| <a href="https://amzn.to/3mF29W1"><img src="/img/devices/sonoff_zigbee_temp.webp" width="200" /></a>	| SONOFF SNZB-02D Zigbee | [iTead](https://itead.cc/product/sonoff-snzb-02d-zigbee-lcd-smart-temperature-humidity-sensor/ref/28/) |
+| <a href="https://amzn.to/3La9dnQ"><img src="/img/devices/moes_zigbee_display.webp" width="200" /></a>	| MOES ZigBee Sensor Display | [Amazon](https://amzn.to/3mF29W1)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DBKgeBL) |
+| <a href="https://amzn.to/41Yyd79"><img src="/img/devices/moes_zigbee.webp" width="200" /></a>	| MOES ZigBee Sensor No Display | [Amazon](https://amzn.to/41Yyd79)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DkzvFdx) |
+| <a href="https://amzn.to/3FbCoTr"><img src="/img/devices/hue_motion.webp" width="200" /></a>	| Hue Motion Sensor | [Amazon](https://amzn.to/3FbCoTr) |
 
 ### i2c ESP Sensors (ESPHome)
 
-[DHT22](https://amzn.to/3L91ciI)  
-[HTU21D](https://amzn.to/3L5DILz)  
-[SHT31](https://amzn.to/41Wohv6)  
-[BME280](https://amzn.to/42b5AnJ)  
-[AHT21](https://amzn.to/3ZpV1v3)  
+| Sensor | Name | Links |
+|------ |-------------|-------------|  
+| <a href="https://amzn.to/3L91ciI"><img src="/img/devices/dht22.webp" width="200" /></a>	| DHT22 | [Amazon](https://amzn.to/3L91ciI)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DC2a9rR) |
+| <a href="https://amzn.to/3L5DILz"><img src="/img/devices/htu21d.webp" width="200" /></a>	| HTU21D | [Amazon](https://amzn.to/3L5DILz)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DBg7Rwd) |
+| <a href="https://amzn.to/41Wohv6"><img src="/img/devices/sht31.webp" width="200" /></a>	| SHT31 | [Amazon](https://amzn.to/41Wohv6)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DCzd4a1) |
+| <a href="https://amzn.to/42b5AnJ"><img src="/img/devices/bme280.webp" width="200" /></a>	| BME280 | [Amazon](https://amzn.to/42b5AnJ)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DCEVFqN) |
+| <a href="https://amzn.to/3ZpV1v3"><img src="/img/devices/aht21.webp" width="200" /></a>	| AHT21 | [Amazon](https://amzn.to/3ZpV1v3)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DkxfrbB) |
 
 ### Others (Zwave,WiFi,LoRa)
 
-[Zooz 4-in-1](https://www.getzooz.com/zooz-zse40-4-in-1-sensor/)  
-[Shelly Plus H&T](https://www.shelly.cloud/en-us/products/product-overview/shelly-plus-h-t-1)  
-[Yolink](https://amzn.to/3ylzurA)  
+| Sensor | Name | Links |
+|------ |-------------|-------------|  
+| <a href="https://amzn.to/3L91ciI"><img src="/img/devices/zooz4in1.png" width="200" /></a>	| Zooz 4-in-1 (Zwave) | [Amazon](https://amzn.to/3FhFEwz) |
+| <a href="https://s.click.aliexpress.com/e/_Dk5UIIv"><img src="/img/devices/shelly_plus_ht.webp" width="200" /></a> | Shelly Plus H&T (WiFi) | [Aliexpress](https://s.click.aliexpress.com/e/_Dk5UIIv) |
+| <a href="https://amzn.to/3ylzurA"><img src="/img/devices/yolink_temperature_sensor.png" width="200" /></a> | Yolink (LoRa) | [Amazon](https://amzn.to/3ylzurA) |
 
 ## Temperature Testing
 
