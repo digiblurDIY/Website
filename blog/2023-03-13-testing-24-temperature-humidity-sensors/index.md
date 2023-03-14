@@ -36,7 +36,7 @@ Read more  👉
 
 | Sensor | Name | Links |
 |------ |-------------|-------------|         
-| <a href="https://s.click.aliexpress.com/e/_DnS67Ql"><img src="/img/devices/xiaomi_lywsd03mmc.webp" width="200" /></a>	| Xiaomi Display Sensor | [Aliexpress](https://s.click.aliexpress.com/e/_DnS67Ql) <br/> [CloudFree Shop](https://cloudfree.shop/product/xiaomi-mijia-bluetooth-temperature-and-humidity-sensor/?ref=digiblur) |
+| <a href="https://s.click.aliexpress.com/e/_DnS67Ql"><img src="/img/devices/xiaomi_lywsd03mmc.webp" width="200" /></a>	| Xiaomi Display Sensor | [Aliexpress](https://s.click.aliexpress.com/e/_DnS67Ql) <br/> [CloudFree](https://cloudfree.shop/product/xiaomi-mijia-bluetooth-temperature-and-humidity-sensor/?ref=digiblur) |
 | <a href="https://amzn.to/3D3lqWY"><img src="/img/devices/inkbird-ibs-th2.webp" width="200" /></a>	| Inkbird Temperature & Humidity IBS-TH2 | [Amazon](https://amzn.to/3D3lqWY)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_Dno3z4p) |
 | <a href="https://amzn.to/3DiPPPK"><img src="/img/devices/govee_h5075.webp" width="200" /></a>	| Govee Temperature & Humidity Display H5075 | [Amazon](https://amzn.to/3DiPPPK) |
 | <a href="https://amzn.to/3Dlu6qi"><img src="/img/devices/switchbot-meter-th-s1.webp" width="200" /></a>	| SwitchBot Temperature & Humidity MeterTH S1 | [Amazon](https://amzn.to/3Dlu6qi)  <br/> [Switch-Bot](https://www.switch-bot.com//products/switchbot-meter?sca_ref=2053167.M3lc8rkPzc&utm_source=kol&utm_medium=referral&utm_campaign=uppromote) |
@@ -50,7 +50,7 @@ Read more  👉
 
 | Sensor | Name | Links |
 |------ |-------------|-------------|  
-| <a href="https://amzn.to/3Jq1kck"><img src="/img/devices/aqara_temp.webp" width="200" /></a>	| Aqara Temperature Sensor | [Amazon](https://amzn.to/3Jq1kck)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DF2iwGH) |
+| <a href="https://amzn.to/3Jq1kck"><img src="/img/devices/aqara_temp.webp" width="200" /></a>	| Aqara Temperature Sensor | [Amazon](https://amzn.to/3Jq1kck)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DF2iwGH) <br/> [CloudFree](https://cloudfree.shop/product/aqara-temperature-and-humidity-sensor/?ref=digiblur) |
 | <a href="https://amzn.to/3mF29W1"><img src="/img/devices/thirdreality_temp.webp" width="200" /></a>	| Third Reality Zigbee Display | [Amazon](https://amzn.to/3mF29W1)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DF2iwGH) |
 | <a href="https://amzn.to/3mF29W1"><img src="/img/devices/sonoff_zigbee_temp.webp" width="200" /></a>	| SONOFF SNZB-02D Zigbee | [iTead](https://itead.cc/product/sonoff-snzb-02d-zigbee-lcd-smart-temperature-humidity-sensor/ref/28/) |
 | <a href="https://amzn.to/3La9dnQ"><img src="/img/devices/moes_zigbee_display.webp" width="200" /></a>	| MOES ZigBee Sensor Display | [Amazon](https://amzn.to/3mF29W1)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DBKgeBL) |
@@ -64,7 +64,7 @@ Read more  👉
 | <a href="https://amzn.to/3L91ciI"><img src="/img/devices/dht22.webp" width="200" /></a>	| DHT22 | [Amazon](https://amzn.to/3L91ciI)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DC2a9rR) |
 | <a href="https://amzn.to/3L5DILz"><img src="/img/devices/htu21d.webp" width="200" /></a>	| HTU21D | [Amazon](https://amzn.to/3L5DILz)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DBg7Rwd) |
 | <a href="https://amzn.to/41Wohv6"><img src="/img/devices/sht31.webp" width="200" /></a>	| SHT31 | [Amazon](https://amzn.to/41Wohv6)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DCzd4a1) |
-| <a href="https://amzn.to/42b5AnJ"><img src="/img/devices/bme280.webp" width="200" /></a>	| BME280 | [Amazon](https://amzn.to/42b5AnJ)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DCEVFqN) |
+| <a href="https://amzn.to/42b5AnJ"><img src="/img/devices/bme280.webp" width="200" /></a>	| BME280 | [Amazon](https://amzn.to/42b5AnJ)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DCEVFqN) <br/> [CloudFree](https://cloudfree.shop/product/bme280-temperature-humidity-and-pressure-sensor/?ref=digiblur) |
 | <a href="https://amzn.to/3ZpV1v3"><img src="/img/devices/aht21.webp" width="200" /></a>	| AHT21 | [Amazon](https://amzn.to/3ZpV1v3)  <br/> [Aliexpress](https://s.click.aliexpress.com/e/_DkxfrbB) |
 
 ### Others (Zwave,WiFi,LoRa)

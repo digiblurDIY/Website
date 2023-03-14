@@ -12,6 +12,7 @@ One of the top favorite smart plugs.  Easy to disassemble with a screw driver, e
 Purchase on Amazon [Amazon](https://amzn.to/3WG3cBG)  
 Purchase on iTead [iTead](https://itead.cc/product/sonoff-s31/ref/28/)  
 Purchase on Aliexpress [Aliexpress](https://s.click.aliexpress.com/e/_Dk8wPtl)
+Purchase on CloudFree [CloudFree](https://cloudfree.shop/product/sonoff-s31-flashed-with-tasmota/?ref=digiblur&attribute_firmware=Stock%20Sonoff)
 
 ### Video Setup
 

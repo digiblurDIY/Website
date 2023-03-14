@@ -9,7 +9,7 @@ keywords: [MFA05 Template, Milfra MFA05, Tasmota Motion Switch, MQTT Motion Swit
 
 Single Pole smart motion switch.  This switch has a motion sensor, daylight (non-lux) sensor, single button and relay.
 
-Purchase CloudFree SWM1 via [cloudfree.shop](https://cloudfree.shop/product/cloudfree-motion-light-switch/)
+Purchase CloudFree SWM1 via [cloudfree.shop](https://cloudfree.shop/product/cloudfree-motion-light-switch/?ref=digiblur)
 
 Purchase Milfra MFA05 via [Amazon](https://amzn.to/3NQUJ9W)
 
@@ -28,7 +28,7 @@ None needed it's already running TASMOTA! OH YEAH BABY ❤️ CloudFree
 
 ### Milfra MFA05
 
-You'll need a [USB TTL adapter](https://amzn.to/3tIybRd) and here is the wiring diagram.  Verify your USB TTL adapter jumper is on 3v3(if equipped) and you use the 3V3 pin.  DO NOT USE THE 5V for flashing.
+You'll need a [USB TTL adapter](https://amzn.to/3tIybRd) [(CloudFree)](https://cloudfree.shop/product/ftdi-usb-to-ttl-serial-adapter/?ref=digiblur) and here is the wiring diagram.  Verify your USB TTL adapter jumper is on 3v3(if equipped) and you use the 3V3 pin.  DO NOT USE THE 5V for flashing.
 
 ![alt text](/img/devices/cloudfree_milfra_flashing_pinout.webp "Milfra MFA05 Inside Flashing Pinout")
 
