@@ -51,18 +51,58 @@ None necessary.
 <p>
 
 ```yaml
-# Current BETA PR via Cossid https://github.com/esphome/esphome/pull/3924
+substitutions:
+  display_name: switchbot-bulb1
+
+esphome:
+  name: ${display_name}
+  platformio_options:
+    board_build.mcu: esp32c3
+    board_build.variant: esp32c3  
+
+esp32:
+  variant: ESP32C3
+  board: esp32dev
+  framework:
+    type: esp-idf
+    sdkconfig_options:
+      CONFIG_BT_BLE_50_FEATURES_SUPPORTED: y
+      CONFIG_BT_BLE_42_FEATURES_SUPPORTED: y
+      CONFIG_ESP_TASK_WDT_TIMEOUT_S: "10" 
+
 external_components:
   - source:
       type: git
       url: https://github.com/dentra/esphome.git
       ref: web-server-idf
     components: [ web_server_base, web_server_idf, web_server, captive_portal ]
-  - source:
-      type: git
-      url: https://github.com/Cossid/esphome.git
-      ref: sm2335
-    components: [ sm10bit_base, sm2335 ]
+
+logger:
+  level: DEBUG
+api:
+ota:
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  ap:
+    ssid: ${display_name} portal
+    password: "esphomez123"
+
+captive_portal:
+
+button:
+  - platform: safe_mode
+    name: ${display_name} (Safe Mode)
+
+#esp32_ble_tracker:
+#  scan_parameters:
+#    interval: 300ms
+#    window: 100ms
+#    active: true
+#
+#bluetooth_proxy:
+#  active: true
 
 sm2335:
   data_pin: GPIO4
@@ -91,7 +131,7 @@ output:
 light:
   - platform: rgbww
     restore_mode: RESTORE_DEFAULT_OFF
-    name: "${friendly_name}"
+    name: "${display_name}"
     red: output_red
     green: output_green
     blue: output_blue
@@ -99,7 +139,7 @@ light:
     warm_white: output_warmwhite 
     cold_white_color_temperature: 6536 K
     warm_white_color_temperature: 2000 K
-    color_interlock: true
+    color_interlock: true    
 ```
 </p></details>
 
