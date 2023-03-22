@@ -2,7 +2,7 @@
 title: Devices
 description: List of maintained devices that a user can flash TASMOTA, ESPHome, etc to as well as Pre-Flashed ready to go devices
 image: /img/tas_white_blackbg.png
-date: "2023-01-19"
+date: "2023-03-21"
 keywords: [esp8266 tasmota, esp8266, esp32, tasmota compatible devices, esphome compatible devices, espressif]
 sidebar_position: 1
 ---
@@ -17,7 +17,7 @@ sidebar_position: 1
 
 These are devices that are Espressif chip based and do NOT require a chip swap.  If one of the below devices needs to be removed due to a hardware change please contact us.  
 
-**Updated on: February, 23 2023**
+**Updated on: March, 21 2023**
 
 ### Bulbs
 
@@ -53,7 +53,7 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 [Kauf Plug](https://amzn.to/3enZdZr)  
 [Wyze Dual Relay Outdoor ESP32 Plug](https://amzn.to/3V01knd) - [Template/Pictures](/2021/03/27/how-to-flash-the-wyze-outdoor-plug-esphome-or-tasmota-local-control)  
 [GHome 6 Plug Outlet Extender](https://amzn.to/3DluMw2)  
-[GHome 3 Plug Power Strip](https://amzn.to/3TNHkDu)  
+[GHome 3 Plug Power Strip](https://amzn.to/3TNHkDu)  1 report of it changed to a non-ESP, use caution.  
 [Xuntiy 4 Plug Power Strip](https://amzn.to/3TWzLKQ)  
 [AHRISE 6 Outlet Extender](https://amzn.to/3KfmKtF) - [Template](/wiki/devices/#misc-templates)  
 [POWRUI 3 Outlet Extender](https://amzn.to/3xrCAd2) - [Template](/wiki/devices/#misc-templates)
