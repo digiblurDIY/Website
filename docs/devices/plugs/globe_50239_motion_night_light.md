@@ -7,7 +7,7 @@ keywords: [globe motion night light 50239]
 
 # Globe 50239 Motion Night Light 🅱️
 
-This device is not ESP based and will require Cloudcutter/ESPHome LibreTuya due to the WB3S module (bk7231t) chipset.
+This device is not ESP based and will require [Cloudcutter](https://github.com/tuya-cloudcutter/tuya-cloudcutter)/ESPHome [LibreTuya](https://docs.libretuya.ml/) due to the WB3S module (bk7231t) chipset.
 
 The night light is 5 channel color plug with a built in PIR motion sensor.  The PIR is not coupled to the LEDs, creating a very flexible use night light for notifications, motion for automated lighting, etc.
 
@@ -20,13 +20,13 @@ Purchase on [Amazon](https://amzn.to/3KC5ajh)
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
-|D1	| Button
-|D2	| Warm White LEDs
-|D4	| Cold White LEDs
-|D5	| Red LEDs
-|D8	| PIR Motion
-|D16 | Green LEDs
-|D17 | Blue LEDs
+|P1	| Button
+|P6	| Warm White LEDs
+|P8	| Cold White LEDs
+|P9	| Red LEDs
+|P14	| PIR Motion
+|P24 | Green LEDs
+|P26 | Blue LEDs
 </p></details>
 
 <details><summary>ESPHome YAML</summary>     
@@ -102,13 +102,13 @@ binary_sensor:
 
   - platform: gpio
     name: ${friendly_name} Motion
-    pin: D8
+    pin: P14
     device_class: motion
 
   - platform: gpio
     name: ${friendly_name} Button
     pin:
-      number: D1
+      number: P1
       inverted: true
 
 button:
@@ -120,19 +120,19 @@ button:
 output:
   - platform: ledc
     id: output_red
-    pin: D5
+    pin: P9
   - platform: ledc
     id: output_green
-    pin: D16
+    pin: P24
   - platform: ledc
     id: output_blue
-    pin: D17
+    pin: P26
   - platform: ledc
     id: output_cold_white
-    pin: D4
+    pin: P8
   - platform: ledc
     id: output_warm_white
-    pin: D2
+    pin: P6
 
 light:
   - platform: rgbww
