@@ -1,11 +1,11 @@
 ---
-title: Globe 50239 Motion Night Light
+title: Globe 50239 Motion Night Light 🅱️
 description: Globe 50239 Color Night Light with PIR motion detection WB3S Chipset 
-image: /img/globe_motion_plug1.jpg
+image: /img/devices/globe_motion_plug1.jpg
 keywords: [globe motion night light 50239]
 ---
 
-# Globe 50239 Motion Night Light
+# Globe 50239 Motion Night Light 🅱️
 
 This device is not ESP based and will require Cloudcutter/ESPHome LibreTuya due to the WB3S module (bk7231t) chipset.
 
