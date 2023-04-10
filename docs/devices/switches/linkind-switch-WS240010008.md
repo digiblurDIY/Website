@@ -1,7 +1,7 @@
 ---
 title: Linkind Switch WS240010008 
 description: Linkind Switch WS240010008 ESP32 Solo - Template and Setup for TASMOTA and ESPHome
-image: /img/linkind_sw1.webp
+image: /img/devices/linkind_sw1.webp
 keywords: [switchbot plug tasmota template, Switchbot W1901400 Template, Switchbot Plug ESPHome, 2AKXB-W1901400, switchbot tasmota, switchbot bluetooth proxy]
 ---
 # Linkind Switch WS240010008

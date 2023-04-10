@@ -70,6 +70,7 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 #### Misc Templates
 
 [AHRISE 6 Outlet Extender](https://amzn.to/3KfmKtF) - <sup>```{"NAME":"AHRise AHR-085","GPIO":[0,0,0,0,32,544,0,0,225,226,224,0,0,0],"FLAG":0,"BASE":18}```</sup>  
-[POWRUI 3 Outlet Extender](https://amzn.to/3xrCAd2) - <sup>```{"NAME":"POWRUI AHR-087","GPIO":[0,0,0,0,225,226,0,0,32,544,0,224,0,0],"FLAG":0,"BASE":18}```</sup>   
-
+[POWRUI 3 Outlet Extender](https://amzn.to/3xrCAd2) - <sup>```{"NAME":"POWRUI AHR-087","GPIO":[0,0,0,0,225,226,0,0,32,544,0,224,0,0],"FLAG":0,"BASE":18}```</sup>  
+[Geeni 6 Strip](https://www.harborfreight.com/surge-smart-surge-protector-power-strip-57729.html?_br_psugg_q=geeni+plug) - <sup>```{"NAME":"Geeni 6 Strip","GPIO":[320,0,0,0,225,224,0,0,227,228,226,229,32,0],"FLAG":0,"BASE":18}```</sup>  
+ 
 Got Edits?

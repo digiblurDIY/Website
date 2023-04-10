@@ -29,9 +29,7 @@ Purchase on [Amazon](https://amzn.to/3KC5ajh)
 |P26 | Blue LEDs
 </p></details>
 
-<details><summary>ESPHome YAML</summary>     
-<p>
-
+### ESPHome YAML
 ```yaml
 substitutions:
   name: globe-motion
@@ -158,8 +156,6 @@ light:
           transition_length: 4s
           update_interval: 5s
 ```
-</p></details>
-
 Thanks to Tony for the YAML!
 
 ### Pics
