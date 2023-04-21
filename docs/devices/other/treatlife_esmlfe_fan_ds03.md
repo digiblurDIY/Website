@@ -155,7 +155,8 @@ It's all down hill after this...  click the Console button on the Tasmota GUI of
 
 ### Tasmota Setup
 
-module 54
+module 54  
+
 backlog so97 1 ; tuyamcu 11,1 ; tuyamcu 12,9 ; tuyamcu 21,10
 backlog ledtable 0 ; dimmerrange 10,1000 ; so59 1 ; so68 0
 
