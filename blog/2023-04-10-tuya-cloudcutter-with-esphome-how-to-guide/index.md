@@ -2,7 +2,7 @@
 title: How To Guide - Tuya CloudCutter with ESPHome Libretuya - No soldering
 date: "2023-04-10"
 description: Complete How To Guide for loading ESPHome Libretuya on the Beken Chipsets
-image: /img/thumbs/all-things-sensors.jpg
+image: /img/thumbs/cloudcutter1.jpg
 categories: 
   - "tuya-cloudcutter"
   - "esphome"
