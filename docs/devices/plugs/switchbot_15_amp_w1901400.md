@@ -144,7 +144,8 @@ light:
     internal: true
     name: ${display_name} White LED
     id: white_led
-    output: white_output    
+    output: white_output
+    restore_mode: RESTORE_DEFAULT_OFF
 
 output:
   - id: white_output
