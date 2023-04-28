@@ -45,7 +45,7 @@ Don't forget to select the gear icon and enable SSH and set your username passwo
 
 ![alt text](images/cloudcut3.png)
 
-4. Run `sudo-raspi-config` go to Localisation Options -> WLAN Country and set your country.  Hit Finish and select Yes to Reboot.  SSH back into the RPI do the following steps to prepare for Tuya-CloudCutter
+4. Run `sudo raspi-config` go to Localisation Options -> WLAN Country and set your country.  Hit Finish and select Yes to Reboot.  SSH back into the RPI do the following steps to prepare for Tuya-CloudCutter
 
 5. Install Network Manager (only reboot once all files are in place)
  - `sudo apt update && sudo apt install network-manager`
