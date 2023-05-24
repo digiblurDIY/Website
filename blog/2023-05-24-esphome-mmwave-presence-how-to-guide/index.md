@@ -28,7 +28,7 @@ Thanks Caleb for the awesome diagram!  For a power source, I'm currently using a
 ### What do you need?
 
 *Affiliate Links
-1. [mmWave LD1125G](https://s.click.aliexpress.com/e/_DmoBDV3) - Make sure to choose HLK-LD1125H-24G! 
+1. [mmWave LD1125G](https://s.click.aliexpress.com/e/_DmoBDV3) - Make sure to choose HLK-LD1125H-24G! or [Aliexpress #2](https://www.aliexpress.us/item/3256803963128099.html?aff_fcid=75d3a769a22b421d81e9eb2e0ad8844b-1684940455088-04288-_DmoBDV3&tt=CPS_NORMAL&aff_fsk=_DmoBDV3&aff_platform=shareComponent-detail&sk=_DmoBDV3&aff_trace_key=75d3a769a22b421d81e9eb2e0ad8844b-1684940455088-04288-_DmoBDV3&terminal_id=e89bf994bae64845acc04c9ef4d83ef1&afSmartRedirect=y&gatewayAdapt=glo2usa)
 2. [ESP32 NodeMCU Dev Board](https://amzn.to/3IE33tM) or [ESP32 NodeMCU Dev Board](https://s.click.aliexpress.com/e/_DDSKt7r)
 3. [2.0mm to 2.54mm Pitch Female to Female Jumpers](https://amzn.to/45oCToF)
 4. [Optional BME280](https://amzn.to/45pwF86)
