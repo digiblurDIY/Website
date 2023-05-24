@@ -33,6 +33,7 @@ Thanks Caleb for the awesome diagram!  For a power source, I'm currently using a
 3. [2.0mm to 2.54mm Pitch Female to Female Jumpers](https://amzn.to/45oCToF)
 4. [Optional BME280](https://amzn.to/45pwF86)
 5. [Optional USB Screw Terminals](https://amzn.to/3WxeE3D)
+6. 5VDC Power Source
 
 Read more  👉
 <!--truncate-->
