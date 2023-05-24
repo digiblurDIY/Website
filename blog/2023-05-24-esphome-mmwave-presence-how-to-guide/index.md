@@ -23,7 +23,7 @@ The use of a PIR has plagued my bathrooms from time to time with lights going ou
 
 ![alt text](/img/diagrams/esphome-mmwave-ld1125-diagram.webp)
 
-Thanks Caleb for the awesome diagram!
+Thanks Caleb for the awesome diagram!  For a power source, I'm currently using a 5VDC power supply in my attic that powers many ESP based projects around the house in the walls, ceiling, etc.  
 
 ### What do you need?
 
