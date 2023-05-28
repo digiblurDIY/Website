@@ -7,7 +7,7 @@ keywords: [globe motion night light 50239]
 
 # Globe 50239 Motion Night Light 🅱️
 
-This device is not ESP based and will require [Cloudcutter](https://github.com/tuya-cloudcutter/tuya-cloudcutter)/ESPHome [LibreTuya](https://docs.libretuya.ml/) due to the WB3S module (bk7231t) chipset.
+This device is not ESP based and will require [Cloudcutter](https://github.com/tuya-cloudcutter/tuya-cloudcutter)/ESPHome [LibreTiny](https://docs.libretiny.eu/) due to the WB3S module (bk7231t) chipset.
 
 The night light is 5 channel color plug with a built in PIR motion sensor.  The PIR is not coupled to the LEDs, creating a very flexible use night light for notifications, motion for automated lighting, etc.
 
@@ -39,7 +39,7 @@ esphome:
   name: ${name}
   name_add_mac_suffix: true
 
-libretuya:
+libretiny:
   board: generic-bk7231t-qfn32-tuya
   framework:
     version: dev
