@@ -1,18 +1,20 @@
 ---
-title: How To Guide - Tuya CloudCutter with ESPHome Libretuya - No soldering
+title: How To Guide - Tuya CloudCutter with ESPHome LibreTiny - No soldering
 date: "2023-04-10"
-description: Complete How To Guide for loading ESPHome Libretuya on the Beken Chipsets
+description: Complete How To Guide for loading ESPHome LibreTiny on the Beken Chipsets
 image: /img/thumbs/cloudcutter1.jpg
 categories: 
   - "tuya-cloudcutter"
   - "esphome"
   - "beken"
   - "w3bs"
-keywords: [tuya-cloudcutter, esphome, beken, w3bs]
+keywords: [tuya-cloudcutter, libretuya, libretiny, esphome, beken, w3bs]
 authors: digiblur
 ---
 
-Remember the days of Tuya-Convert where you could obtain a Tuya based Wi-Fi Smart device, run a quick exploit via a Raspberry-Pi and load your own copy of Tasmota or ESPHome firmware right on the device?  Things were patched unfortunately and then later the chipsets were changed to a Beken based chipset that wouldn't run Tasmota at all.  So we resorted to chip swapping with hot air guns, soldering etc to get our favorite local non-cloud firmware on the device.  Things are now going full circle again where we can load firmware on the Beken chipsets with an over the air exploit called [tuya-cloudcutter](https://github.com/tuya-cloudcutter/tuya-cloudcutter)  It is such an awesome process and down right addictive!.  Then the bigger accomplishment is the [Libretuya](https://docs.libretuya.ml/) project has it all working with ESPHome!  No additional firmware to learn especially for the ESPHome folks.  It all integrates with Home Assistant like any other ESPHome device does.  
+***UPDATE 05/28/2023 - LibreTuya renamed to LibreTiny
+
+Remember the days of Tuya-Convert where you could obtain a Tuya based Wi-Fi Smart device, run a quick exploit via a Raspberry-Pi and load your own copy of Tasmota or ESPHome firmware right on the device?  Things were patched unfortunately and then later the chipsets were changed to a Beken based chipset that wouldn't run Tasmota at all.  So we resorted to chip swapping with hot air guns, soldering etc to get our favorite local non-cloud firmware on the device.  Things are now going full circle again where we can load firmware on the Beken chipsets with an over the air exploit called [tuya-cloudcutter](https://github.com/tuya-cloudcutter/tuya-cloudcutter)  It is such an awesome process and down right addictive!.  Then the bigger accomplishment is the [LibreTiny](https://docs.libretiny.eu/) project has it all working with ESPHome!  No additional firmware to learn especially for the ESPHome folks.  It all integrates with Home Assistant like any other ESPHome device does.  
 
 ### What do you need?
 
@@ -67,9 +69,23 @@ managed=true
 
 9. Clone tuya-cloudcutter repo with `git clone https://github.com/tuya-cloudcutter/tuya-cloudcutter`  
 
-### Install Libretuya ESPHome Fork
+### Start the LibreTiny-ESPHome Docker Container
 
-Currently Libretuya it not merged into the main fork of ESPHome, so we have to install the LT version of it.  Feel free to let the devs know in this PR if this fork works for you and vote to have it merged!  https://github.com/esphome/esphome/pull/3509  
+Currently LibreTiny it not merged into the main fork of ESPHome, so we have to install the LT version of it.  Feel free to let the devs know in this PR if this fork works for you and vote to have it merged!  https://github.com/esphome/esphome/pull/3509  
+
+10. Run the docker container to enable the ESPHome Dashboard with `sudo docker run -d -v /opt/esphome:/config:rw -v /etc/localtime:/etc/localtime:ro -p '6052:6052/tcp' --name libretiny-esphome ghcr.io/libretiny-eu/libretiny-esphome-docker:latest`
+
+11. Open a browser to your Raspberry Pi IP on port 6052.  Example `http://192.168.1.9:6052`  This will allow you to build your ESPHome firmware for the device.  The Globe Plug YAML is located on the [Globe Night Light configuration page](/wiki/devices/plugs/globe_50239_motion_night_light)
+
+Your Raspberry Pi is now ready to be used with Tuya-Cloudcutter and also functions as the LibreTiny ESPHome Dashboard to manage the devices until it is merged into the regular version of ESPHome. 
+
+To Run cloudcutter on the RPI use `sudo ./tuya-cloudcutter.sh -r ` refer to the [usage instructions](https://github.com/tuya-cloudcutter/tuya-cloudcutter/blob/main/INSTRUCTIONS.md) 
+
+It will take a few minutes for the first initial run to pull down the files and build the docker container.  Follow the on screen instructions to flash custom firmware and/or cloudcut the device.  Refer to the video above for more in depth steps of this process or come join us in Discord for additional help using the link in the page footer below.
+
+### Install Libretuya ESPHome Fork  ** NO LONGER NECESSARY
+
+***STOP and READ! I've left this section for archive purposes but now the docker container is already built and ready for us (section above)
 
 10. Clone the libretuya-esphome repo with `git clone https://github.com/kuba2k2/libretuya-esphome`
 
@@ -81,13 +97,6 @@ Currently Libretuya it not merged into the main fork of ESPHome, so we have to i
 
 14. Run the docker container to enable the ESPHome Dashboard with `sudo docker run -d -v /opt/esphome:/config:rw -v /etc/localtime:/etc/localtime:ro -p '6052:6052/tcp' --name esphome-libretuya esphome/esphome-armv7:libretuya`
 
-15. Open a browser to your Raspberry Pi IP on port 6052.  Example `http://192.168.1.9:6052`  This will allow you to build your ESPHome firmware for the device.  The Globe Plug YAML is located on the [Globe Night Light configuration page](/wiki/devices/plugs/globe_50239_motion_night_light)
-
-Your Raspberry Pi is now ready to be used with Tuya-Cloudcutter and also functions as the LibreTuya ESPHome Dashboard to manage the devices until it is merged into the regular version of ESPHome. 
-
-To Run cloudcutter on the RPI use `sudo ./tuya-cloudcutter.sh -r ` refer to the [usage instructions](https://github.com/tuya-cloudcutter/tuya-cloudcutter/blob/main/INSTRUCTIONS.md) 
-
-It will take a few minutes for the first initial run to pull down the files and build the docker container.  Follow the on screen instructions to flash custom firmware and/or cloudcut the device.  Refer to the video above for more in depth steps of this process or come join us in Discord for additional help using the link in the page footer below.
 
 
 
