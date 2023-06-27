@@ -22,6 +22,8 @@ Matter Certified Device List - (https://csa-iot.org/csa-iot_products/)
 
 ## Installation Methods
 
+**IPV6 needs to be enabled on the network adapter used!**
+
 ### UnRaid
 
 Search for Matter Server in the UnRaid CA Apps store - follow the prompts to install the container and make sure it is set to Auto Start.
