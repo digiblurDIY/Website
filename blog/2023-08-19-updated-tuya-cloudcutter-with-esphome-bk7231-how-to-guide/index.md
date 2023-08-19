@@ -20,9 +20,9 @@ Remember the days of Tuya-Convert where you could obtain a Tuya based Wi-Fi Smar
 
 ### Overview of the Process
 
-1.  [Create the Tuya-Cloudcutter Exploit Device using a Rasperry Pi or other Linux Based setup](updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#building-the-raspberry-pi-image)
+1.  [Create the Tuya-Cloudcutter Exploit Device using a Rasperry Pi or other Linux Based setup](#building-the-raspberry-pi-image)
 
-2.  [Install / Update Tuya-CloudCutter](updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install--update-tuya-cloudcutter)
+2.  [Install / Update Tuya-CloudCutter](#install--update-tuya-cloudcutter)
 
 3.  [Install ESPHome Kickstarter firmware on the Device](updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install-esphome-kickstarter-firmware-on-the-device)
 
@@ -40,6 +40,7 @@ Second a laptop, NUC, PC, etc or [Raspberry-Pi](https://amzn.to/3Guq8OI) to run 
 ### Device I've Cloudcut and put ESPHome on 
 NightLight Plug WB3S - https://amzn.to/3KC5ajh   
 XMCosy Landscape Lights - https://amzn.to/44aUONW  
+Lumary Downlights - https://amzn.to/47HGNKr
 UltraPro Switch - https://amzn.to/44fI4W7  
 Xenon Power Strip - https://amzn.to/47P97ea  
 Cree 5 Button Switch - https://amzn.to/44i15rh  
@@ -110,7 +111,7 @@ Otherwise continue with the steps below:
 
 1. Change to the tuya-cloudcutter folder if necessary with `cd tuya-cloudcutter`
 
-2. Run Tuya-Cloudcutter (might take some additional time on the initial run to build the application container) `./tuya-cloudcutter.sh -r`
+2. Run Tuya-Cloudcutter (might take some additional time on the initial run to build the application container) `sudo ./tuya-cloudcutter.sh -r`
 
 3. Select Option #2 - Flash 3rd Party Firmware
 
@@ -185,6 +186,7 @@ Devices I've tried and used but there are so many more out there...
 
 NightLight Plug WB3S - https://amzn.to/3KC5ajh   
 XMCosy Landscape Lights - https://amzn.to/44aUONW  
+Lumary Downlights - https://amzn.to/47HGNKr
 UltraPro Switch - https://amzn.to/44fI4W7  
 Xenon Power Strip - https://amzn.to/47P97ea  
 Cree 5 Button Switch - https://amzn.to/44i15rh  
