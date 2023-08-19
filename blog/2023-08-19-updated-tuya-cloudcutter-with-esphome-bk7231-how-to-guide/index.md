@@ -20,17 +20,17 @@ Remember the days of Tuya-Convert where you could obtain a Tuya based Wi-Fi Smar
 
 ### Overview of the Process
 
-1.  [Create the Tuya-Cloudcutter Exploit Device using a Rasperry Pi or other Linux Based setup](#building-the-raspberry-pi-image)
+1.  [Create the Tuya-Cloudcutter Exploit Device using a Rasperry Pi or other Linux Based setup](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#building-the-raspberry-pi-image)
 
-2.  [Install / Update Tuya-CloudCutter](#install--update-tuya-cloudcutter)
+2.  [Install / Update Tuya-CloudCutter](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install--update-tuya-cloudcutter)
 
-3.  [Install ESPHome Kickstarter firmware on the Device](updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install-esphome-kickstarter-firmware-on-the-device)
+3.  [Install ESPHome Kickstarter firmware on the Device](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install-esphome-kickstarter-firmware-on-the-device)
 
-4.  [Use LT Chip Tool to configure the device](updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#lt-chip-tool-to-configure-the-device)
+4.  [Use LT Chip Tool to configure the device](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#lt-chip-tool-to-configure-the-device)
 
-5.  [Install ESPHome Libretiny Add-On or Docker Container](updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install-esphome-libretiny-add-on-or-docker-container)
+5.  [Install ESPHome Libretiny Add-On or Docker Container](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install-esphome-libretiny-add-on-or-docker-container)
 
-6.  [Install the ESPHome Firmware and Integrate into Home Assistant](updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install-esphome-firmware-and-integrate-into-home-assistant)
+6.  [Install the ESPHome Firmware and Integrate into Home Assistant](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install-esphome-firmware-and-integrate-into-home-assistant)
 
 ### What do you need?
 
