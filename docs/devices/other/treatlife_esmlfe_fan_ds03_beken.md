@@ -1,6 +1,6 @@
 ---
 title: TreatLife/Esmlfe DS03 Fan Dimmer Combo Beken 🅱️
-description: TreatLife/Esmlfe DS03 Fan Dimmer Combo with Beken WB3S Chipset 
+description: TreatLife/Esmlfe DS03 Fan Dimmer Combo with Beken WB3S Chipset - How to Setup & Flash ESPHome via the Tuya-Cloudcutter Process for local control use with Home Assistant
 image: /img/devices/treatlife_fan_face.webp
 keywords: [TreatLife DS03]
 ---
