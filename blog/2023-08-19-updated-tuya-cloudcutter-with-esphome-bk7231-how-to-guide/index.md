@@ -1,6 +1,6 @@
 ---
 title: UPDATED How To Guide - Tuya CloudCutter with ESPHome LibreTiny - No soldering
-date: "2023-08-19"
+date: "2023-08-28"
 description: Complete How To Guide for loading ESPHome LibreTiny on the Beken BK7231T and BK7231N Chipsets
 image: /img/thumbs/cloudcutter2.jpg
 categories: 
@@ -8,7 +8,7 @@ categories:
   - "esphome"
   - "beken"
   - "w3bs"
-keywords: [tuya-cloudcutter, libretuya, libretiny, esphome, beken, wb3s, bk7231t, bk7231n]
+keywords: [tuya-cloudcutter, libretuya, libretiny, esphome, beken, wb3s, bk7231t, bk7231n, cbu]
 authors: digiblur
 ---
 
@@ -17,6 +17,8 @@ authors: digiblur
 **The entire process we covered 3 or 4 months ago just became 10 times easier thanks to efforts of the Libretiny and Tuya-CloudCutter developers!**
 
 Remember the days of Tuya-Convert where you could obtain a Tuya based Wi-Fi Smart device, run a quick exploit via a Raspberry-Pi and load your own copy of Tasmota or ESPHome firmware right on the device?  Things were patched unfortunately and then later the chipsets were changed to a Beken based chipset that wouldn't run Tasmota at all.  So we resorted to chip swapping with hot air guns, soldering, etc. to install our favorite local & open source firmware on the device.  Things are now going full circle again where we can load firmware on the Beken chipsets with an over the air exploit called [tuya-cloudcutter](https://github.com/tuya-cloudcutter/tuya-cloudcutter)  It is such an awesome process and down right addictive!.  Then the bigger accomplishment is the [LibreTiny](https://docs.libretiny.eu/) project has it all working with ESPHome!  No additional firmware to learn is awesome especially for the ESPHome veterans!  Plus it all integrates with Home Assistant like any other ESPHome device does.  
+
+[Supported Known TUYA Module List](https://docs.libretiny.eu/docs/status/supported/): BK7321N, BK7231T, CB1S, CB2L, CB2S, CB3L, CB3S, CB3SE, CBLC5, CBU, WB2L-M1, WB1S, WB2S, WB3L, WB3S, WBLC5
 
 ### Overview of the Process
 
@@ -135,9 +137,21 @@ If your device already has a device profile on tuya-cloudcutter you can skip the
 
 3.  Select the UPK2ESPHome tab, Click `Grab from ESPHome-Kickstart`, enter the IP address not above or the kickstart-bk7321n or kickstart-bk7321t hostname
 
-4.  If the device is succesfull, the config will be shown of the layout of the GPIO pins.  Change any necessary options if you like and hit Generate to create the ESPHome YAML config that will be used in the next step.  
+4.  If the device is succesfull, the config will be shown of the layout of the GPIO pins.  Change any necessary options if you like and hit Generate to create the ESPHome YAML config that will be used in the next step.  You can skip the next steps.  
 
 ![alt text](images/ltchiptool-pulled.png)
+
+5.  If you receive the following message from ltchiptool:
+
+![alt text](images/ltchiptool-failed.png)
+
+Your device does not contain an onboard config and there are few options to take from here: 
+
+1.  Is your device a dimmer, fan controller or other secondary micro controller based device, also referred to as the [ESPHome TuyaMCU component](https://esphome.io/components/tuya)?  If so, you can reference this [Treatlife fan controller](https://digiblur.com/wiki/devices/other/treatlife_esmlfe_fan_ds03_beken) for an example. Remember to try both 9600 and 115200 UART baud rates.  
+
+2.  Use the Kickstarter GUI to change each of the pins of the Beken chip high or low to look for any activity such as relays or LEDs turning on or off.  Also do the same for the inputs, by pressing any buttons on the device while changing each pin each time for the presses.  You can refer to the WB3S, CBU, CB3S, etc chipset data at https://docs.libretiny.eu/docs/status/supported/
+
+3. Or join us in the Tuya-Cloudcutter Discord channel at https://discord.digiblur.com 
 
 ### Install ESPHome Libretiny Add-On or Docker Container
 
