@@ -83,8 +83,11 @@ light:
     name: Light
     dimmer_datapoint: 10
     switch_datapoint: 9
+# change the dimmer_datapoint to 6 and switch_datapoint to 101 if these do not work - check the esphome logs and press the buttons on the switch faceplate to confirm
     min_value: 100
     max_value: 1000
+
+
 
 fan:
   - platform: "tuya"
