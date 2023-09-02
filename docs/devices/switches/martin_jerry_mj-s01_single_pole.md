@@ -1,3 +1,10 @@
+---
+title: Martin Jerry MJ-S01 (Single Pole)
+description: Preflashed TASMOTA Martin Jerry Single Pole Smart Switch ESP8266
+image: img/devices/mj-s01_main.webp
+keywords: [MJ-S01 tasmota template, martin jerry switch Template, mj switch ESPHome, martin jerry switch]
+---
+
 # Martin Jerry MJ-S01 (Single Pole)
 
 Single Pole Decora US switch.  This switch has a customizable Red and Blue LED, this setup uses a rule to toggle between the two LEDs.  As of the Summer of 2022, Martin Jerry is now offering a TASMOTA Pre-flashed model!
