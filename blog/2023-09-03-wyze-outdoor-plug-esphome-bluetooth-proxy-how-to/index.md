@@ -2,7 +2,7 @@
 title: Wyze Outdoor Plug - BEST Home Assistant Bluetooth Proxy? Complete How-To
 date: "2023-09-03"
 description: Complete How To Guide to turn the Wyze Outdoor Plug into an ESPHome Bluetooth Proxy for Home Assistant
-image: /img/devices/wyzeoutdoor.webp
+image: /img/thumbs/wyzeoutdoorplug.jpg
 categories: 
   - "bluetooth proxy"
   - "esphome"
@@ -11,7 +11,9 @@ keywords: [wyze outdoor tasmota template, wyze outdoor WLPPO1-1 Template, Wyze P
 authors: digiblur
 ---
 
-![alt text](/img/devices/wyzeoutdoor.webp "Wyze Outdoor Plug Dual Outlet WLPPO1")
+### Full Video 
+
+<iframe allowfullscreen height="353" src="https://www.youtube.com/embed/GTniWwSzZHE" width="625" youtube-src-=""></iframe>   
 
 ## The Why?
 
@@ -21,6 +23,8 @@ Why do we need a bluetooth proxy for [Home Assistant](https://www.home-assistant
 FCC ID of [2AUIU-WLPPO1](https://fccid.io/2AUIUWLPPO1)
 
 This is where the [Wyze Outdoor Plug](https://amzn.to/3r1l5k4) comes into play.  It's IP64 dual relay plug with power monitoring, LUX sensor and since it has an onboard dual core ESP32 chip we can use it with [ESPHome](https://esphome.io/) as a bluetooth proxy for Home Assistant.  It also comes with a little better quality WiFi/Bluetooth antenna than your standard PCB antenans.  And yes, we have a no soldering solution!  Let's get started!
+
+
 
 Read more  👉
 <!--truncate-->
