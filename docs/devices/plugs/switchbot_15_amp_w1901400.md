@@ -42,11 +42,9 @@ To turn off the useless ESP32 Temperature use the following command on the conso
 <p>
 
 ```yaml
-substitutions:
-  display_name: esp32c3-sbotplug
-
 esphome:
-  name: ${display_name}
+  name: esp32c3-sbotplug
+  friendly_name: esp32c3-sbotplug
   platformio_options:
     board_build.mcu: esp32c3
     board_build.variant: esp32c3  
@@ -61,22 +59,21 @@ esp32:
       CONFIG_BT_BLE_42_FEATURES_SUPPORTED: y
       CONFIG_ESP_TASK_WDT_TIMEOUT_S: "10"    
 
+## DO NOT ADD MQTT and API Encryption in this plug - one user reported bootlooping issues in this combination
+
 logger:
 api:
 ota:
 
 button:
   - platform: safe_mode
-    name: ${display_name} (Safe Mode)
+    name: (Safe Mode)
 
 wifi:
-  ssid: !secret wifi_myssid
-  password: !secret wifi_mypass
-  manual_ip:
-    static_ip: !secret ip_esp32c3_sbotplug
-    gateway: !secret ip_gateway
-    subnet: !secret ip_subnet
-    dns1: !secret ip_dns1
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+## DO NOT ADD MQTT
 
 #  Disable the bluetooth tracker/proxy if they are not needed
 esp32_ble_tracker:
@@ -100,20 +97,20 @@ sensor:
     current_resistor: 0.0011
     voltage_divider: 1450
     current:
-      name: ${display_name} Amps
+      name: Amps
     voltage:
-      name: ${display_name} Volts
+      name: Volts
     power:
-      name: ${display_name} Watts
+      name: Watts
       accuracy_decimals: 0       
     energy:
-      name: ${display_name} Energy
+      name: Energy
     update_interval: 3s
     change_mode_every: 4
 
 switch:
   - platform: gpio
-    name: ${display_name} Relay
+    name: Relay
     id: relay
     device_class: outlet
     pin: GPIO6
@@ -132,7 +129,7 @@ binary_sensor:
       number: GPIO2
       mode: INPUT_PULLUP
       inverted: true
-    name: ${display_name} Button
+    name: Button
     filters:
       - delayed_on: 10ms
     on_press:
@@ -142,7 +139,7 @@ binary_sensor:
 light:
   - platform: binary
     internal: true
-    name: ${display_name} White LED
+    name: White LED
     id: white_led
     output: white_output
     restore_mode: RESTORE_DEFAULT_OFF
