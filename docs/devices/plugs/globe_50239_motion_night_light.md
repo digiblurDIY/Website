@@ -39,10 +39,8 @@ esphome:
   name: ${name}
   name_add_mac_suffix: true
 
-libretiny:
+bk72xx:
   board: generic-bk7231t-qfn32-tuya
-  framework:
-    version: dev
 
 logger:
 api:
@@ -116,19 +114,19 @@ button:
     entity_category: diagnostic
 
 output:
-  - platform: ledc
+  - platform: libretiny_pwm
     id: output_red
     pin: P9
-  - platform: ledc
+  - platform: libretiny_pwm
     id: output_green
     pin: P24
-  - platform: ledc
+  - platform: libretiny_pwm
     id: output_blue
     pin: P26
-  - platform: ledc
+  - platform: libretiny_pwm
     id: output_cold_white
     pin: P8
-  - platform: ledc
+  - platform: libretiny_pwm
     id: output_warm_white
     pin: P6
 
@@ -157,6 +155,16 @@ light:
           update_interval: 5s
 ```
 Thanks to Tony for the YAML!
+
+## Serial Flashing
+
+| USB TTL | Beken Chip | Note |
+|------ |-------------|-------------|         
+|3V3	| 3V3
+|GND	| GND
+|RX	| TX1 | Transposed
+|TX	| RX1 | Transposed
+|GND	| CEN | Reset pin to tap randomnly until read starts
 
 ### Pics
 ![alt text](/img/devices/globe_motion_plug1.jpg "Globe 50239 Motion Night Light")

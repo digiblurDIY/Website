@@ -33,8 +33,6 @@ bk72xx:
 ## Uncomment the board type you need below (check your kickstart version/name installed on the device if you are unsure)
 #  board: generic-bk7231t-qfn32-tuya
 #  board: generic-bk7231n-qfn32-tuya
-  framework:
-    version: dev
 
 logger:
   baud_rate: 0

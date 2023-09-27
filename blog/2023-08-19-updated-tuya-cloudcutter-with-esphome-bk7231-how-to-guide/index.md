@@ -30,7 +30,7 @@ Remember the days of Tuya-Convert where you could obtain a Tuya based Wi-Fi Smar
 
 4.  [Use LT Chip Tool to configure the device](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#lt-chip-tool-to-configure-the-device)
 
-5.  [Install ESPHome Libretiny Add-On or Docker Container](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install-esphome-libretiny-add-on-or-docker-container)
+5.  [Install ESPHome Add-On or Docker Container](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install-esphome-add-on-or-docker-container)
 
 6.  [Install the ESPHome Firmware and Integrate into Home Assistant](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install-esphome-firmware-and-integrate-into-home-assistant)
 
@@ -153,38 +153,17 @@ Your device does not contain an onboard config and there are few options to take
 
 3. Or join us in the Tuya-Cloudcutter Discord channel at https://discord.digiblur.com 
 
-### Install ESPHome Libretiny Add-On or Docker Container
+### Install ESPHome Add-On or Docker Container
 
-1.  HAOS Users need to add the following Add-On store repository URL `https://github.com/libretiny-eu/esphome-hass-addon`  Refresh the page and install the Libretiny ESPHome Addon
-
-![alt text](images/lt-addon.png)
-
-2.  unRaid Users can search for libretiny and install the docker container - be sure to change the WebGUI on the container to 6053 as unRaid CA changes it to 6052 which would impact the normal ESPHome container.
-
-![alt text](images/unraid-gui-port.png)
-
-3.  Docker Run / Docker-compose users - Install and configure the container for use
-```
-version: "3"
-services:
-  esphome:
-    container_name: esphome-libretiny
-    image: docker pull ghcr.io/libretiny-eu/libretiny-esphome-docker:latest
-    volumes:
-      - ./configs:/config:rw 
-      - /etc/localtime:/etc/localtime:ro
-    restart: always
-    privileged: false
-    network_mode: host
-```
+1.  HAOS Users need to add the ESPHome Addon as instructed in https://esphome.io/guides/getting_started_hassio , Docker-Compose users can also find the compose YAML in the same link.  unRaid users can search the App Store for the ESPHome container.  YES!  As of the 2023.9 Release of ESPHome, Libretiny is built in!
 
 ### Install ESPHome Firmware and Integrate into Home Assistant
 
-1.  Create a new device in ESPHome Libretiny (make sure you are not using your standard ESPHome GUI without libretiny)
+1.  Create a new device in ESPHome 
 
 ![alt text](images/esphome-new-device.png)
 
-2.  Copy the generated ESPHome YAML from the LTChipTool or the UPK2ESPHome website https://upk.libretiny.eu/ into the device config.  Change any necessary options and select Install.  Choose Manual Download -> Modern Format
+2.  Copy the generated ESPHome YAML from the LTChipTool or the UPK2ESPHome website https://upk.libretiny.eu/ into the device config.  Change any necessary options and select Install.  Choose Manual Download -> Modern Format, then Choose the UF2 file option once it is compiled.  
 
 3.  The firmware will compile and download a UF2 file to your computer.  Navigate to the original IP or Hostname of the ESPHome Kickstarter.  Scroll down to the OTA Update section, select Choose file, select the UF2 file that was created and hit update.  
 
@@ -194,7 +173,7 @@ services:
 
 ![alt text](images/ha-new-device.png)
 
-Any future updates or changes to the ESPHome Libretiny based Beken device will all be done through the ESPHome GUI like any normal ESPHome device via the Wirelessly update option of ESPHome.  
+Any future updates or changes to the ESPHome based Beken device will all be done through the ESPHome GUI like any normal ESPHome device via the Wirelessly update option of ESPHome.  
 
 Devices I've tried and used but there are so many more out there...
 
