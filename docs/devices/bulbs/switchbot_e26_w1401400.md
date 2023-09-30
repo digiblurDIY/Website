@@ -47,15 +47,16 @@ backlog template {"NAME":"Switchbot E26 Bulb","GPIO":[0,0,0,0,9128,9088,0,0,0,0,
 None necessary.
 </p></details>
 
-<details><summary>ESPHome YAML</summary>     
-<p>
+### Moving to ESPHome
+
+Build the new ESPHome device using the YAML example below and tweak for your network or entity names as needed.  In ESPHome choose install, manual download, then once the firmware is built choose the LEGACY download option.  Open the Tasmota web GUI on the switchbot bulb, select firwmare upgrade and upload the legacy bin downloaded in the previous step.  Allow the devices a few minutes before power cycling it if it does not appear on your network.  
+
+### ESPHome YAML
 
 ```yaml
-substitutions:
-  display_name: switchbot-bulb1
-
 esphome:
-  name: ${display_name}
+  name: bulb-switchbot1
+  friendly_name: bulb-switchbot1
   platformio_options:
     board_build.mcu: esp32c3
     board_build.variant: esp32c3  
@@ -70,31 +71,26 @@ esp32:
       CONFIG_BT_BLE_42_FEATURES_SUPPORTED: y
       CONFIG_ESP_TASK_WDT_TIMEOUT_S: "10" 
 
-external_components:
-  - source:
-      type: git
-      url: https://github.com/dentra/esphome.git
-      ref: web-server-idf
-    components: [ web_server_base, web_server_idf, web_server, captive_portal ]
-
 logger:
-  level: DEBUG
 api:
 ota:
+captive_portal:
 
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
   ap:
-    ssid: ${display_name} portal
-    password: "esphomez123"
-
-captive_portal:
 
 button:
   - platform: safe_mode
-    name: ${display_name} (Safe Mode)
+    name: Safe Mode
+  - platform: template
+    id: save_preferences
+    name: Save Preferences
+    on_press:
+      - lambda: global_preferences->sync();    
 
+# has caused stability issues for some users - enable with caution
 #esp32_ble_tracker:
 #  scan_parameters:
 #    interval: 300ms
@@ -131,7 +127,7 @@ output:
 light:
   - platform: rgbww
     restore_mode: RESTORE_DEFAULT_OFF
-    name: "${display_name}"
+    name: Light
     red: output_red
     green: output_green
     blue: output_blue
@@ -141,8 +137,6 @@ light:
     warm_white_color_temperature: 2000 K
     color_interlock: true    
 ```
-</p></details>
-
 ### Pics & Disassembly
 
 Pop the diffuser off with a spudger.  Remove the silicone around the edge of the LED board.  Use a spudger again to remove this board as it just using tension connector pins.  It might stick a little especially if the bulb is cold.  You will see the back of the ESP32-C3 for manual serial flashing if needed. 
