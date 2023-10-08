@@ -39,7 +39,7 @@ To turn off the useless ESP32 Temperature use the following command on the conso
 
 ### Moving to ESPHome
 
-Build the new ESPHome device using the YAML example below and tweak for your network or entity names as needed.  In ESPHome choose install, manual download, then once the firmware is built choose the LEGACY download option.  Open the Tasmota web GUI on the switchbot bulb, select firwmare upgrade and upload the legacy bin downloaded in the previous step.  Allow the devices a few minutes before power cycling it if it does not appear on your network.  
+Build the new ESPHome device using the YAML example below and tweak for your network or entity names as needed.  In ESPHome choose install, manual download, then once the firmware is built choose the LEGACY download option.  Open the Tasmota web GUI on the switchbot plug, select firwmare upgrade and upload the legacy bin downloaded in the previous step.  Allow the devices a few minutes before power cycling it if it does not appear on your network.  
 
 ## ESPHome YAML
 
