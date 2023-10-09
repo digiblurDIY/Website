@@ -11,7 +11,9 @@ This is basically, no pun intended, the OG Sonoff Basic Relay from years ago but
 
 Purchase on [iTead](https://itead.cc/product/sonoff-basicr4-wi-fi-smart-switch/ref/28/)  
 
-![alt text](/img/devices/sonoff_basic_r4_1.webp)
+### Video Setup
+
+<iframe allowfullscreen height="353" src="https://www.youtube.com/embed/D8y2FZ2-mQg" width="625" youtube-src-=""></iframe>  
 
 ### Tasmota Template
 ```json
