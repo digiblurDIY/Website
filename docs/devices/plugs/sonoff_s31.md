@@ -11,7 +11,7 @@ One of the top favorite smart plugs.  Easy to disassemble with a screw driver, e
 
 Purchase on Amazon [Amazon](https://amzn.to/3WG3cBG)  
 Purchase on iTead [iTead](https://itead.cc/product/sonoff-s31/ref/28/)  
-Purchase on Aliexpress [Aliexpress](https://s.click.aliexpress.com/e/_Dk8wPtl)
+Purchase on Aliexpress [Aliexpress](https://s.click.aliexpress.com/e/_Dk8wPtl)  
 Purchase on CloudFree [CloudFree](https://cloudfree.shop/product/sonoff-s31-flashed-with-tasmota/?ref=digiblur&attribute_firmware=Stock%20Sonoff)
 
 ### Video Setup
@@ -41,25 +41,30 @@ The power calibration for the S31 is usually pretty close on default but it can 
 
 </p></details>
 
-<details><summary>ESPHome YAML</summary>     
-<p>
+### ESPHome YAML
 
 ```yaml
-# Basic Config
 esphome:
-  name: sonoff_s31
-  platform: ESP8266
-  board: esp01_1m
+  name: plug-s31-a
+  friendly_name: plug-s31-a
+
+esp8266:
+  board: esp_wroom_02
+
+logger:
+  baud_rate: 0 # (UART logging disabled due to cse7766 power mon chip)
+api:
+ota:
+captive_portal:
 
 wifi:
   ssid: !secret wifi_ssid
   password: !secret wifi_password
+#  domain: !secret wifi_mydomain   
+  ap:
+    password: !secret ap_password
 
-logger:
-  baud_rate: 0 # (UART logging interferes with cse7766)
-  
-api:
-ota:
+web_server:
 
 uart:
   rx_pin: RX
@@ -71,42 +76,48 @@ binary_sensor:
       number: GPIO0
       mode: INPUT_PULLUP
       inverted: True
-    name: "Sonoff S31 Button"
+    name: Button
     on_press:
       - switch.toggle: relay
-  - platform: status
-    name: "Sonoff S31 Status"
 
 sensor:
   - platform: cse7766
+    update_interval: 10s
     current:
-      name: "Sonoff S31 Current"
-      accuracy_decimals: 1
+      name: Amps
+      unit_of_measurement: A      
+      accuracy_decimals: 2
     voltage:
-      name: "Sonoff S31 Voltage"
+      name: Voltage
+      unit_of_measurement: V      
       accuracy_decimals: 1
     power:
-      name: "Sonoff S31 Power"
-      accuracy_decimals: 1
-      id: my_power
+      name: Watts
+      accuracy_decimals: 0   
+      id: plug_power
   - platform: total_daily_energy
-    name: "Sonoff S31 Daily Energy"
-    power_id: my_power
+    name: Daily Energy
+    power_id: plug_power
+    filters:
+      - multiply: 0.001 ## convert Wh to kWh
+    unit_of_measurement: kWh
 
 switch:
   - platform: gpio
-    name: "Sonoff S31 Relay"
+    name: Relay
     pin: GPIO12
     id: relay
     restore_mode: ALWAYS_ON
 
+time:
+  - platform: homeassistant
+    id: homeassistant_time
+
 status_led:
   pin:
     number: GPIO13
-    inverted: True
+    inverted: True    
 ```
-</p></details>
-
 
 ### Pics
 ![alt text](/img/devices/sonoff-s31_2.webp)
