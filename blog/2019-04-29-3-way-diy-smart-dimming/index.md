@@ -27,10 +27,14 @@ Zemismart Switch
 Patreon - https://www.patreon.com/digiblurDIY  
 Discord - https://discord.gg/bNtTF2v  
 **Primary Dimmer Rules**  
+```
 Rule1 on Switch2#state=2 do Dimmer - endon on Switch3#state=2 do Dimmer + endon on Switch2#state=3 do Dimmer 30 endon on Switch3#state=3 do Dimmer 100 endon  
-Rule2 on Power1#State=1 do backlog publish cmnd/SW\_Hall\_Secondary/ledpower 1; ledpower 0 endon on Power1#State=0 do backlog publish cmnd/SW\_Hall\_Secondary/ledpower 0; ledpower 1 endon  
+Rule2 on Power1#State=1 do backlog publish cmnd/SW_Hall_Secondary/ledpower 1; ledpower 0 endon on Power1#State=0 do backlog publish cmnd/SW_Hall_Secondary/ledpower 0; ledpower 1 endon  
 Rule3 on Dimmer#State>=70 do Var1 15 endon on Dimmer#State<70 do Var1 85 endon on System#Boot do Var1 15 endon on Event#TogDim do Dimmer %var1% endon  
-  
+```
+
 **Secondary Switch Rules**  
-Rule1 on Switch1#State=2 do publish cmnd/SW\_Hall\_Primary/Power TOGGLE endon  
-Rule2 on Switch1#State=3 do publish cmnd/SW\_Hall\_Primary/Event TogDim endon
+```
+Rule1 on Switch1#State=2 do publish cmnd/SW_Hall_Primary/Power TOGGLE endon  
+Rule2 on Switch1#State=3 do publish cmnd/SW_Hall_Primary/Event TogDim endon
+```

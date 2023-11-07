@@ -40,9 +40,9 @@ Straight Header Pins https://amzn.to/30EZsUK
 [Cliff Quicktest](https://www.newark.com/cliff-electronic-components/cl1857/qt1-usa-canada-13a-fuse-quicktest/dp/08AC2593)  
   
 **Tasmota Template**  
-  
-{"NAME":"Etekcity 3Way","GPIO":\[255,255,0,255,23,29,0,0,82,22,10,0,0\],"FLAG":0,"BASE":18}  
-  
+```
+{"NAME":"Etekcity 3Way","GPIO":[255,255,0,255,23,29,0,0,82,22,10,0,0],"FLAG":0,"BASE":18}  
+```
 **Setup Commands for the Console**  
   
 backlog switchtopic 0;switchmode1 1;switchmode2 5;switchmode3 1;powerretain 1;rule1 on event#ON do power2 TOGGLE endon;rule1 1;rule2 on event#OFF do power2 TOGGLE endon;rule2 1;  

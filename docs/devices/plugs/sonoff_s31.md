@@ -49,7 +49,7 @@ esphome:
   friendly_name: plug-s31-a
 
 esp8266:
-  board: esp_wroom_02
+  board: esp01_1m
 
 logger:
   baud_rate: 0 # (UART logging disabled due to cse7766 power mon chip)

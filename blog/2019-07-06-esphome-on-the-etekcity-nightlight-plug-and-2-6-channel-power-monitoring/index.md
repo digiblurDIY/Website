@@ -18,110 +18,114 @@ Audio issues on the first piece, but we reset OBS to fix the issue!  Sorry guys
   
 **Tasmota Template for the Etekcity**  
 (had issues with voltage readings dropping at random times)  
-{"NAME":"ETekNightLight","GPIO":\[0,0,0,0,37,21,0,0,132,133,17,130,52\],"FLAG":1,"BASE":45}  
+```
+{"NAME":"ETekNightLight","GPIO":[0,0,0,0,37,21,0,0,132,133,17,130,52],"FLAG":1,"BASE":45}  
+```
 **Work in progress Etekcity Plug Config**  
+```yaml
 substitutions:  
-  plug\_name: etekpower  
+  plug_name: etekpower  
   # Higher value gives lower watt readout  
-  current\_res: "0.00095"  
+  current_res: "0.00095"  
   # Lower value gives lower voltage readout  
-  voltage\_div: "2040"  
+  voltage_div: "2040"  
   
 esphome:  
-  name: ${plug\_name}  
+  name: ${plug_name}  
   platform: ESP8266  
   board: esp8285  
   
 wifi:  
-  ssid: !secret wifi\_ssid  
-  password: !secret wifi\_pass  
-  manual\_ip:  
-    static\_ip: !secret ip\_etekpower  
-    gateway: !secret ip\_gateway  
-    subnet: !secret ip\_subnet  
-    dns1: !secret ip\_dns1  
+  ssid: !secret wifi_ssid  
+  password: !secret wifi_pass  
+  manual_ip:  
+    static_ip: !secret ip_etekpower  
+    gateway: !secret ip_gateway  
+    subnet: !secret ip_subnet  
+    dns1: !secret ip_dns1  
   
 logger:  
 #  level: NONE  
   
 mqtt:  
-  broker: !secret mqtt\_broker  
-  username: !secret mqtt\_user  
-  password: !secret mqtt\_pass  
+  broker: !secret mqtt_broker  
+  username: !secret mqtt_user  
+  password: !secret mqtt_pass  
   
 ota:  
   
-web\_server:  
+web_server:  
   
-binary\_sensor:  
+binary_sensor:  
   - platform: gpio  
     pin:  
       number: GPIO14  
       inverted: True  
-    name: "${plug\_name}\_button"  
-    on\_press:  
+    name: "${plug_name}_button"  
+    on_press:  
       then:  
-        - switch.toggle: "${plug\_name}\_Relay"  
-        - switch.toggle: "${plug\_name}\_LED\_Blue"  
+        - switch.toggle: "${plug_name}_Relay"  
+        - switch.toggle: "${plug_name}_LED_Blue"  
 switch:  
-\- platform: gpio  
-  name: "${plug\_name}\_Relay"  
-  id: "${plug\_name}\_Relay"  
+- platform: gpio  
+  name: "${plug_name}_Relay"  
+  id: "${plug_name}_Relay"  
   pin: GPIO05  
-  restore\_mode: ALWAYS\_ON  
-\- platform: gpio  
-  name: "${plug\_name}\_LED\_Blue"  
-  id: "${plug\_name}\_LED\_Blue"  
+  restore_mode: ALWAYS_ON  
+- platform: gpio  
+  name: "${plug_name}_LED_Blue"  
+  id: "${plug_name}_LED_Blue"  
   pin: GPIO16  
   inverted: False  
-  restore\_mode: ALWAYS\_ON  
+  restore_mode: ALWAYS_ON  
   
 sensor:  
   - platform: hlw8012  
-    sel\_pin:  
+    sel_pin:  
       number: GPIO15  
       inverted: False  
-    cf\_pin: GPIO13  
-    cf1\_pin: GPIO12  
-    current\_resistor: ${current\_res}  
-    voltage\_divider: ${voltage\_div}  
-    change\_mode\_every: 3  
-    update\_interval: 3s   
+    cf_pin: GPIO13  
+    cf1_pin: GPIO12  
+    current_resistor: ${current_res}  
+    voltage_divider: ${voltage_div}  
+    change_mode_every: 3  
+    update_interval: 3s   
     current:  
-      name: "${plug\_name}\_Amperage"  
-      unit\_of\_measurement: A  
-      accuracy\_decimals: 3  
+      name: "${plug_name}_Amperage"  
+      unit_of_measurement: A  
+      accuracy_decimals: 3  
       filters:  
-      - calibrate\_linear:  
+      - calibrate_linear:  
           - 0.000 -> 0.0  
           - 5.069 -> 6.69     
       # Make everything below 0.01A appear as just 0A.  
       # Furthermore it corrects 0.013A for the power usage of the plug.  
       - lambda: if (x < (0.01 - 0.013)) return 0; else return (x - 0.013);  
     voltage:  
-      name: "${plug\_name}\_Voltage"  
-      unit\_of\_measurement: V  
-      accuracy\_decimals: 1  
+      name: "${plug_name}_Voltage"  
+      unit_of_measurement: V  
+      accuracy_decimals: 1  
     power:  
-      name: "${plug\_name}\_Wattage"  
-      unit\_of\_measurement: W  
-      id: "${plug\_name}\_Wattage"  
-      accuracy\_decimals: 0  
+      name: "${plug_name}_Wattage"  
+      unit_of_measurement: W  
+      id: "${plug_name}_Wattage"  
+      accuracy_decimals: 0  
   
   - platform: uptime  
-    name: ${plug\_name}\_Uptime Sensor  
+    name: ${plug_name}_Uptime Sensor  
   
   - platform: adc  
     pin: A0  
-    name: "${plug\_name}\_LightSensor"  
-    update\_interval: 5s  
+    name: "${plug_name}_LightSensor"  
+    update_interval: 5s  
   
 light:  
   - platform: monochromatic  
-    name: "${plug\_name}\_NightLight"  
-    output: pwm\_nite  
+    name: "${plug_name}_NightLight"  
+    output: pwm_nite  
   
 output:  
-  - platform: esp8266\_pwm  
-    id: pwm\_nite  
+  - platform: esp8266_pwm  
+    id: pwm_nite  
     pin: 4
+```

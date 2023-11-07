@@ -39,86 +39,47 @@ PIR Motion AM312 Sensor - [2 pack](https://amzn.to/2DhrkpA) or [1 pack](https://
 
 **Home Assistant Configuration YAML - Samples**
 
-  
+```yaml
 
 switch:
-
   - platform: mqtt
-
     name: "MotionNite Switch"
-
-    state\_topic: "stat/MotionNite1/POWER1"
-
-    command\_topic: "cmnd/MotionNite1/POWER1"
-
-    availability\_topic: "tele/MotionNite1/LWT"
-
+    state_topic: "stat/MotionNite1/POWER1"
+    command_topic: "cmnd/MotionNite1/POWER1"
+    availability_topic: "tele/MotionNite1/LWT"
     qos: 1
-
-    payload\_on: "ON"
-
-    payload\_off: "OFF"
-
-    payload\_available: "Online"
-
-    payload\_not\_available: "Offline"
-
+    payload_on: "ON"
+    payload_off: "OFF"
+    payload_available: "Online"
+    payload_not_available: "Offline"
     retain: false
 
-  
-
-binary\_sensor:
-
+binary_sensor:
   - platform: mqtt
-
     name: "MotionNite PIR"
-
-    state\_topic: "MotionNite1/PIR"
-
-    availability\_topic: "tele/MotionNite1/LWT"
-
+    state_topic: "MotionNite1/PIR"
+    availability_topic: "tele/MotionNite1/LWT"
     qos: 1
-
-    payload\_on: "1"
-
-    payload\_off: "0"
-
-    payload\_available: "Online"
-
-    payload\_not\_available: "Offline"
-
-    device\_class: motion
-
-  
+    payload_on: "1"
+    payload_off: "0"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    device_class: motion
 
 light:
-
   - platform: mqtt
-
     name: "Motion Night Light"
-
-    state\_topic: "stat/MotionNite1/POWER2"
-
-    command\_topic: "cmnd/MotionNite1/POWER2"
-
-    availability\_topic: "tele/MotionNite1/LWT"
-
-    brightness\_state\_topic: "stat/MotionNite1/RESULT"
-
-    brightness\_command\_topic: "cmnd/MotionNite1/Dimmer"
-
-    brightness\_scale: 100
-
-    brightness\_value\_template: "{{ value\_json.Dimmer }}"
-
+    state_topic: "stat/MotionNite1/POWER2"
+    command_topic: "cmnd/MotionNite1/POWER2"
+    availability_topic: "tele/MotionNite1/LWT"
+    brightness_state_topic: "stat/MotionNite1/RESULT"
+    brightness_command_topic: "cmnd/MotionNite1/Dimmer"
+    brightness_scale: 100
+    brightness_value_template: "{{ value_json.Dimmer }}"
     qos: 1
-
-    payload\_on: "ON"
-
-    payload\_off: "OFF"
-
-    payload\_available: "Online"
-
-    payload\_not\_available: "Offline"
-
+    payload_on: "ON"
+    payload_off: "OFF"
+    payload_available: "Online"
+    payload_not_available: "Offline"
     retain: false
+```

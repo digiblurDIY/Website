@@ -28,28 +28,23 @@ backlog template {"NAME":"Feit BPA800/RGBW/AG/2P","GPIO":[0,0,0,0,37,47,0,0,141,
 {"NAME":"BPA800/RGBW/AG/2P","GPIO":[0,0,0,0,37,47,0,0,141,142,140,0,0],"FLAG":0,"BASE":48}
 ```
 
-<details><summary>GPIO Layout for 2</summary>     
-<p>
+### GPIO Layout for 2
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
 |GPIO04	| SM16716 CLK | Clock
 |GPIO013| SM16716 PWR | Power
 |GPIO014| SM16716 DAT | Data
-</p></details>
 
-<details><summary>Settings for 2</summary>     
-<p>
+### Settings for 2
 
 | Setting | Description
 |---------------|-------------
 | setoption37 54 | Correct red/blue mismatch
 | ledtable 0  | Enable software gamma correction
 | setoption59 1  | Report light state changes via MQTT
-</p></details>
 
-<details><summary>GPIO Layout for 2P</summary>     
-<p>
+### GPIO Layout for 2P
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|
@@ -58,16 +53,13 @@ backlog template {"NAME":"Feit BPA800/RGBW/AG/2P","GPIO":[0,0,0,0,37,47,0,0,141,
 |GPIO012| SM16716 DAT | Data
 |GPIO013| SM16716 PWR | Power
 |GPIO014| SM16716 CLK | Clock
-</p></details>
 
-<details><summary>Settings for 2P</summary>     
-<p>
+### Settings for 2P
 
 | Setting | Description
 |---------------|-------------
 | ledtable 0 | Enable software gamma correction
 | setoption59 1  | Report light state changes via MQTT
-</p></details>
 
 <details><summary>Rules</summary>     
 <p>
