@@ -37,12 +37,18 @@ bk72xx:
 logger:
   baud_rate: 0
 
+## Uncomment below to add loca time and avoid the "LOCAL_TIME_QUERY is not handled because time is not configured" log error
+#time:
+#  - platform: homeassistant
+#    id: homeassistant_time
+tuya:
+#  time_id: homeassistant_time
+
 web_server:
 api:
 ota:
 captive_portal:
 mdns:
-tuya:
 
 uart:
   rx_pin: P10
@@ -85,8 +91,6 @@ light:
     min_value: 100
     max_value: 1000
 
-
-
 fan:
   - platform: "tuya"
     name: Speed
@@ -94,4 +98,3 @@ fan:
     speed_datapoint: 3
     speed_count: 4    
 ```
-
