@@ -37,7 +37,7 @@ bk72xx:
 logger:
   baud_rate: 0
 
-## Uncomment below to add local time and avoid the "LOCAL_TIME_QUERY is not handled because time is not configured" log error
+## Uncomment to add local time and avoid the "LOCAL_TIME_QUERY is not handled because time is not configured" log error
 #time:
 #  - platform: homeassistant
 #    id: homeassistant_time
