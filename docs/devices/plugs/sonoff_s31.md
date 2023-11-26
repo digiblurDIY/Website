@@ -50,7 +50,8 @@ esphome:
 
 esp8266:
   board: esp01_1m
-
+  early_pin_init: false  # Prevent the physical relay flipping on reboot.
+  
 logger:
   baud_rate: 0 # (UART logging disabled due to cse7766 power mon chip)
 api:
