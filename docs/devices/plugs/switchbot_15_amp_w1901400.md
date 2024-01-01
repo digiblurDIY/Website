@@ -65,6 +65,12 @@ esp32:
 
 logger:
 api:
+  # fixes boot loop issues in esphome 12.5+
+  on_client_connected:
+    - esp32_ble_tracker.start_scan:
+        continuous: true
+  on_client_disconnected:
+    - esp32_ble_tracker.stop_scan:
 ota:
 
 button:
@@ -84,6 +90,7 @@ esp32_ble_tracker:
 #    interval: 1100ms
 #    window: 1100ms
     active: true
+    continuous: false # fixes boot loop issues in esphome 12.5+
 
 bluetooth_proxy:
   active: true
