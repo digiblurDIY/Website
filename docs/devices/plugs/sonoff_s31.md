@@ -83,20 +83,25 @@ binary_sensor:
 
 sensor:
   - platform: cse7766
-    update_interval: 10s
     current:
       name: Amps
       unit_of_measurement: A      
       accuracy_decimals: 2
+      filters:
+        - throttle_average: 10s         
     voltage:
       name: Voltage
       unit_of_measurement: V      
       accuracy_decimals: 1
+      filters:
+        - throttle_average: 10s         
     power:
       name: Watts
       accuracy_decimals: 0   
       id: plug_power
-  - platform: total_daily_energy
+      filters:
+        - throttle_average: 10s         
+- platform: total_daily_energy
     name: Daily Energy
     power_id: plug_power
     filters:

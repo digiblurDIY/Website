@@ -246,7 +246,7 @@ number:
     max_value: 10
     step: 0.5
 sensor:
-  - platform: bme280
+  - platform: bme280_i2c
     temperature:
       name: ${upper_devicename} BME280 Temp
       accuracy_decimals: 1     
