@@ -36,11 +36,10 @@ backlog template {"NAME":"RGB Switch","GPIO":[320,1,322,1,418,417,0,0,321,160,41
 |---------------|-------------
 | setoption59 1  | Report light state changes via MQTT
 
-<details><summary>ESPHome YAML</summary>     
-<p>
+### ESPHome YAML
+```
 https://kaufha.com/srf10/
-</p></details>
-
+```
 ### Pics
 
 ![alt text](/img/devices/kauf-srf10-1.webp "KAUF SRF10")

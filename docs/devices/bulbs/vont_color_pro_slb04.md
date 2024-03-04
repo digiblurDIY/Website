@@ -34,9 +34,7 @@ backlog template {"NAME":"Vont ESP32-C3 A19 RGBCT","GPIO":[0,0,0,452,419,418,416
 | setoption92 1 | Set the correct color temperature method
 | setoption59 1  | Report light state changes via MQTT
 
-### ESPHome
-<details><summary>ESPHome YAML Config</summary>     
-<p>
+### ESPHome YAML Config
 
 ```yaml
 substitutions:
@@ -98,7 +96,6 @@ light:
    warm_white_color_temperature: 500 mireds
    color_interlock: true
 ```
-</p></details>
 
 ### Pics
 

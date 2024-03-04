@@ -81,7 +81,9 @@ If you need help flashing, setting up ESPHome, or anything, feel free to join us
 
 Tasmota ESP32 Bin File Template (**DO NOT USE ESPHOME FLASHER**) use the Chrome based [Tasmota Flasher](https://tasmota.github.io/install/)
 
-_{"NAME":"Wyze Outdoor Plug","GPIO":\[0,0,0,0,0,576,0,0,0,0,0,224,321,7712,7713,320,0,0,0,0,0,2624,2656,2720,0,0,0,0,225,0,4704,0,0,0,0,0\],"FLAG":0,"BASE":1}_
+```
+{"NAME":"Wyze Outdoor Plug","GPIO":[0,0,0,0,0,576,0,0,0,0,0,224,321,7712,7713,320,0,0,0,0,0,2624,2656,2720,0,0,0,0,225,0,4704,0,0,0,0,0],"FLAG":0,"BASE":1}
+```
 
 ⚡**Products We Use/Recommend**
 

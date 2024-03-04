@@ -61,9 +61,9 @@ Once the Tasmota GUI is up again, click Consoles then Console.  Do not worry if
 Next we need to enable the ability for the GUI and reset button to be used as the device pairing procedure.  Paste the following command into the console all on one line:
 
   
-
-_backlog template {"NAME":"Sonoff ZigRouter","GPIO":\[320,5088,0,5120,257,256,0,0,0,576,0,0,32,0\],"FLAG":0,"BASE":18} ; delay1 ; module 0_
-
+```
+backlog template {"NAME":"Sonoff ZigRouter","GPIO":[320,5088,0,5120,257,256,0,0,0,576,0,0,32,0],"FLAG":0,"BASE":18} ; delay1 ; module 0
+```
   
 
 The bridge should reboot and come back up on the console.  The device is ready to be paired with your Zigbee network.  Go ahead and place it in the desired location of the home and power it up.  Enable pairing on your Zigbee Network as you would normally pair a regular sensor, switch, etc.  **NOTE:** Zigbee2MQTT users as of this time will need to add a custom file to support this router before pairing (see last section of this guide)

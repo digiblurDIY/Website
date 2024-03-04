@@ -37,8 +37,7 @@ Open the TASMOTA [webinstaller](https://tasmota.github.io/install/) and flash it
 {"NAME":"Milfra MFA06 Dual Relay","GPIO":[33,0,0,0,32,160,0,0,224,288,161,0,225,0],"FLAG":0,"BASE":18}
 ```
 
-<details><summary>GPIO Layout</summary>     
-<p>
+### GPIO Layout
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
@@ -49,7 +48,6 @@ Open the TASMOTA [webinstaller](https://tasmota.github.io/install/) and flash it
 |GPIO13	| Led 1 | Blue LED
 |GPIO14	| Switch2 | Daylight Sensor Switch |
 |GPIO16	| Relay2 | Actual mains relay 2 |
-</p></details>
 
 ## Settings
 

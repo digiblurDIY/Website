@@ -30,8 +30,9 @@ USB On/Off Cable - [https://amzn.to/2Nsv26z
 ](https://amzn.to/3cEqLFK)CliffQuickTest - [https://cloudfree.shop/product/cliff-quicktest-qt1/?ref=digiblur](https://cloudfree.shop/product/cliff-quicktest-qt1/?ref=digiblur)  
   
 ⚡**Tasmota Template**  
-{"NAME":"Sonoff Dual R3","GPIO":\[32,0,0,0,0,0,3232,3200,0,576,225,0,0,0,0,0,0,0,0,0,0,7296,7328,224,0,0,0,0,160,161,0,0,0,0,0,0\],"FLAG":0,"BASE":1}  
-  
+```
+{"NAME":"Sonoff Dual R3","GPIO":[32,0,0,0,0,0,3232,3200,0,576,225,0,0,0,0,0,0,0,0,0,0,7296,7328,224,0,0,0,0,160,161,0,0,0,0,0,0],"FLAG":0,"BASE":1}  
+```  
 ⚡**Resources**  
 Tasmota ESP32 - [https://tasmota.github.io/docs/ESP32/  
 ](https://tasmota.github.io/docs/ESP32/)Tasmota Bluetooth - [https://tasmota.github.io/docs/Bluetooth/  

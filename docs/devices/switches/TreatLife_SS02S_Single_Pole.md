@@ -10,8 +10,7 @@ Single Pole Decora US switch.  No special setup is required with Tasmota.  The t
 {"NAME":"Treatlife Single Pole","GPIO":[0,0,0,0,288,576,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18, "CMND": "SO30 1 | SO13 1"}
 ```
 
-<details><summary>ESPHome YAML</summary>     
-<p>
+### ESPHome YAML
 
 ```yaml
 substitutions:
@@ -80,10 +79,8 @@ status_led:
     number: GPIO5
     inverted: yes
 ```
-</p></details>
 
-<details><summary>GPIO Layout</summary>     
-<p>
+### GPIO Layout
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
@@ -100,26 +97,18 @@ status_led:
 |GPIO14	| None
 |GPIO15	| None
 |GPIO16	| None
-</p></details>
 
-
-<details><summary>Settings</summary>     
-<p>
+### Settings
 
 | Setting | Description
 |---------------|-------------
 | setoption13 1 | Set On/Off switch to respond instantly
 | setoption30 1 | Sets domain to a light
-</p></details>
 
-
-<details><summary>Rules</summary>     
-<p>
+### Rules
 
 ```
 None are necessary
 ```
-</p></details>
-
 
 ![alt text](/img/devices/treatlife_ss02s_main.webp "TreatLife SS02S")

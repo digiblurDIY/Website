@@ -41,14 +41,11 @@ issue a ***Module 73*** command on the Tasmota Console.
 | setoption59 1  | Report light state changes via MQTT
 | dimmerrange | Set as necessary based on the bulbs used
 
-### ESPHome
-<details><summary>ESPHome YAML Config</summary>     
-<p>
+### ESPHome YAML Config
 
 ```yaml
 None yet.
 ```
-</p></details>
 
 ### Pics
 

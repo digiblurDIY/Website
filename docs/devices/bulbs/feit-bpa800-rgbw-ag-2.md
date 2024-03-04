@@ -61,14 +61,10 @@ backlog template {"NAME":"Feit BPA800/RGBW/AG/2P","GPIO":[0,0,0,0,37,47,0,0,141,
 | ledtable 0 | Enable software gamma correction
 | setoption59 1  | Report light state changes via MQTT
 
-<details><summary>Rules</summary>     
-<p>
+### Rules
 None necessary.
-</p></details>
 
-<details><summary>ESPHome YAML for 2P</summary>     
-<p>
-
+### ESPHome YAML for 2P
 ```yaml
 esphome:
   name: BPA800 2P
@@ -133,7 +129,7 @@ power_supply:
   - id: rgb_power
     pin: GPIO13
 ```
-</p></details>
+
 
 ![alt text](/img/devices/feit-bpa800-rgbw-ag-2.webp "Feit Electric BPA800/RGBW/AG/2")
 

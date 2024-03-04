@@ -13,14 +13,12 @@ Purchase via [Amazon](https://amzn.to/3OQBMH7)
 
 <img src="/img/devices/treatlife_fan_face.webp" width="50%" />
 
-<details><summary>GPIO Layout</summary>     
-<p>
+### GPIO Layout
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
 |P10	| Secondary MCU RX
 |P11	| Secondary MCU TX
-</p></details>
 
 ### ESPHome YAML
 ```

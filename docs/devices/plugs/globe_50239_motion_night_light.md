@@ -15,8 +15,7 @@ Purchase on [Amazon](https://amzn.to/3KC5ajh)
 
 <img src="/img/devices/globe_motion_plug1.jpg" width="50%" />
 
-<details><summary>GPIO Layout</summary>     
-<p>
+### GPIO Layout
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
@@ -27,7 +26,6 @@ Purchase on [Amazon](https://amzn.to/3KC5ajh)
 |P14	| PIR Motion
 |P24 | Green LEDs
 |P26 | Blue LEDs
-</p></details>
 
 ### ESPHome YAML
 ```yaml

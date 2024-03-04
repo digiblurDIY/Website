@@ -26,11 +26,9 @@ Your eyes aren't deceiving you, those are indeed solder pads for 3V3, RX, TX, GN
 
 Tasmota Template (Paste it all on one line in the Tasmota Console):
 
-  
-
-backlog template {"NAME":"Kauf BLF10 Bulb","GPIO":\[0,0,0,0,416,419,0,0,417,420,418,0,0,0\],"FLAG":0,"BASE":18,"CMND":"RGBWWTable 255,255,153,255,255"} ; module 0
-
-  
+```
+backlog template {"NAME":"Kauf BLF10 Bulb","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18,"CMND":"RGBWWTable 255,255,153,255,255"} ; module 0
+``` 
 
 Individual Command if needed to limit the blue color:
 

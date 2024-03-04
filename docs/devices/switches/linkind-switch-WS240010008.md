@@ -20,9 +20,6 @@ Can we flash Tasmota on it?  YES!
 
 ### ESPHome YAML
 But can we flash ESPHome on it instead?  YES! (Thanks to zeroping!)
-<details><summary>ESPHome YAML</summary>     
-<p>
-
 ```yaml
 
 # Basic Config
@@ -133,10 +130,6 @@ binary_sensor:
       - light.turn_off: relaylight
 
 ```
-</p></details>
-
-
-
 
 The Linkind Smart Switch is rather unique.  It uses an ESP32 chipset with Bluetooth support, two independent buttons, two independent LEDs (behind the small hole) of green/red and one relay.  It ships with a non branded white screwless decora faceplate.  The switch can also be used in multi-gang boxes as they have the additional mounting holes. 
 

@@ -101,7 +101,10 @@ Hook the power wire over the ridge at the bottom of the bulb and snap the metal 
 
 Power the bulb up. If you don’t see any magic smoke, you are in the clear. If the tasmota AP shows up, the fruits of your labor has come to fruition. Add the bulb to your network – follow all the other usual steps.
 
-V9.2 Template - {"NAME":"SL10","GPIO":\[1,1,1,1,1,1,1,1,4064,4032,1,1,1,1\],"FLAG":0,"BASE":18}
+V9.2 Template
+```
+{"NAME":"SL10","GPIO":[1,1,1,1,1,1,1,1,4064,4032,1,1,1,1],"FLAG":0,"BASE":18}
+```
 
 Once the template is active, you should be able to control the light. Unfortunately the colors won’t be correct. Fortunately, the creators of Tasmota have us covered. There is a set option to be able to re-map our colors.
 

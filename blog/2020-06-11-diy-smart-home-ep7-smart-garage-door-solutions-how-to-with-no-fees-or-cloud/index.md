@@ -124,30 +124,19 @@ Create an automation in Home Assistant either via the YAML editor or Automation 
 
 **YAML Method**
 
-  
-
-\- id: '15912322314808'
-
+```yaml
+- id: '15912322314808'
   alias: Reed2MQTT
-
   description: ''
-
   trigger:
-
-  - entity\_id: binary\_sensor.wyzebenchreed
-
+  - entity_id: binary_sensor.wyzebenchreed
     platform: state
-
   action:
-
   - data:
-
-      payload\_template: "{{ states('binary\_sensor.wyzebenchreed') }}"
-
+      payload_template: "{{ states('binary_sensor.wyzebenchreed') }}"
       topic: stat/GarageDoor/status
-
     service: mqtt.publish
-
+```
 **GUI Method**
 
   

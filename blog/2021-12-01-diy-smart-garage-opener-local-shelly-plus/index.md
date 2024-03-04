@@ -35,7 +35,9 @@ _Please note, the product links above could be affiliate links, using them could
 ⚡**Tasmota Templates Setup**
 
 Shelly Plus 1 Tasmota Setup (all one command/line below):  
-_backlog template {"NAME":"ShellyPlus1","GPIO":\[320,0,0,0,192,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,32,224,0,0,0,0,0,0,0,0,0,0,0,0,0\],"FLAG":0,"BASE":1} ; switchmode1 2 ; Delay 1 ; Module 0_
+```
+backlog template {"NAME":"ShellyPlus1","GPIO":[320,0,0,0,192,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,32,224,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1} ; switchmode1 2 ; Delay 1 ; Module 0
+```
 
 ⚡**Resources  
 **Tasmota32 Solo Bluetooth - [https://tasmota.github.io/install/firmware/unofficial/tasmota32solo1-bluetooth.bin  

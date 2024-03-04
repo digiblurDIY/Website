@@ -21,7 +21,9 @@ UPDATE:  Full flashing article - [https://www.digiblur.com/2021/03/how-to-flas
 
 Tasmota 9.5 now supports the buttons on this device - 
 
-_{"NAME":"Wyze Outdoor Plug","GPIO":\[0,0,0,0,0,576,0,0,0,0,0,224,321,7712,7713,320,0,0,0,0,0,2624,2656,2720,0,0,0,0,225,0,4704,0,0,0,0,0\],"FLAG":0,"BASE":1}_
+```
+{"NAME":"Wyze Outdoor Plug","GPIO":[0,0,0,0,0,576,0,0,0,0,0,224,321,7712,7713,320,0,0,0,0,0,2624,2656,2720,0,0,0,0,225,0,4704,0,0,0,0,0],"FLAG":0,"BASE":1}
+```
 
 ⚡Products We Use/Recommend
 

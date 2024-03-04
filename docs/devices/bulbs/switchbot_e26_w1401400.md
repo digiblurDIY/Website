@@ -42,10 +42,8 @@ backlog template {"NAME":"Switchbot E26 Bulb","GPIO":[0,0,0,0,9128,9088,0,0,0,0,
 | setoption37 25 | Set the correct RGB+CT order
 | setoption59 1  | Report light state changes via MQTT
 
-<details><summary>Rules</summary>     
-<p>
+#### Rules
 None necessary.
-</p></details>
 
 ### Moving to ESPHome
 

@@ -17,7 +17,9 @@ Tearing down a unique RGB night light switch from top to bottom.  We show the i
 [CH340G Usb to Serial](https://amzn.to/2A36R4d)  
   
 **RGB Switch Tasmota Template**  
+```
 {"NAME":"RGB Switch","GPIO":\[30,255,32,10,39,38,0,0,31,9,37,21,255\],"FLAG":0,"BASE":18}  
+```
   
 **Addtl Links**  
 Tasmota - [https://github.com/arendst/Sonoff-Tasmota](https://github.com/arendst/Sonoff-Tasmota)  

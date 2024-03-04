@@ -28,8 +28,7 @@ None needed as it is built into TASMOTA.  Click Configuration -> Configure Modul
 
 The power calibration for the S31 is usually pretty close on default but it can be fine tuned via [Tasmota Calibration Procedure](https://tasmota.github.io/docs/Power-Monitoring-Calibration/#calibration-procedure)  
 
-<details><summary>GPIO Layout</summary>     
-<p>
+### GPIO Layout
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
@@ -38,8 +37,6 @@ The power calibration for the S31 is usually pretty close on default but it can 
 |GPIO03	| CSE7766 Rx | Power monitoring chip
 |GPIO12	| Relay1 | Relay for Load
 |GPIO13	| Led_i_1 | Onboard LED
-
-</p></details>
 
 ### ESPHome YAML
 

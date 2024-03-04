@@ -86,8 +86,9 @@ If you followed the video or did it based off the Github link, please make sure 
 Go to the Console page and paste in the following on one line and hit enter:
 
   
-
-_backlog module 0 ; template {"NAME":"ShellyPlugUS","GPIO":\[52,255,57,255,21,134,0,0,131,17,132,157,0\],"FLAG":0,"BASE":45}_ 
+```
+backlog module 0 ; template {"NAME":"ShellyPlugUS","GPIO":[52,255,57,255,21,134,0,0,131,17,132,157,0],"FLAG":0,"BASE":45}
+```
 
 Give it a few seconds and it will reboot and the console will refresh.  Paste the following in on one line:
 

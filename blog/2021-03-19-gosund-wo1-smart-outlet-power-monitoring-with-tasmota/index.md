@@ -31,13 +31,12 @@ One oddity with this outlet are the buttons.  Instead of using the available GP
 
 After you flash your device and configure it to your WiFi go to the console and issue the following commands:
 
-_template {"NAME":"Gosound Outlet","GPIO":\[320,0,576,0,2656,2720,0,0,2624,321,225,224,0,4704\],"FLAG":0,"BASE":18}_
-
-_rule1 on analog#a0<400 do power2 toggle break on analog#a0<800 do power1 toggle break endon_
-
-_rule1 1_
-
-_module 0_
+```
+template {"NAME":"Gosound Outlet","GPIO":[320,0,576,0,2656,2720,0,0,2624,321,225,224,0,4704],"FLAG":0,"BASE":18}
+rule1 on analog#a0<400 do power2 toggle break on analog#a0<800 do power1 toggle break endon
+rule1 1
+module 0
+```
 
 Give Tasmota a few seconds as the device will reboot to activate the template.  Go to the Tasmota main menu and you should see something similar to the following:
 

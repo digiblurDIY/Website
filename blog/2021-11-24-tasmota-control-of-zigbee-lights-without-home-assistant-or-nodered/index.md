@@ -37,63 +37,45 @@ Tasmota One Button Dimming & CT Control Rules
 
 Paste each rule/command on one line in the console.  Change "ZigLinkindBulb" to your Zigbee2MQTT device name or group.  Do not forget to turn the rules On!
 
-  
+```
+calcres 0
 
-_calcres 0_
+switchmode1 12
 
-_switchmode1 12_
-
-_setoption32 12_
+setoption32 12
 
 rule1 ON system#boot do backlog0 var5 ZigLinkindBulb ; ledpower1 1 ; ledpower2 0 ; var1 ADD ; var2 3 ; var3 50 ; var4 153 ENDON
-
  ON switch1#state=2 do event zigtog ENDON
-
  ON switch1#state=4 do %var1%%var2% 25 ; event zigpush%var2% ENDON
-
  ON switch1#state=7 do event updown=%var1% ENDON on event#updown=ADD do var1 SUB ENDON on event#updown=SUB do var1 ADD ENDON
 
-  
-
 rule2 on switch1#state=8 do event ctdim=%var2% ENDON
-
  on event#ctdim=3 do var2 4 ; ledpower1 0 ; ledpower2 1 ; event zigtog ENDON
-
  on event#ctdim=4 do var2 3 ; ledpower1 1 ; ledpower2 0 ; event zigtog ENDON
-
  on event#zigpush3 do backlog0 ledpower1 0 ; publish zigbee2mqtt/%var5%/set {"brightness":%var3%} ; ledpower1 1 endon
-
  on event#zigpush4 do backlog0 ledpower2 0 ; publish zigbee2mqtt/%var5%/set {"color\_temp":%var4%} ; ledpower2 1 endon
 
-  
-
 rule3 ON Var3#State>255 do var3 255 endon on var3#state<0 do var3 0 endon
-
  ON Var4#State>500 do var4 500 endon on var4#state<153 do var4 153 endon
-
  on event#zigtog do publish zigbee2mqtt/%var5%/set/state TOGGLE endon
 
-  
-
 Rule0 1
-
-  
+``` 
 
 As shown in the video this was using a [MJ Switch](https://amzn.to/3r5OyHs) with the following template setup for the two LEDs to blink/change.
 
-  
-
-_{"NAME":"MJ-S01 2Way Switch","GPIO":\[1,1,1,1,321,320,0,0,3840,160,544,224,0,0\],"FLAG":0,"BASE":18}_
+```
+{"NAME":"MJ-S01 2Way Switch","GPIO":[1,1,1,1,321,320,0,0,3840,160,544,224,0,0],"FLAG":0,"BASE":18}
+```
 
 **Tasmota Dimmer to Zigbee Rules (not in the video...yet)**
 
-_rule1 on dimmer#state do backlog var1 %value% ; MULT1 2.55 ; event pushzig endon_
-
- _on event#pushzig do publish zigbee2mqtt/ZigIkeaBulb/set {"state":"ON","brightness":%VAR1%} endon
-
-         on power1#state=0 do publish zigbee2mqtt/ZigIkeaBulb/set/state OFF endon
-
-         on power1#state=1 do publish zigbee2mqtt/ZigIkeaBulb/set/state ON endon_
+```
+rule1 on dimmer#state do backlog var1 %value% ; MULT1 2.55 ; event pushzig endon
+      on event#pushzig do publish zigbee2mqtt/ZigIkeaBulb/set {"state":"ON","brightness":%VAR1%} endon
+      on power1#state=0 do publish zigbee2mqtt/ZigIkeaBulb/set/state OFF endon
+      on power1#state=1 do publish zigbee2mqtt/ZigIkeaBulb/set/state ON endon
+```
 
 ⚡Products We Use/Recommend
 

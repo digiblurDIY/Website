@@ -50,8 +50,7 @@ Open the TASMOTA [webinstaller](https://tasmota.github.io/install/) and flash it
 {"NAME":"Milfra PIR MFA05 No LUX","GPIO":[32,0,0,0,0,160,0,0,224,576,0,0,0,0],"FLAG":0,"BASE":18}
 ```
 
-<details><summary>GPIO Layout</summary>     
-<p>
+### GPIO Layout
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
@@ -60,7 +59,6 @@ Open the TASMOTA [webinstaller](https://tasmota.github.io/install/) and flash it
 |GPIO12	| Relay1 | Actual relay to toggle on/off |
 |GPIO13	| LedLink_i | LED
 |GPIO14	| Switch2 | Daylight Sensor Switch |
-</p></details>
 
 ### Settings
 

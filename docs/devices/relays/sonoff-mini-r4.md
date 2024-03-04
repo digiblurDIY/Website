@@ -35,8 +35,7 @@ Purchase - Not Available Yet
 |GPIO26	| Relay1 | Relay for Load
 |GPIO27	| Switch1 | S1/S2 input
 
-<details><summary>ESPHome YAML</summary>     
-<p>
+### ESPHome YAML
 
 ```yaml
 substitutions:
@@ -122,8 +121,6 @@ binary_sensor:
     on_press:
       - switch.toggle: relay
 ```
-
-</p></details>
 
 ### Pics
 ![alt text](/img/devices/sonoff-mini-r4-top_out.webp)

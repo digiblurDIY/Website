@@ -11,18 +11,14 @@ None necessary.  Tasmota GUI -> Configuration -> Configure Module -> Tuya MCU (5
 ***OR***  
 issue a ***Module 54*** command on the Tasmota Console. 
 
-<details><summary>GPIO Layout</summary>     
-<p>
+### GPIO Layout
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
 |GPIO01	| Tuya Tx | 
 |GPIO03	| Tuya Rx | 
-</p></details>
 
-
-<details><summary>Settings</summary>     
-<p>
+### Settings 
 
 | Setting | Description
 |---------------|-------------
@@ -35,10 +31,7 @@ issue a ***Module 54*** command on the Tasmota Console.
 | tuyamcu 21,10 | Assign Dimmer to dpID 10
 | dimmerrange 10,1000 | Assign the upper and lower dimmer button range to match the buttons (this is not set per bulb type)
 
-</p></details>
-
-<details><summary>Rules</summary>     
-<p>
+### Rules
 
 OPTION A: Does NOT turn the fan on when the speed/preset is changed:  
 
@@ -55,11 +48,7 @@ Enable the rule with the following
 
 Rule1 1
 
-</p></details>
-
-<details><summary>ESPHome YAML</summary>     
-<p>
-
+### ESPHome YAML
 ```yaml
 substitutions:
   device_name: DeviceName #change
@@ -123,7 +112,6 @@ fan:
     speed_datapoint: 3
     speed_count: 4
 ```
-</p></details>
 
 ## Flashing and Full Setup Procedure
 

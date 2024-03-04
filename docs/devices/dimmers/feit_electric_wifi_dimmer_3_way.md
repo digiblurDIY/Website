@@ -15,29 +15,22 @@ backlog module 54; TuyaMCU 21,2; DimmerRange 10,1000
 ### TASMOTA Template
 No template needed.  Select TuyaMCU(54) in the Configure Module screen or issue a `module 54` commmand on the TASMOTA console.
 
-<details><summary>GPIO Layout</summary>     
-<p>
+### GPIO Layout
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
 |GPIO01	| Tuya TX | MCU Transmit
 |GPIO03 | Tuya RX | MCU Recieve
-</p></details>
 
-
-
-<details><summary>Settings</summary>     
-<p>
+### Settings
 
 | Setting | Description
 |---------------|-------------
 | TuyaMCU 21,2 | Enable MCU communication
 | DimmerRange 10,1000  | Set dimming range to match the lower and upper value of the faceplate limits
 | setoption59 1  | Report light state changes via MQTT
-</p></details>
 
-<details><summary>ESPHome YAML</summary>
-<p>
+### ESPHome YAML
 
 ```yaml
 esphome:
@@ -78,9 +71,6 @@ light:
     min_value: 10
     max_value: 1000
 ```
-
-</p></details>
-
 ### Serial Flashing
 
 After unscrewing and pulling the faceplate off of the HV internals, you should be faced with the TYWE2S module.

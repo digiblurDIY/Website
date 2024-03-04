@@ -225,15 +225,15 @@ If you do not see the Tasmota Zigbee message of Zigbee started in the console do
 **#6** Issue the following command on the console to map the Zigbee chip to TCP Server Port 8888:
 
   
-
-_backlog rule1 on system#boot do TCPStart 8888 endon ; rule1 1 ;_ _template {"NAME":"Sonoff ZHABridge","GPIO":\[56,208,0,209,59,58,0,0,0,0,0,0,17\],"FLAG":0,"BASE":18} ; module 0_
-
+```
+backlog rule1 on system#boot do TCPStart 8888 endon ; rule1 1 ; template {"NAME":"Sonoff ZHABridge","GPIO":[56,208,0,209,59,58,0,0,0,0,0,0,17],"FLAG":0,"BASE":18} ; module 0
+```
 Once the console reboots you should see the server has started on Port 8888:
 
+```
 17:35:58 TCP: Starting TCP server on port 8888
-
-17:35:58 RSL: stat/tasmota\_7FC5B0/RESULT = {"TCPStart":"Done"}
-
+17:35:58 RSL: stat/tasmota/7FC5B0/RESULT = {"TCPStart":"Done"}
+```
   
 
 Last but not least, while we are here, let's set the update URL to the Zigbee Bridge variant.  This will prevent your future self from breaking your ZHA integration with an upgrade of the wrong bin file.  Enter the following on the Tasmota console.

@@ -31,9 +31,9 @@ At first glance you might be thinking that someone simply took a Sonoff basic, a
 Flash the device with either soldering to the chip via USB TTL and Tasmotizer, or use [Tuya-Convert](https://youtu.be/dt5-iZc4_qU).  Do the dance to get the device on your WiFi like you normally would, and browse to the Tasmota GUI using the local IP of the device found from your Router/DHCP Server.  As always upgrade to teh latest Tasmota by utilizing the Firmware Upgrade button in the GUI. Configure your MQTT Broker and Custom Topic like you normally would, then click the Console Button and paste these commands in one by one:
 
   
-
+```
 template {"NAME":"Moes Garage","GPIO":\[255,148,255,149,255,255,255,255,255,255,21,255,255\],"FLAG":15,"BASE":18}
-
+```
 module 0
 
   

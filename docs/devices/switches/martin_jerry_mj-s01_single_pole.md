@@ -52,9 +52,7 @@ Activate the Rule with
 Rule1 1
 ```
 
-<details><summary>ESPHome YAML</summary>     
-<p>
-
+### ESPHome YAML
 ```yaml
 substitutions:
   device_name: light_switch1   #CustomizeThis
@@ -123,7 +121,6 @@ status_led:
     number: GPIO5
     inverted: true
 ```
-</p></details>
 
 ### Pics
 

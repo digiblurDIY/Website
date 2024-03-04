@@ -126,17 +126,14 @@ entities:
 ```
 ![alt text](/img/devices/ha_fan_card.webp "HA Fan Card")
 
-<details><summary>GPIO Layout</summary>     
-<p>
+### GPIO Layout
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
 |GPIO01	| Tuya TX | MCU Transmit
 |GPIO03 | Tuya RX | MCU Recieve
-</p></details>
 
-<details><summary>ESPHome YAML</summary>     
-<p>
+### ESPHome YAML
 
 ```yaml
 substitutions:
@@ -189,8 +186,6 @@ fan:
     speed_datapoint: 3
     speed_count: 4
 ```
-</p></details>
-
 
 ### Pics
 

@@ -20,12 +20,19 @@ Athom Aliexpress - [https://bit.ly/3iNyEet](https://bit.ly/3iNyEet)
   
 
 **Athom Tasmota Templates**  
-7 Watt E26 & GU10 Bulb {"NAME":"LB01-7W-E27-TAS","GPIO":\[0,0,0,0,416,419,0,0,417,420,418,0,0,0\],"FLAG":0,"BASE":18}  
-15 Watt E26 {"NAME":"LB01-15W-E27-TAS-1","GPIO":\[0,0,0,0,416,419,0,0,417,452,418,0,0,0\],"FLAG":0,"BASE":18,"CMND":"SO92 1;DimmerRange 24 100"}  
-4 Button Glass US {"NAME":"Athom SW034US","GPIO":\[158,0,0,18,22,19,0,0,17,21,24,23,20\],"FLAG":0,"BASE":18}
-
+7 Watt E26 & GU10 Bulb
+```
+ {"NAME":"LB01-7W-E27-TAS","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}  
+```
+15 Watt E26
+```
+{"NAME":"LB01-15W-E27-TAS-1","GPIO":[0,0,0,0,416,419,0,0,417,452,418,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO92 1;DimmerRange 24 100"}  
+```
+4 Button Glass US
+```
+{"NAME":"Athom SW034US","GPIO":[158,0,0,18,22,19,0,0,17,21,24,23,20],"FLAG":0,"BASE":18}
+```
   
-
 ⚡Products We Use/Recommend  
 Amazon US - [https://amzn.to/2YZNDeO](https://amzn.to/2YZNDeO)  
 Amazon UK - [https://amzn.to/2TnG2R4](https://amzn.to/2TnG2R4)  
