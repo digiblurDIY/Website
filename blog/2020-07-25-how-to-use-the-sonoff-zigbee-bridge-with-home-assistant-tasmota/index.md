@@ -233,8 +233,7 @@ Once the console reboots you should see the server has started on Port 8888:
 ```
 17:35:58 TCP: Starting TCP server on port 8888
 17:35:58 RSL: stat/tasmota/7FC5B0/RESULT = {"TCPStart":"Done"}
-```
-  
+``` 
 
 Last but not least, while we are here, let's set the update URL to the Zigbee Bridge variant.  This will prevent your future self from breaking your ZHA integration with an upgrade of the wrong bin file.  Enter the following on the Tasmota console.
 

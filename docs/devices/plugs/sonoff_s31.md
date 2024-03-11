@@ -98,7 +98,7 @@ sensor:
       id: plug_power
       filters:
         - throttle_average: 10s         
-- platform: total_daily_energy
+  - platform: total_daily_energy
     name: Daily Energy
     power_id: plug_power
     filters:
