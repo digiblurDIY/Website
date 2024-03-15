@@ -17,7 +17,7 @@ We've covered the Gen 2 model in the previous video, but in a quick TL;DR.  It's
 
 Out of the box the unit is cloud only and feeds your data to another company for use!  That's not what we want, it's our electricity usage pattern data!  We want it in house and local! Luckily the Gen 3 contains an ESP32 just like the previous Gen 2 model.
 
-![alt text](images/powermon_chart.png)
+![alt text](images/powermon_chart_ha.png)
 
 ### What is the Gen 3 all about?
 
