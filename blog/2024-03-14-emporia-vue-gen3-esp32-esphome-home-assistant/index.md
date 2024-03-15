@@ -13,7 +13,7 @@ authors: digiblur
 
 ### What is the Emporia Vue?
 
-We've covered the Gen 2 model in the previous video, but in a quick TL;DR.  It's a box that goes in your breaker panel to measure the entire power usage in your home as well as breaking it down to 16 other circuits in your home for a more detailed usage.  This isn't any AI, or guess work involved like other brands, it measures the real world usage of each of the 16 circuits you install the clamps on in the breaker panel. 
+We've covered the Gen 2 model in the [previous video](https://youtu.be/z0Jv4nO9OWg), but in a quick TL;DR.  It's a box that goes in your breaker panel to measure the entire power usage in your home as well as breaking it down to 16 other circuits in your home for a more detailed usage.  This isn't any AI, or guess work involved like other brands, it measures the real world usage of each of the 16 circuits you install the clamps on in the breaker panel. 
 
 Out of the box the unit is cloud only and feeds your data to another company for use!  That's not what we want, it's our electricity usage pattern data!  We want it in house and local! Luckily the Gen 3 contains an ESP32 just like the previous Gen 2 model.
 
@@ -231,3 +231,7 @@ sensor:
 
 Purchase on Amazon (affiliate) - https://amzn.to/3wMOcKv  
 Purchase from Emporia - https://shop.emporiaenergy.com/collections/in-panel-energy-monitors
+
+### Additional Info
+
+Join us in the #device forums on the [digiblurDIY Discord](https://digiblur.discord.com) or the [Gen3 Discussion Thread](https://github.com/emporia-vue-local/esphome/discussions/264) on Github.
