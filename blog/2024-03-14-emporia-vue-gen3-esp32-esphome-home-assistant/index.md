@@ -228,3 +228,6 @@ sensor:
 ![alt text](images/PXL_20240314_021055184.webp)
 
 ![alt text](images/PXL_20240314_021150251.webp)
+
+Purchase on Amazon (affiliate) - https://amzn.to/3wMOcKv  
+Purchase from Emporia - https://shop.emporiaenergy.com/collections/in-panel-energy-monitors
