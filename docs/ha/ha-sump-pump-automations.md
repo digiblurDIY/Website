@@ -1,4 +1,4 @@
-# Shelly PM Mini G3 Sump Pump Monitoring
+# Sump Pump Cycle Counting Automations
 
 In this guide, we'll walk you through setting up cycle counting for your pump, allowing you to track its usage and receive notifications when needed. Major hat-tip to the awesome Jim from PA for the intial legwork on this process and for sharing it with many.
 
@@ -111,14 +111,6 @@ action:
 mode: single
 ```
 
-```yaml
-
-```
-
-```yaml
-
-```
-
-```yaml
-
-```
+That's it! Go enjoy your cool-and-stuff counters and graphs!
+![alt text](/img/procedures/sump_05_counterweeklygraph.png "screenshot of daily counts for a week")
+![alt text](/img/procedures/sump_06_countercard.png "dashboard screenshot of sump pump entities")
