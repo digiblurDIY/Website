@@ -15,10 +15,12 @@ esphome:
   platformio_options:
     board_build.mcu: esp32c3
     board_build.variant: esp32c3  
+# added the line below to prevent bootloops when flashing modern bin via serial
+    board_build.flash_mode: dio     
 
 esp32:
   variant: ESP32C3
-  board: esp32dev
+  board: esp32-c3-devkitm-1
   framework:
     type: esp-idf
     sdkconfig_options:
