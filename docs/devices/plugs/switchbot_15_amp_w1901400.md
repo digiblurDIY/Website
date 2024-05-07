@@ -53,7 +53,7 @@ esphome:
 
 esp32:
   variant: ESP32C3
-  board: esp32dev
+  board: esp32-c3-devkitm-1
   framework:
     type: esp-idf
     sdkconfig_options:
