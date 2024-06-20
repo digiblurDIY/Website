@@ -31,6 +31,7 @@ esp32:
 logger:
 api:
 ota:
+  platform: esphome
 
 button:
   - platform: safe_mode
