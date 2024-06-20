@@ -33,6 +33,7 @@ captive_portal:
 logger:
 api:
 ota:
+  platform: esphome
 
 esp32_ble_tracker:
   scan_parameters:
@@ -64,6 +65,7 @@ esp32:
 logger:
 api:
 ota:
+  platform: esphome
 
 esp32_ble_tracker:
   scan_parameters:
