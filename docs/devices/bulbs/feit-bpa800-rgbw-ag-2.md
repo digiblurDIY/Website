@@ -86,6 +86,7 @@ api:
 logger:
 
 ota:
+  platform: esphome
 
 sm16716:
   data_pin: GPIO14

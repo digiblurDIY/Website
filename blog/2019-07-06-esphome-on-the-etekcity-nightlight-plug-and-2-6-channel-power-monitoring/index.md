@@ -52,7 +52,8 @@ mqtt:
   username: !secret mqtt_user  
   password: !secret mqtt_pass  
   
-ota:  
+ota:
+  platform: esphome
   
 web_server:  
   

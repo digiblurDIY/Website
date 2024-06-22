@@ -45,6 +45,7 @@ tuya:
 web_server:
 api:
 ota:
+  platform: esphome
 captive_portal:
 mdns:
 

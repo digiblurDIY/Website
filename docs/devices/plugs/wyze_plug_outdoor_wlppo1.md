@@ -59,6 +59,7 @@ esp32:
 logger:
 api:
 ota:
+  platform: esphome
 captive_portal:
 mdns:
 #web_server:

@@ -58,6 +58,7 @@ api:
   reboot_timeout: 0s #disable auto-reboot if homeassistant is not connecting
 
 ota:
+  platform: esphome
   #password: !secret esphome_ota_password
   # https://esphome.io/components/ota
 

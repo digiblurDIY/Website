@@ -39,7 +39,8 @@ logger:
 \# Enable Home Assistant API  
 api:  
   
-ota:  
+ota:
+  platform: esphome
   
 sensor:  
   - platform: dht  

@@ -53,6 +53,7 @@ logger:
   baud_rate: 0 # (UART logging disabled due to cse7766 power mon chip)
 api:
 ota:
+  platform: esphome
 captive_portal:
 
 wifi:

@@ -72,6 +72,7 @@ api:
   on_client_disconnected:
     - esp32_ble_tracker.stop_scan:
 ota:
+  platform: esphome
 
 button:
   - platform: safe_mode

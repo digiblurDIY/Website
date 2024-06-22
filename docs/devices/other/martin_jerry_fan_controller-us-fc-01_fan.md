@@ -161,6 +161,7 @@ api:
   # https://esphome.io/components/api
 
 ota:
+  platform: esphome
   #password: !secret esphome_ota_password
   # https://esphome.io/components/ota
 

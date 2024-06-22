@@ -70,6 +70,7 @@ esphome:
   name: water-softener
 
 ota:
+  platform: esphome
   password: !secret otapassword
 
 preferences:
@@ -167,6 +168,7 @@ esphome:
   name: water-softener
 
 ota:
+  platform: esphome
   password: !secret otapassword
 
 preferences:

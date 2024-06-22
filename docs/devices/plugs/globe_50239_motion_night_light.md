@@ -43,6 +43,7 @@ bk72xx:
 logger:
 api:
 ota:
+  platform: esphome
 
 wifi:
   ssid: !secret wifi_ssid

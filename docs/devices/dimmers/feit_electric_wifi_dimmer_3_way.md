@@ -51,6 +51,7 @@ captive_portal:
 api:
 
 ota:
+  platform: esphome
 
 # disable serial logging by setting baud_rate to 0 because baud_rate/serial connection is used by tuyamcu
 logger:

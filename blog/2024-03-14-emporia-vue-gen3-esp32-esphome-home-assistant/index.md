@@ -76,6 +76,7 @@ preferences:
 
 api:
 ota:
+  platform: esphome
 
 logger:
   logs:

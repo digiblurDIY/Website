@@ -80,6 +80,7 @@ logger:
 api:
 
 ota:
+  platform: esphome
 
 output:
   - platform: gpio
