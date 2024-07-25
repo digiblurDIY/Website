@@ -59,8 +59,9 @@ substitutions:
   display_name: EmpVu3
 
 external_components:
-  - source: github://emporia-vue-local/esphome@dev
-    components:
+#  - source: github://emporia-vue-local/esphome@dev
+  - source: github://digiblur/esphome-vue3@dev
+components:
       - emporia_vue
       
 esp32:
