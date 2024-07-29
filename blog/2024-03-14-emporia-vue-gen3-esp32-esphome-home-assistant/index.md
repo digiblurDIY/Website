@@ -61,7 +61,7 @@ substitutions:
 external_components:
 #  - source: github://emporia-vue-local/esphome@dev
   - source: github://digiblur/esphome-vue3@dev
-components:
+    components:
       - emporia_vue
       
 esp32:
