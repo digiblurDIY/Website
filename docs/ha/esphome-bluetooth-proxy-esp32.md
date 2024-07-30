@@ -9,21 +9,26 @@ This file can be used as a base to adapt to other ESP32 Devices such as [SwitchB
 ```yaml
 substitutions:
   display_name: esp32-btproxy
+  friendly_name: esp32-btproxy 
   
 esphome:
   name: ${display_name}
-  platform: ESP32
-  board: esp-wrover-kit
+  friendly_name: ${friendly_name}
 
-# Change the WiFi config to a non-static IP if needed
+esp32:
+  board: esp32dev
+  framework:
+    type: esp-idf
+
+# Change the WiFi config as needed
 wifi:
   ssid: !secret wifi_myssid
   password: !secret wifi_mypass
-  manual_ip:
-    static_ip: !secret ip_esp32_btproxy
-    gateway: !secret ip_gateway
-    subnet: !secret ip_subnet
-    dns1: !secret ip_dns1
+#  manual_ip:
+#    static_ip: !secret ip_esp32_btproxy
+#    gateway: !secret ip_gateway
+#    subnet: !secret ip_subnet
+#    dns1: !secret ip_dns1
   ap: 
     ssid: ${display_name}_AP
     password: !secret wifi_mypass
@@ -60,7 +65,7 @@ esphome:
 esp32:
   board: esp32-poe-iso
   framework:
-    type: arduino
+    type: esp-idf
 
 logger:
 api:
