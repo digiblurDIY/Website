@@ -94,7 +94,7 @@ i2c:
   sda: 5
   scl: 18
   scan: false
-  frequency: 200kHz  # recommended range is 50-200kHz
+  frequency: 150kHz  # recommended range is 50-200kHz, was 200kHz but 150kHz stops errors (2024.8)
   id: i2c_a
 
 switch:

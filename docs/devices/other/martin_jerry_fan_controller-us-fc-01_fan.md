@@ -111,7 +111,7 @@ mqtt:
       payload_off: "OFF"
 ```
 
-That's it!  Enjoy!  If you need help feel free to pop into [Discord](https://discord.digiblur.com) and ask for a hand.  
+That's it!  Enjoy!  If you need help feel free to pop into [Discord](https://discord.com/invite/dgRZSw6) and ask for a hand.  
 
 ### Bonus Home Assistant Card
 

@@ -56,7 +56,7 @@ Amazon CA - [https://amzn.to/2JWsNq5](https://amzn.to/2JWsNq5)
   
 
 **⚡Be Social!⚡**  
-Discord Chat - [https://discord.digiblur.com](https://discord.digiblur.com/)  
+Discord Chat - [https://discord.com/invite/dgRZSw6 ](https://discord.com/invite/dgRZSw6 )  
 Website - [https://www.digiblur.com](https://www.digiblur.com/)  
 Patreon - [https://www.patreon.com/digiblurDIY](https://www.patreon.com/digiblurDIY)  
 Facebook - [https://www.facebook.com/groups/digiblurdiy](https://www.facebook.com/groups/digiblurdiy)  

@@ -75,7 +75,7 @@ Use the provided [ESPHome YAML](https://github.com/digiblur/digiNRG_ESPHome/blob
 
 New to ESPHome?  Check out some of my previous sensor builds for complete walkthroughs with ESPHome setup and flashing - [Bathroom Sensor](https://youtu.be/mfaC1HZfdUY) or [Multisensor](https://youtu.be/9Yu57vjz7AY)
 
-If you need help flashing, setting up ESPHome, or anything, feel free to join us in the Discord Chat.  [https://discord.digiblur.com](https://discord.digiblur.com/)
+If you need help flashing, setting up ESPHome, or anything, feel free to join us in the Discord Chat.  Discord Chat - [https://discord.com/invite/dgRZSw6](https://discord.com/invite/dgRZSw6)  
 
 [Purchase the Wyze Outdoor Plug (Amazon)](https://amzn.to/3ffJTg4)
 

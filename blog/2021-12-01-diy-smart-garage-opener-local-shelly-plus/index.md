@@ -144,9 +144,10 @@ Amazon CA - [https://amzn.to/2JWsNq5](https://amzn.to/2JWsNq5)
 
 ⚡Be Social!⚡
 
-YouTube - [https://youtube.digiblur.com](https://youtube.digiblur.com/)  
-Discord Chat - [https://discord.digiblur.com](https://discord.digiblur.com/)  
-Patreon - [https://patreon.digiblur.com](https://patreon.digiblur.com/)  
-Facebook - [https://facebook.digiblur.com](https://facebook.digiblur.com/)  
-Instagram - [https://instagram.digiblur.com](https://instagram.digiblur.com/)  
+Main Website: 🌐 https://digiblur.com/ 
+Discord Chat: https://discord.com/invite/dgRZSw6 
+Patreon: https://www.patreon.com/digiblurdiy 
+Join YouTube: https://www.youtube.com/@digiblurDIY/videos  
+Facebook: https://www.facebook.com/groups/digiblurdiy 
+Instagram: https://www.instagram.com/digiblurdiy 
 _Please note, the product links above could be affiliate links, using them could earn digiblurDIY a small commission of most purchases and helps with future video projects. Thank you!  As an Amazon Associate I earn from qualifying purchases._

@@ -154,8 +154,8 @@ const config = {
                 href: 'https://discord.com/invite/dgRZSw6',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/digiblur',
+                label: 'X',
+                href: 'https://x.com/digiblur',
               },
               {
                 label: 'Instagram',

@@ -9,7 +9,7 @@ keywords: [home assistant bluetooth, bluetooth compatible devices, bluetooth pro
 
 **Updated on: March 21, 2023**
 
-Devices the [Discord Crew](https://discord.digiblur.com) and I have found to be compatible with Home Assistant and [ESPHome Bluetooth Proxies](/2022/09/07/home-assistant-esphome-bluetooth-proxy-how-to)  
+Devices the [Discord Crew](https://discord.com/invite/dgRZSw6) and I have found to be compatible with Home Assistant and [ESPHome Bluetooth Proxies](/2022/09/07/home-assistant-esphome-bluetooth-proxy-how-to)  
 
 Most of these devices are plug and play auto discovery right into Home Assistant utilizing the Bluetooth or Bluetooth Proxy integration with ESPHome.  Need to turn your ESP32 into a BT Proxy?  [ESP32](/wiki/ha/esphome-bluetooth-proxy-esp32), [ESP32-C3](/wiki/ha/esphome-bluetooth-proxy-esp32c3), [ESP32 Solo](/wiki/ha/esphome-bluetooth-proxy-esp32solo), or use the [prebuilt flasher](https://esphome.github.io/bluetooth-proxies/) on ESPHome. 
 
@@ -57,4 +57,4 @@ splnut 11/19/2022 [iLC LED Flood Light 100W](https://www.amazon.com/dp/B07T1B5S5
 splnut 11/19/2022 [LOLpetik LED Flood Light Outdoor 25W](https://www.amazon.com/dp/B08YYQ4QW7)  
 splnut 11/19/2022 [LECLSTAR LED Flood 20W](https://www.amazon.com/dp/B0B9GRYTCB)  
 
-Have others?  Edit the page or let us know on [Discord](https://discord.digiblur.com)
+Have others?  Edit the page or let us know on [Discord](https://discord.com/invite/dgRZSw6)

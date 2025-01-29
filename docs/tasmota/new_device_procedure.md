@@ -80,4 +80,4 @@ In this example, "Switch2" shows a TOGGLE, this is due to the press then depress
 
 Last but not least, change the Template Name to a proper name, and issue a `SetOption0 1` and `SetOption114 0` command on the console to turn power state saves back on attach the switch/buttons to the relays.  It is also recommended to use the Backup Configuration option in Tasmota.
 
-Submit your findings to us on [Discord](https://discord.digiblur.com) or via this Site
+Submit your findings to us on [Discord](https://discord.com/invite/dgRZSw6) or via this Site

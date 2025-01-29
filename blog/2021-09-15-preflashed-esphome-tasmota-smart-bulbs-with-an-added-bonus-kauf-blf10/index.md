@@ -22,7 +22,7 @@ The bulb is a 10W LED (not to be confused with wattages stated as equivalent), I
 
 Your eyes aren't deceiving you, those are indeed solder pads for 3V3, RX, TX, GND and GPIO Zero.  What does that mean?  Hardware Recovery if needed!  Unlike other bulbs that might have been converted to open source with Tuya Convert or maybe even [Athom preflashed bulbs](https://youtu.be/jz3T-U16RuY), they do not have the ability to be recovered from a bad upgrade, software failure, etc, but these definitely do.  For myself that means no worry at all switching over to WLED for the holiday season, switching to Tasmota, etc.  I know I can always break out the [USB TTL](https://geni.us/C35RP9) adapter and install my software without any issues. Great job Kauf!  
 
-[Kaufman Home Automation](https://kaufha.com/products/) has done a great job on documenting everything you need for this bulb from custom YAML code with ESPHome, installation, converting to Tasmota, the [Tasmota Template](/p/smart-switch-templates.html), etc. all directly from the source.  Thanks to @tonyfav on the [digiblurDIY Discord](https://discord.digiblur.com/) for digging through the [ESPHome code](https://github.com/KaufHA/BLF10) to see the blue channel needed a bit of tweaking since it was too strong in default use cases in Tasmota as well.  I've included this in the template below.  If you do find the blue channel is too bright use the following command in the Tasmota console to knock it down a bit.   
+[Kaufman Home Automation](https://kaufha.com/products/) has done a great job on documenting everything you need for this bulb from custom YAML code with ESPHome, installation, converting to Tasmota, the [Tasmota Template](/p/smart-switch-templates.html), etc. all directly from the source.  Thanks to @tonyfav on the [digiblurDIY Discord](https://discord.com/invite/dgRZSw6) for digging through the [ESPHome code](https://github.com/KaufHA/BLF10) to see the blue channel needed a bit of tweaking since it was too strong in default use cases in Tasmota as well.  I've included this in the template below.  If you do find the blue channel is too bright use the following command in the Tasmota console to knock it down a bit.   
 
 Tasmota Template (Paste it all on one line in the Tasmota Console):
 
@@ -53,9 +53,10 @@ Amazon CA - [https://amzn.to/2JWsNq5](https://amzn.to/2JWsNq5)
 
 ⚡Be Social!⚡
 
-YouTube - [https://youtube.digiblur.com](https://youtube.digiblur.com/)  
-Discord Chat - [https://discord.digiblur.com](https://discord.digiblur.com/)  
-Patreon - [https://patreon.digiblur.com](https://patreon.digiblur.com/)  
-Facebook - [https://facebook.digiblur.com](https://facebook.digiblur.com/)  
-Instagram - [https://instagram.digiblur.com](https://instagram.digiblur.com/)  
+Main Website: 🌐 https://digiblur.com/ 
+Discord Chat: https://discord.com/invite/dgRZSw6 
+Patreon: https://www.patreon.com/digiblurdiy 
+Join YouTube: https://www.youtube.com/@digiblurDIY/videos  
+Facebook: https://www.facebook.com/groups/digiblurdiy 
+Instagram: https://www.instagram.com/digiblurdiy 
 _Please note, the product links above could be affiliate links, using them could earn digiblurDIY a small commission of most purchases and helps with future video projects. Thank you!_

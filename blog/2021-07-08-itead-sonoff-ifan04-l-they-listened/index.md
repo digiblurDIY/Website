@@ -80,7 +80,7 @@ Configure your MQTT broker and topic.  Set your custom name if you want.
 
   
 
-It will automatically pop into the Tasmota Home Assistant Integration without any special YAML code or templating.  It really is that simple and all local!  Probably one of the easiest ones to do in my opinion.  If you need some help, feel free to jump into [Discord](https://discord.digiblur.com/).
+It will automatically pop into the Tasmota Home Assistant Integration without any special YAML code or templating.  It really is that simple and all local!  Probably one of the easiest ones to do in my opinion.  If you need some help, feel free to jump into Discord Chat - [https://discord.com/invite/dgRZSw6](https://discord.com/invite/dgRZSw6)
 
 [![](images/cards_ifan04-300x116.png)](/wp-content/uploads/2021/07/cards_ifan04.png)
 
@@ -134,9 +134,10 @@ Amazon CA - [https://amzn.to/2JWsNq5](https://amzn.to/2JWsNq5)
 
 ⚡Be Social!⚡
 
-YouTube - [https://youtube.digiblur.com](https://youtube.digiblur.com/)  
-Discord Chat - [https://discord.digiblur.com](https://discord.digiblur.com/)  
-Patreon - [https://patreon.digiblur.com](https://patreon.digiblur.com/)  
-Facebook - [https://facebook.digiblur.com](https://facebook.digiblur.com/)  
-Instagram - [https://instagram.digiblur.com](https://instagram.digiblur.com/)  
+Main Website: 🌐 https://digiblur.com/ 
+Discord Chat: https://discord.com/invite/dgRZSw6 
+Patreon: https://www.patreon.com/digiblurdiy 
+Join YouTube: https://www.youtube.com/@digiblurDIY/videos  
+Facebook: https://www.facebook.com/groups/digiblurdiy 
+Instagram: https://www.instagram.com/digiblurdiy  
 _Please note, the product links above could be affiliate links, using them could earn digiblurDIY a small commission of most purchases and helps with future video projects. Thank you!_

@@ -1,7 +1,7 @@
 ---
-title: UPDATED How To Guide - Tuya CloudCutter with ESPHome LibreTiny - No soldering
-date: "2023-08-28"
-description: Complete How To Guide for loading ESPHome LibreTiny on the Beken BK7231T and BK7231N Chipsets
+title: How To Guide - Tuya CloudCutter with ESPHome - No soldering installs for Home Assistant
+date: "2025-01-01"
+description: Complete How To Guide for installing ESPHome LibreTiny on the Tuya Beken BK7231T and BK7231N Devices
 image: /img/thumbs/cloudcutter2.jpg
 categories: 
   - "tuya-cloudcutter"
@@ -12,27 +12,25 @@ keywords: [tuya-cloudcutter, libretuya, libretiny, esphome, beken, wb3s, bk7231t
 authors: digiblur
 ---
 
-***UPDATED Guide to Load ESPHome all over the air on Tuya Beken SmartHome Devices
+*** December 2024 UPDATED Guide to Install ESPHome without any soldering on your Tuya Beken SmartHome Devices
 
-**The entire process we covered 3 or 4 months ago just became 10 times easier thanks to efforts of the Libretiny and Tuya-CloudCutter developers!**
+Remember the days of Tuya-Convert where you could obtain a Tuya based Wi-Fi Smart device, run a quick exploit via a Raspberry-Pi and load your own copy of Tasmota or ESPHome firmware right on the device?  Things were patched unfortunately and then later the chipsets were changed to a Beken based chipset that wouldn't run Tasmota at all.  So we resorted to chip swapping with hot air guns, soldering, etc. to install our favorite local & open source firmware on the device.  Things are now going full circle again where we can load firmware on the Beken chipsets with an over the air exploit called [tuya-cloudcutter](https://github.com/tuya-cloudcutter/tuya-cloudcutter)  It is such an awesome process and down right addictive!  Then the bigger accomplishment is the [LibreTiny](https://docs.libretiny.eu/) project has it all working with ESPHome!  No additional firmware to learn is awesome especially for the ESPHome veterans!  Plus it all integrates with Home Assistant automatically like any other ESPHome device does.  
 
-Remember the days of Tuya-Convert where you could obtain a Tuya based Wi-Fi Smart device, run a quick exploit via a Raspberry-Pi and load your own copy of Tasmota or ESPHome firmware right on the device?  Things were patched unfortunately and then later the chipsets were changed to a Beken based chipset that wouldn't run Tasmota at all.  So we resorted to chip swapping with hot air guns, soldering, etc. to install our favorite local & open source firmware on the device.  Things are now going full circle again where we can load firmware on the Beken chipsets with an over the air exploit called [tuya-cloudcutter](https://github.com/tuya-cloudcutter/tuya-cloudcutter)  It is such an awesome process and down right addictive!.  Then the bigger accomplishment is the [LibreTiny](https://docs.libretiny.eu/) project has it all working with ESPHome!  No additional firmware to learn is awesome especially for the ESPHome veterans!  Plus it all integrates with Home Assistant like any other ESPHome device does.  
-
-[Supported Known TUYA Module List](https://docs.libretiny.eu/docs/status/supported/): BK7321N, BK7231T, CB1S, CB2L, CB2S, CB3L, CB3S, CB3SE, CBLC5, CBU, WB2L-M1, WB1S, WB2S, WB3L, WB3S, WBLC5
+[Supported Known TUYA Module List](https://docs.libretiny.eu/docs/status/supported/): BK7321N, BK7231T, CB1S, CB2L, CB2S, CB3L, CB3S, CB3SE, CBLC5, CBU, WB2L-M1, WB1S, WB2S, WB3L, WB3S, WBLC5, and more!
 
 ### Overview of the Process
 
-1.  [Create the Tuya-Cloudcutter Exploit Device using a Rasperry Pi or other Linux Based setup](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#building-the-raspberry-pi-image)
+1.  [Create the Tuya-Cloudcutter Exploit Device using a Rasperry Pi or other Linux Based setup](https://digiblur.com/2024/12/13/tuya-cloudcutter-with-esphome-bk7231-how-to-guide-home-assistant#building-the-raspberry-pi-image)
 
-2.  [Install / Update Tuya-CloudCutter](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install--update-tuya-cloudcutter)
+2.  [Install / Update Tuya-CloudCutter](https://digiblur.com/2024/12/13/tuya-cloudcutter-with-esphome-bk7231-how-to-guide-home-assistant#install--update-tuya-cloudcutter)
 
-3.  [Install ESPHome Kickstarter firmware on the Device](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install-esphome-kickstarter-firmware-on-the-device)
+3.  [Install ESPHome Kickstarter firmware on the Device](https://digiblur.com/2024/12/13/tuya-cloudcutter-with-esphome-bk7231-how-to-guide-home-assistant#install-esphome-kickstarter-firmware-on-the-device)
 
-4.  [Use LT Chip Tool to configure the device](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#lt-chip-tool-to-configure-the-device)
+4.  [Use LT Chip Tool to configure the device](https://digiblur.com/2024/12/13/tuya-cloudcutter-with-esphome-bk7231-how-to-guide-home-assistant#lt-chip-tool-to-configure-the-device)
 
-5.  [Install ESPHome Add-On or Docker Container](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install-esphome-add-on-or-docker-container)
+5.  [Install ESPHome Add-On or Docker Container](https://digiblur.com/2024/12/13/tuya-cloudcutter-with-esphome-bk7231-how-to-guide-home-assistant#install-esphome-add-on-or-docker-container)
 
-6.  [Install the ESPHome Firmware and Integrate into Home Assistant](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide#install-esphome-firmware-and-integrate-into-home-assistant)
+6.  [Install the ESPHome Firmware and Integrate into Home Assistant](https://digiblur.com/2024/12/13/tuya-cloudcutter-with-esphome-bk7231-how-to-guide-home-assistant#install-esphome-firmware-and-integrate-into-home-assistant)
 
 ### What do you need?
 
@@ -41,7 +39,6 @@ Second a laptop, NUC, PC, etc or [Raspberry-Pi](https://amzn.to/3Guq8OI) to run 
 
 ### Device I've Cloudcut and put ESPHome on 
 NightLight Plug WB3S - https://amzn.to/3KC5ajh   
-XMCosy Landscape Lights - https://amzn.to/44aUONW  
 Lumary Downlights - https://amzn.to/47HGNKr
 UltraPro Switch - https://amzn.to/44fI4W7  
 Xenon Power Strip - https://amzn.to/47P97ea  
@@ -54,7 +51,7 @@ The instructions below are based on using a [Raspberry-Pi](https://amzn.to/3Guq8
 
 ### Full Video 
 
-<iframe allowfullscreen height="353" src="https://www.youtube.com/embed/VFsuza3UAhk" width="625" youtube-src-=""></iframe>  
+<iframe allowfullscreen height="353" src="https://www.youtube.com/embed/LHpS2Ma0ALA" width="625" youtube-src-=""></iframe>  
 
 Read more  👉
 <!--truncate-->
@@ -178,7 +175,6 @@ Any future updates or changes to the ESPHome based Beken device will all be done
 Devices I've tried and used but there are so many more out there...
 
 NightLight Plug WB3S - https://amzn.to/3KC5ajh   
-XMCosy Landscape Lights - https://amzn.to/44aUONW  
 Lumary Downlights - https://amzn.to/47HGNKr
 UltraPro Switch - https://amzn.to/44fI4W7  
 Xenon Power Strip - https://amzn.to/47P97ea  

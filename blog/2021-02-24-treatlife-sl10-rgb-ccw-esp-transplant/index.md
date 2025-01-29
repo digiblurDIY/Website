@@ -116,4 +116,4 @@ Enjoy the new bulb!
 
 **By boilerboy165**
 
-Need additional assistance?  Join us in Discord - [https://discord.digiblur.com](https://discord.digiblur.com/)
+Need additional assistance?  Discord Chat - [https://discord.com/invite/dgRZSw6](https://discord.com/invite/dgRZSw6)
