@@ -11,7 +11,7 @@ sidebar_position: 1
 
 These are devices that are Espressif chip based and do NOT require a chip swap.  If one of the below devices needs to be removed due to a hardware change please contact us. Need to flash a non-ESP device?  Looking for the Beken based [Tuya-CloudCutter instructions](https://digiblur.com/2023/08/19/updated-tuya-cloudcutter-with-esphome-bk7231-how-to-guide).
 
-**Updated on: September, 1 2023**
+**Updated on: February, 1 2025**
 
 ### Bulbs
 
@@ -24,6 +24,8 @@ These are devices that are Espressif chip based and do NOT require a chip swap. 
 
 ### Switches
 
+[Martin Jerry Single Relay ESP32 Switch TASMOTA Pre-Flashed](https://amzn.to/4hv1RIo) - [Template Page](/wiki/devices/switches/martin_jerry-rp-s01-esp32)  
+[Martin Jerry Dual Relay ESP32 Switch TASMOTA Pre-Flashed](https://amzn.to/4h7YTK5) - [Template Page](/wiki/devices/switches/martin_jerry-rp-s02-esp32)  
 [Martin Jerry Single Pole Switch TASMOTA Pre-Flashed](https://amzn.to/3K4qpIx) or [Flashable Switch](https://amzn.to/2IM0cn5) - [Template Page](/wiki/devices/switches/martin_jerry_mj-s01_single_pole)  
 [Martin Jerry 3 Way Switch TASMOTA Pre-Flashed (Secondary TuyaMCU unfortunately)](https://amzn.to/3u2PJrv)  
 [Milfra Single Pole Motion Switch](https://amzn.to/3NQUJ9W) - [Template & Setup Guide](/wiki/devices/switches/milfra-mfa05_cloudfree-swm1-single-relay)  
