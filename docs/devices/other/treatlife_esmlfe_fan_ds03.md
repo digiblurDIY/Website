@@ -56,11 +56,17 @@ substitutions:
   
 esphome:
   name: ${device_name}
-  platform: ESP8266
+
+esp8266:
   board: esp01_1m
+  restore_from_flash: true
+
+preferences:
+  flash_write_interval: 5min
 
 wifi:
   # https://esphome.io/components/wifi
+  power_save_mode: HIGH
   
 #captive_portal:
 # doesn't work under esp-idf
@@ -100,6 +106,7 @@ sensor:
 
 light:
   - platform: "tuya"
+    output_id: tuya_lgt_dev
     name: ${friendly_name} Light
     dimmer_datapoint: 10
     switch_datapoint: 9
@@ -112,6 +119,19 @@ fan:
     switch_datapoint: 1
     speed_datapoint: 3
     speed_count: 4
+
+number:
+  - platform: "tuya"
+    name: ${friendly_name} Dimmer Minimum
+    entity_category: config
+    min_value: 10
+    max_value: 1000
+    step: 10
+    number_datapoint: 105
+    on_value:
+      then:
+        - lambda: |-
+            id(tuya_lgt_dev).set_min_value(x);
 ```
 
 ## Flashing and Full Setup Procedure
