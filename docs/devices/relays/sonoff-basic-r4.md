@@ -16,14 +16,24 @@ Purchase on [iTead](https://itead.cc/product/sonoff-basicr4-wi-fi-smart-switch/r
 <iframe allowfullscreen height="353" src="https://www.youtube.com/embed/D8y2FZ2-mQg" width="625" youtube-src-=""></iframe>  
 
 ### Tasmota Template
+To use led blink on action (as ledlink)
 ```json
 {"NAME":"Sonoff Basic R4 ESP32C3","GPIO":[0,0,0,0,224,0,544,0,0,32,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
+{"NAME":"Sonoff Basic R4 MagicSwitch","GPIO":[0,0,0,0,224,10560,288,0,0,32,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
 ```
+
+To use led on when power on (as led)
+```json
+{"NAME":"Sonoff Basic R4 ESP32C3","GPIO":[0,0,0,0,224,0,288,0,0,32,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
+{"NAME":"Sonoff Basic R4 MagicSwitch","GPIO":[0,0,0,0,224,10560,288,0,0,32,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
+```
+
 ### GPIO Layout
 
 | GPIO |    Component | Description |
 |------ |-------------|-------------|         
 |GPIO04	| Relay 
+|GPIO05 | Pin for 'Magic Switch Mode' | when you use physical switch
 |GPIO06	| LED
 |GPIO09	| Button
 
