@@ -112,6 +112,7 @@ light:
     switch_datapoint: 9
     min_value: 100
     max_value: 1000
+    restore_mode: RESTORE_DEFAULT_OFF
 
 fan:
   - platform: "tuya"
@@ -119,6 +120,7 @@ fan:
     switch_datapoint: 1
     speed_datapoint: 3
     speed_count: 4
+    restore_mode: RESTORE_DEFAULT_OFF
 
 number:
   - platform: "tuya"
@@ -132,6 +134,9 @@ number:
       then:
         - lambda: |-
             id(tuya_lgt_dev).set_min_value(x);
+switch:
+  - platform: restart
+    name: "${friendly_name} Restart"
 ```
 
 ## Flashing and Full Setup Procedure
