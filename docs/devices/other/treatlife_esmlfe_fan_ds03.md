@@ -136,7 +136,7 @@ number:
             id(tuya_lgt_dev).set_min_value(x);
 switch:
   - platform: restart
-    name: "$f{friendly_name} Restart"
+    name: "${friendly_name} Restart"
 ```
 
 ## Flashing and Full Setup Procedure
