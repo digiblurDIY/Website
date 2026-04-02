@@ -15,13 +15,13 @@ The following modules share the same footprint and pinout so you can desolder on
 
 | Form Factor | Beken / Tuya Modules | Espressif Drop-in Replacements | Notes |
 |---|---|---|---|
-| 2S (small, pins differ front/back) | CB2S, WB2S, TYWE2S (BK7231N/T) | ESP-02S (ESP8266), ESP8685-WROOM-03 (ESP32-C3), WT32C3-01N (ESP32-C3) | Pins differ between front and back pads; some vertical mount boards use both sides |
-| 2L (small, same pins both sides) | CB2L, WB2L (BK7231N/T) | ESP-02S (ESP8266), ESP8685-WROOM-03 (ESP32-C3) | Same pads on both sides; back side is compatible with 2S footprint, but 2L→2S swap can be tricky since 2L allows edge/bottom soldering while 2S does not |
-| 3S / ESP-12F (large) | CB3S, WB3S, CB3L, WB3L, WBR3, TYWE3S (BK7231N/T) | ESP-12F (ESP8266), ESP-12S (ESP8266), ESP32-C3-12F (ESP32-C3), ESP32-C5 (Zigbee), ESP32-C6 (Zigbee) | ESP modules may need 10K pull-up on EN/GPIO0 and pull-down on GPIO15; C5/C6 add a Zigbee radio — neat option but harder to find and more costly; not all C5/C6 variants are bottom-row compatible, most 12F boards don't use the bottom row anyway |
-| CBU (square) | CBU, WBRU (BK7231N/T) | ESP32-C3-WROOM-06 / ESP8685-WROOM-06 (ESP32-C3) | Pin-compatible replacement |
-| WR2 | WR2, WR2E (Realtek) | ESP-02S (ESP8266), ESP8685-WROOM-03 (ESP32-C3) | Same footprint as 2S family |
-| WR3 | WR3 (Realtek) | ESP-12F (ESP8266), ESP32-C3-12F (ESP32-C3) | Same footprint as 3S/ESP-12F family |
-| BL-62B | BL-62B (BouffaloLab BL602) | ESP-12F (ESP8266), ESP32-C3-12F (ESP32-C3) | Same footprint as 3S/ESP-12F family |
+| 2S (small, pins differ front/back) | <ul><li>CB2S</li><li>WB2S</li><li>TYWE2S</li></ul> | <ul><li>ESP-02S (ESP8266)</li><li>ESP8685-WROOM-03 (ESP32-C3)</li><li>WT32C3-01N (ESP32-C3)</li></ul> | Pins differ between front and back pads; some vertical mount boards use both sides |
+| 2L (small, same pins both sides) | <ul><li>CB2L</li><li>WB2L</li></ul> | <ul><li>ESP-02S (ESP8266)</li><li>ESP8685-WROOM-03 (ESP32-C3)</li></ul> | Same pads on both sides; back side is compatible with 2S footprint, but 2L→2S swap can be tricky since 2L allows edge/bottom soldering while 2S does not |
+| 3S / ESP-12F (large) | <ul><li>CB3S</li><li>WB3S</li><li>CB3L</li><li>WB3L</li><li>WBR3</li><li>TYWE3S</li></ul> | <ul><li>ESP-12F (ESP8266)</li><li>ESP-12S (ESP8266)</li><li>ESP32-C3-12F (ESP32-C3)</li><li>ESP32-C5 (Zigbee)</li><li>ESP32-C6 (Zigbee)</li></ul> | ESP modules may need 10K pull-up on EN/GPIO0 and pull-down on GPIO15; C5/C6 add a Zigbee radio — neat option but harder to find and more costly; not all C5/C6 variants are bottom-row compatible, most 12F boards don't use the bottom row anyway |
+| CBU (square) | <ul><li>CBU</li><li>WBRU</li></ul> | <ul><li>ESP32-C3-WROOM-06</li><li>ESP8685-WROOM-06 (ESP32-C3)</li></ul> | Pin-compatible replacement |
+| WR2 | <ul><li>WR2</li><li>WR2E</li></ul> | <ul><li>ESP-02S (ESP8266)</li><li>ESP8685-WROOM-03 (ESP32-C3)</li></ul> | Same footprint as 2S family |
+| WR3 | <ul><li>WR3</li></ul> | <ul><li>ESP-12F (ESP8266)</li><li>ESP32-C3-12F (ESP32-C3)</li></ul> | Same footprint as 3S/ESP-12F family |
+| BL-62B | <ul><li>BL-62B (BouffaloLab BL602)</li></ul> | <ul><li>ESP-12F (ESP8266)</li><li>ESP32-C3-12F (ESP32-C3)</li></ul> | Same footprint as 3S/ESP-12F family |
 
 :::tip
 Instead of a physical chip swap you can also flash [ESPHome with Tuya Cloudcutter](https://digiblur.com/2024/12/13/tuya-cloudcutter-with-esphome-bk7231-how-to-guide-home-assistant) or [OpenBeken](https://github.com/openshwprojects/OpenBK7231T_App) directly onto the Beken chip with no soldering required.
