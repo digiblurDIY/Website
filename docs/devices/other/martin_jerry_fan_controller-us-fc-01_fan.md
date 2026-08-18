@@ -60,26 +60,64 @@ On the TASMOTA Web GUI -> Configuration -> Configure MQTT.
 
 Set your MQTT Settings: Host, User, Password and Topic.  You do not need to change the fulltopic or client.  Save the Settings
 
-There are two methods for integrating the Fan Controller into Home Assistant.  The auto discovery method is the easiest method but due to the size of the auto discovery packet, we are not able push over the fan preset speeds.  You will still be able to change the speed and turn it on and off.  The method with the presets involves manually adding the controller info into the HA configuration.yaml file.  Choose the method you are comfortable with.
-
 ## Home Assistant Integration (Auto Discovery)
+Defining and enabling the following rules allows for the power and speed of the fan to be automatically discovered in Home Assistant.
 
-On the TASMOTA Console of the Fan Controller paste in the following rule
-```
-Rule3
-ON DeviceName#Data DO Var1 %value% ENDON
-ON SYSTEM#BOOT DO backlog DeviceName ENDON
-ON Var1 DO publish2 homeassistant/fan/%macaddr%_fan/config {"name":"%Var1% Fan","uniq_id":"%macaddr%_fan","stat_t":"stat/%topic%/POWER1","cmd_t":"cmnd/%topic%/POWER1","avty_t":"tele/%topic%/LWT","pct_stat_t":"stat/%topic%/speed","pct_val_tpl":"{{((value|replace(\"3,\",\"\"))|int(0)+1)*25}}","pct_cmd_t":"cmnd/%topic%/tuyasend4","pct_cmd_tpl":"3,{{((value|int(0)-1)/25)|int(0)}}","pl_avail":"Online","pl_not_avail":"Offline","pl_on":"ON","pl_off":"OFF","dev":{"connections":[["mac","%macaddr%"]]}} ENDON
-```
-Thanks to tony-fav for the conversion work on this!  
+In the TASMOTA Console (Main Menu of web UI > Console) paste in the following rules:
 
-Enable the Rule with
+### Define Rule1
 ```
-rule3 1
+Rule1
+ON TuyaReceived#Data=55AA03070005030400010016 DO publish2 stat/%topic%/speed 3,0 ENDON
+ON TuyaReceived#Data=55AA03070005030400010117 DO publish2 stat/%topic%/speed 3,1 ENDON
+ON TuyaReceived#Data=55AA03070005030400010218 DO publish2 stat/%topic%/speed 3,2 ENDON
+ON TuyaReceived#Data=55AA03070005030400010319 DO publish2 stat/%topic%/speed 3,3 ENDON
 ```
-and restart the switch.  You can enter `restart 1` on the console or use the restart button on the main GUI page.  Open up Home Assistant, go to Integrations, and under MQTT Devices the fan controller should now be listed.
+### Enable Rule1
+```
+Rule1 1
+```
+### Define Rule3
+```
+Rule3 ON SYSTEM#BOOT DO publish2 homeassistant/fan/%macaddr%_fan/config {"name":"%hostname% Fan","uniq_id":"%macaddr%_fan","stat_t":"stat/%topic%/POWER","cmd_t":"cmnd/%topic%/POWER1","avty_t":"tele/%topic%/LWT","pct_stat_t":"stat/%topic%/speed","pct_val_tpl":"{{ 25 if value|trim == '3,0' else 50 if value|trim == '3,1' else 75 if value|trim == '3,2' else 100 if value|trim == '3,3' else 25 }}","pct_cmd_t":"cmnd/%topic%/EVENT","pct_cmd_tpl":"{{ 'SetPower=0' if value|int(0) == 0 else 'SetSpeed=3,' + (((value|int(0)-1)/25)|int(0))|string }}","speed_count":4,"pl_avail":"Online","pl_not_avail":"Offline","pl_on":"ON","pl_off":"OFF","dev":{"connections":[["mac","%macaddr%"]]}} ENDON
+```
+### Enable Rule3
+```
+Rule3 1
+```
+### Define Rule2 - OPTION 1 - Power fan ON when speed is selected
+```
+Rule2
+ON Event#SetPower DO Power1 %value% ENDON
+ON Event#SetSpeed DO Backlog Power1 1; TuyaSend4 %value% ENDON
+```
+### Define Rule2 - OPTION 2 - Do not change power state (i.e., leave off) when speed is selected
+```
+Rule2
+ON Event#SetPower DO Power1 %value% ENDON
+ON Event#SetSpeed DO TuyaSend4 %value% ENDON
+```
+### Enable Rule2
+```
+Rule2 1
+```
+### Restart Switch
+```
+restart 1
+```
+Open up Home Assistant, go to Integrations, and under MQTT Devices the fan controller should now be listed.
 
-## Home Assistant Integration (w/ Speed Presets)
+Change the speed using the percent slider and the percent slider should become active.
+The percent slider "snaps" to the following preset values:
+| Selected Slider Value (Range) | Resulting Percent Value | Fan Effect |
+| --- | --- | --- |
+| 0 | 0% | Off |
+| 1 - 25 | 25% | low (turtle) |
+| 26 - 50 | 50% | medium |
+| 51 - 75 | 75% | high |
+| 76 - 100 | 100% | very high |
+
+## Home Assistant Integration (w/ Named Speed Presets)
 
 If you already have a ***fan*** section under the ***MQTT*** tag do not duplicate these sections in your Configuration YAML file.  Don't forget to change the "fan_living_room" topic to the MQTT topic configured in your fan switch MQTT page of Tasmota from the previous steps
 
