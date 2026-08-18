@@ -64,7 +64,7 @@ esphome:
   friendly_name: emporiavue3
 
 external_components:
-  - source: github://emporia-vue-local/esphome@vue3
+  - source: github://emporia-vue-local/esphome@dev
     components:
       - emporia_vue
       
@@ -94,7 +94,9 @@ preferences:
   flash_write_interval: "48h"  
 
 i2c:
-  sda: 5
+  sda:
+    number: 5
+    ignore_strapping_warning: true
   scl: 18
   scan: false
   frequency: 400kHz
@@ -106,8 +108,31 @@ switch:
     name: Restart 
 
 time:
-  - platform: sntp
-    id: my_time   
+  - platform: homeassistant  
+
+# you can also use Ethernet for connectivity by uncommenting the following
+#ethernet:
+#  type: RTL8201
+#  mdc_pin: GPIO32
+#  mdio_pin: GPIO33
+#  clk_mode: GPIO0_IN
+#  on_connect:
+#    - light.turn_on: ethernet_led
+#  on_disconnect:
+#    - light.turn_off: ethernet_led
+
+light:
+  - platform: status_led
+    id: wifi_led
+    pin:
+      number: 2
+      ignore_strapping_warning: true
+    restore_mode: RESTORE_DEFAULT_ON
+
+  - platform: status_led
+    id: ethernet_led
+    pin: 4
+    restore_mode: ALWAYS_OFF
 
 # Stop here for the minimal YAML install if necessary
 
@@ -134,6 +159,7 @@ time:
 
 sensor:
   - platform: emporia_vue
+    variant: vue3  
     i2c_id: i2c_a
     phases:
       - id: phase_a  # Verify that this specific phase/leg is connected to correct input wire color on device listed below
