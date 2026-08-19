@@ -183,6 +183,8 @@ sensor:
     update_interval: 10s
     id: total_power
     unit_of_measurement: "W"
+    device_class: power
+    state_class: measurement
   - platform: total_daily_energy
     name: "Total Daily Energy"
     power_id: total_power
